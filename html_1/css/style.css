@@ -1,0 +1,48 @@
+/*комент*/
+body {
+	background: #f2f5f4;
+}
+.name {
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Mariad Pro', sans-serif;
+	font-size: 36pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+.what {
+	color: black;
+	font-weight: bold;
+	font-family: 'Mariad Pro', sans-serif;
+	font-size: 18pt;
+}
+
+.info {
+	font-family: 'Mariad Pro', sans-serif;
+	font-size: 14pt;
+	color: #3b3b3b;
+}
+
+.marker {
+	list-style: none;
+}
+
+.vk {
+	font-family: 'Mariad Pro', sans-serif;
+	font-size: 14pt;
+	color: blue;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.box {
+	width: 65%;
+	margin: auto;
+
+}
+
+.picture {
+	width: 25%;
+	margin: auto;
+}
