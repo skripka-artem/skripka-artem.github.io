@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(../font/2211.ttf);
+   }
+body {
+  padding: 30px 30px;
+}
+img {
+  padding-bottom: 45px;
+}
+/*Navig*/
+nav {
+  display: block;
+  background-color: #535353;
+}
+nav a {
+	text-decoration: none;
+}
+nav li {
+	list-style-position: inside;
+  font-family: "Open Sans";
+}
+.top-menu li {
+	display: inline-block;
+	padding: 12px 60px;
+	margin: 0;
+}
+.top-menu li .active {
+	background: #444444;
+  padding: 12px 30px;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.top-menu a {
+	color: #ffffff;
+}
+/*Menu*/
+.menu {
+    display: block;
+    padding-top: 40px;
+    float: left;
+    height: 320px;
+    width: 240px;
+}
+.menu li {
+  font-weight: 300;
+	list-style-type: none;
+  border: 1px solid #c8c8c8;
+  padding: 20px 20px;
+  font-family: "Open Sans";
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+/*IMG*/
+.picture img {
+  float: right;
+  padding-top: 40px;
+}
+/*Content*/
+.content {
+  display: inline-block;
+  float: right;
+  padding-left: 660px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+/*Footer*/
+.buttom-menu {
+  display: block;
+  float: left;
+  background-color: #e1e1e1;
+}
+.buttom-menu a {
+	text-decoration: none;
+}
+.buttom-menu li {
+	list-style-position: inside;
+  font-family: "Open Sans";
+}
+.buttom-menu li {
+	display: inline-block;
+	padding: 12px 30px;
+	margin: 0;
+}
+.buttom-menu li. actived {
+text-decoration: underline;
+}
+.buttom-menu a {
+	color: #2c2c2c;
+}
+.right {
+float: right;
+}
