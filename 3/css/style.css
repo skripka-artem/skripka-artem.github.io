@@ -9,6 +9,11 @@ img {
   padding-bottom: 45px;
 }
 /*Navig*/
+.header .top-menu {
+  display: inline-block;
+  padding-right: 624px;
+
+}
 nav {
   display: block;
   background-color: #535353;
@@ -23,9 +28,9 @@ nav li {
 .top-menu li {
 	display: inline-block;
 	padding: 12px 60px;
-	margin: 0;
+
 }
-.top-menu li .active {
+.top-menu .active {
 	background: #444444;
   padding: 12px 30px;
   border-left: 1px solid #ffffff;
@@ -51,25 +56,26 @@ nav li {
 }
 .menu a {
   text-decoration: none;
+  color: #656363;
+}
+.menu .actived {
+  margin-left: 20px;
   color: black;
 }
 /*IMG*/
 .picture img {
-  float: right;
-  padding-top: 40px;
+  margin-top: 40px;
+  margin-left: 370px;
 }
 /*Content*/
 .content {
-  display: inline-block;
-  float: right;
-  padding-left: 660px;
-  padding-right: 30px;
-  padding-bottom: 60px;
+  width: 600px;
+  padding-left: 650px;
 }
 /*Footer*/
 .buttom-menu {
-  display: block;
-  float: left;
+  display: inline-block;
+  margin-top: 80px;
   background-color: #e1e1e1;
 }
 .buttom-menu a {
@@ -88,8 +94,5 @@ nav li {
 text-decoration: underline;
 }
 .buttom-menu a {
-	color: #2c2c2c;
-}
-.right {
-float: right;
+	color: #2c2c2c
 }

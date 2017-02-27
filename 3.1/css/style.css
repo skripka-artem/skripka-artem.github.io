@@ -27,9 +27,8 @@ body {
 }
 .content {
   display: inline-block;
-  float: right;
   margin-top: 100px;
-  margin-right: 100px;
+  margin-left: 700px;
   font-family: "Tahoma";
   font-size: 10px;
   color: white;
@@ -39,16 +38,16 @@ body {
 }
 .india {
   display: inline-block;
-  margin-right: 200px;
   font-family: "Tahoma";
 
 }
 .nepal {
   display: inline-block;
+  margin-left: 200px;
 }
 .tibet {
-  float: right;
-  padding-right: 80px;
+  display: inline-block;
+  margin-left: 190px;
 }
 h3 {
   text-align: center;
@@ -68,14 +67,14 @@ h3 {
 }
 .maldives {
     display: inline-block;
-    float: right;
-    padding-right: 80px;
+    margin-left: 190px;
+
 }
 .footer {
-  color: white;
   display: inline-block;
+  margin-top: 200px;
+  margin-left: 520px;
   font-family: "Tahoma";
   font-size: 10px;
-  padding-top: 200px;
-  padding-left: 520px;
+  color: white;
 }
