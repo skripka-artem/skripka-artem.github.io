@@ -44,7 +44,6 @@ nav li {
     display: block;
     padding-top: 40px;
     float: left;
-    height: 320px;
     width: 240px;
 }
 .menu li {
@@ -59,8 +58,11 @@ nav li {
   color: #656363;
 }
 .menu .actived {
-  margin-left: 20px;
+  background-color: #f9f9f9;
+}
+.menu .actived-text {
   color: black;
+  margin-left: 20px;
 }
 /*IMG*/
 .picture img {
@@ -90,7 +92,7 @@ nav li {
 	padding: 12px 30px;
 	margin: 0;
 }
-.buttom-menu li. actived {
+.buttom-menu li .activ {
 text-decoration: underline;
 }
 .buttom-menu a {
