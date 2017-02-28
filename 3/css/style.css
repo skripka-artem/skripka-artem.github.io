@@ -6,21 +6,28 @@
   margin: 0;
   padding: 0;
 }
-
 body {
+  background-color: #f9f9f9;
+}
+
+.karkas {
+  display: block;
   width: 1060px;
   margin: auto;
+  background-color: #ffffff;
 }
 
  body img {
-  padding-left: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 /*Navig*/
 .header .top-menu {
   display: inline-block;
+  margin-top: 45px;
   margin-left: 40px;
   margin-right: 40px;
-  padding-right: 525px;
+  padding-right: 405px;
 
 }
 
@@ -48,6 +55,8 @@ nav li {
   padding: 12px 30px;
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .top-menu a {
@@ -66,11 +75,15 @@ nav li {
 .menu li {
   font-weight: 300;
 	list-style-type: none;
-  border: 1px solid #c8c8c8;
-  padding: 20px 20px;
+  border-bottom: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
+  padding: 10px 20px;
   font-family: "Open Sans";
 }
-
+.computer {
+  border-top: 1px solid #c8c8c8;
+}
 .menu a {
   text-decoration: none;
   color: #656363;
@@ -88,20 +101,22 @@ nav li {
 /*IMG*/
 .picture img {
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 /*Content*/
 .content {
-  width: 600px;
+  width: 630px;
   padding-top: 40px;
-  padding-left: 380px;
+  padding-left: 360px;
+  font-family: "Open Sans";
 }
 
 /*Footer*/
 .buttom-menu {
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 90px;
+  margin-left: 40px;
   background-color: #e1e1e1;
 }
 
@@ -111,19 +126,28 @@ nav li {
 
 .buttom-menu li {
 	list-style-position: inside;
-  font-family: "Open Sans";
-}
-
-.buttom-menu li {
-	display: inline-block;
+  display: inline-block;
 	padding: 12px 30px;
 	margin: 0;
+  font-family: "Open Sans";
+  color: #656363;
+
 }
 
 .buttom-menu li .activ {
 text-decoration: underline;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+.us {
+  margin-right: 40px;
 }
 
 .buttom-menu a {
-	color: #2c2c2c
+	color: #2c2c2c;
+}
+.buttom-menu .right {
+  color: #070606;
+  margin-left: 130px;
 }
