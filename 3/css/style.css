@@ -2,6 +2,10 @@
     font-family: "Open Sans";
     src: url(../font/2211.ttf);
    }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   padding: 30px 30px;
