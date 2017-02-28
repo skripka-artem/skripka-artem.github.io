@@ -8,17 +8,19 @@
 }
 
 body {
-  padding: 30px 30px;
+  width: 1060px;
+  margin: auto;
 }
 
-img {
-  padding-bottom: 45px;
+ body img {
+  padding-left: 40px;
 }
-
 /*Navig*/
 .header .top-menu {
   display: inline-block;
-  padding-right: 624px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-right: 525px;
 
 }
 
@@ -38,7 +40,7 @@ nav li {
 
 .top-menu li {
 	display: inline-block;
-	padding: 12px 60px;
+	padding: 12px 25px;
 
 }
 .top-menu .active {
@@ -56,6 +58,7 @@ nav li {
 .menu {
     display: block;
     padding-top: 40px;
+    padding-left: 40px;
     float: left;
     width: 240px;
 }
@@ -85,13 +88,14 @@ nav li {
 /*IMG*/
 .picture img {
   margin-top: 40px;
-  margin-left: 370px;
+  margin-left: 20px;
 }
 
 /*Content*/
 .content {
   width: 600px;
-  padding-left: 650px;
+  padding-top: 40px;
+  padding-left: 380px;
 }
 
 /*Footer*/
