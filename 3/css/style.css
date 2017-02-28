@@ -26,8 +26,8 @@ body {
   display: inline-block;
   margin-top: 45px;
   margin-left: 40px;
-  margin-right: 40px;
-  padding-right: 405px;
+  padding: 12px 25px;
+  padding-right: 390px;
 
 }
 
@@ -47,20 +47,18 @@ nav li {
 
 .top-menu li {
 	display: inline-block;
-	padding: 12px 25px;
-
 }
-.top-menu .active {
-	background: #444444;
-  padding: 12px 30px;
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
+ .top-menu a:hover {
+  background: #444444;
+  border: 5px, colid, white
+}
+.active {
   margin-left: 40px;
   margin-right: 40px;
 }
-
 .top-menu a {
 	color: #ffffff;
+  padding: 12px 25px;
 }
 
 /*Menu*/
@@ -135,11 +133,12 @@ nav li {
 }
 
 .buttom-menu li .activ {
-text-decoration: underline;
 margin-left: 40px;
 margin-right: 40px;
 }
-
+.buttom-menu a:hover {
+  text-decoration: underline;
+}
 .us {
   margin-right: 40px;
 }
