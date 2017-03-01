@@ -26,8 +26,9 @@ body {
   display: inline-block;
   margin-top: 45px;
   margin-left: 40px;
-  padding: 12px 25px;
-  padding-right: 390px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 407px;
 
 }
 
@@ -47,10 +48,13 @@ nav li {
 
 .top-menu li {
 	display: inline-block;
+
 }
  .top-menu a:hover {
   background: #444444;
-  border: 5px, colid, white
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 12px 24px;
 }
 .active {
   margin-left: 40px;
@@ -61,6 +65,9 @@ nav li {
   padding: 12px 25px;
 }
 
+.top-menu .us {
+  text-shadow: #3a3a3a 1px 1px 1px;
+}
 /*Menu*/
 .menu {
     display: block;
@@ -76,7 +83,7 @@ nav li {
   border-bottom: 1px solid #c8c8c8;
   border-left: 1px solid #c8c8c8;
   border-right: 1px solid #c8c8c8;
-  padding: 10px 20px;
+  padding: 10px 25px;
   font-family: "Open Sans";
 }
 .computer {
@@ -93,19 +100,19 @@ nav li {
 
 .menu .actived-text {
   color: black;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 /*IMG*/
 .picture img {
   margin-top: 40px;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 /*Content*/
 .content {
   width: 630px;
-  padding-top: 40px;
+  padding-top: 45px;
   padding-left: 360px;
   font-family: "Open Sans";
 }
@@ -113,7 +120,7 @@ nav li {
 /*Footer*/
 .buttom-menu {
   display: inline-block;
-  margin-top: 90px;
+  margin-top: 65px;
   margin-left: 40px;
   background-color: #e1e1e1;
 }
@@ -148,5 +155,5 @@ margin-right: 40px;
 }
 .buttom-menu .right {
   color: #070606;
-  margin-left: 130px;
+  margin-left: 117px;
 }
