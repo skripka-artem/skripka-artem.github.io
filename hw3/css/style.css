@@ -28,7 +28,7 @@ body {
   margin-left: 40px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-right: 407px;
+  padding-right: 427px;
 
 }
 
@@ -44,6 +44,7 @@ nav a {
 nav li {
 	list-style-position: inside;
   font-family: "Open Sans";
+  font-size: 14.7px;
 }
 
 .top-menu li {
@@ -52,8 +53,8 @@ nav li {
 }
  .top-menu a:hover {
   background: #444444;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
   padding: 12px 24px;
 }
 .active {
@@ -85,6 +86,7 @@ nav li {
   border-right: 1px solid #c8c8c8;
   padding: 10px 25px;
   font-family: "Open Sans";
+  font-size: 13.3px;
 }
 .computer {
   border-top: 1px solid #c8c8c8;
@@ -100,7 +102,7 @@ nav li {
 
 .menu .actived-text {
   color: black;
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 /*IMG*/
@@ -113,8 +115,9 @@ nav li {
 .content {
   width: 630px;
   padding-top: 45px;
-  padding-left: 360px;
+  padding-left: 350px;
   font-family: "Open Sans";
+  font-size: 13.3px;
 }
 
 /*Footer*/
@@ -135,6 +138,7 @@ nav li {
 	padding: 12px 30px;
 	margin: 0;
   font-family: "Open Sans";
+  font-size: 13.3px;
   color: #656363;
 
 }
@@ -155,5 +159,5 @@ margin-right: 40px;
 }
 .buttom-menu .right {
   color: #070606;
-  margin-left: 117px;
+  margin-left: 187px;
 }
