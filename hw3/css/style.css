@@ -26,10 +26,11 @@ body {
 .header .top-menu {
   display: inline-block;
   margin-top: 45px;
-  margin-left: 40px;
+  margin-left: 46px;
+  /*margin-right: 46px;*/
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-right: 427px;
+  padding-right: 424px;
 
 }
 
@@ -74,7 +75,7 @@ nav li {
 .menu {
     display: block;
     padding-top: 40px;
-    padding-left: 40px;
+    padding-left: 46px;
     float: left;
     width: 240px;
 }
@@ -110,6 +111,7 @@ nav li {
 .picture img {
   margin-top: 40px;
   margin-left: 50px;
+  /*margin-right: 46px;*/
 }
 
 /*Content*/
@@ -125,7 +127,8 @@ nav li {
 .buttom-menu {
   display: inline-block;
   margin-top: 65px;
-  margin-left: 40px;
+  margin-left: 46px;
+  /*margin-right: 46px;*/
   margin-bottom: 60px;
   background-color: #e1e1e1;
 }
@@ -161,5 +164,6 @@ margin-right: 40px;
 }
 .buttom-menu .right {
   color: #070606;
-  margin-left: 205px;
+  margin-left: 206px;
+
 }
