@@ -15,6 +15,7 @@ body {
   width: 1060px;
   margin: auto;
   background-color: #ffffff;
+  box-shadow: #dbdbdb 1px 1px 10px;
 }
 
  body img {
@@ -125,6 +126,7 @@ nav li {
   display: inline-block;
   margin-top: 65px;
   margin-left: 40px;
+  margin-bottom: 60px;
   background-color: #e1e1e1;
 }
 
@@ -144,7 +146,7 @@ nav li {
 }
 
 .buttom-menu li .activ {
-margin-left: 40px;
+margin-left: 20px;
 margin-right: 40px;
 }
 .buttom-menu a:hover {
@@ -159,5 +161,5 @@ margin-right: 40px;
 }
 .buttom-menu .right {
   color: #070606;
-  margin-left: 187px;
+  margin-left: 205px;
 }
