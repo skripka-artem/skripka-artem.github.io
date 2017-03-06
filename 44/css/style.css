@@ -2,35 +2,15 @@
     font-family: 'Tahoma';
     src: url(../font/Tahoma.ttf);
    }
-
-.fon-one {
-  position: relative;
-  padding-bottom: 30px;
-  top: -16px;
-  background: #128aa7;
-}
-.fon-two {
-  position: relative;
-  top: -16px;
-  padding-bottom: 150px;
-  background: #20d1e3;
-   border-top: 1px solid #5ef0ff;
-  background: linear-gradient(to top, #fafefe, #20d1e3);
-}
-
-.fon-tree {
-  position: relative;
-  top: -16px;
-  padding-bottom: 850px;
-  background: #0c749f;
-  background: linear-gradient(to bottom, #40c5d3, #0c739f);
+body {
+  background: linear-gradient(to bottom, #128aa7, #128aa7 30px, #40c5d3 30px, #5ef0ff 30px, #5ef0ff 31px, #20d1e3 31px, #fafefe 182px, #40c5d3 182px, #0c739f);
 }
 
 .karkas {
   position: relative;
   width: 1000px;
   height: 990px;
-  top: -1064px;
+  top: -16px;
   margin: auto;
   background-color: #ffffff;
   box-shadow: #031d28 -1px 5px 10px;
@@ -42,6 +22,7 @@
   margin-top: 20px;
   margin-left: 30px;
 }
+
 .logos {
   display: inline-block;
   position: relative;
@@ -63,6 +44,7 @@
   line-height: 20px;
   color: #128aa7;
 }
+
 .shadow {
   text-shadow: #bfd8e1 1px 1px 1px;
 }
@@ -99,10 +81,10 @@ a {
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
 }
+
 .trian {
   font-size: 7px;
 }
-
 
 .infa-left {
   display:inline-block;
@@ -148,52 +130,55 @@ position: absolute;
   border-bottom: 1px solid #000000;
   box-shadow: #777778 1px 1px 1px;
 
-	}
+}
   .menu ul li {
     padding: 10px;
     padding-right: 36px;
-  }
+}
 
   .menu ul  li:hover {
     background-color: #333333;
-  }
+}
   .menu ul ul  li:hover {
     background-color: #333333;
-  }
+}
   .menu ul li, .menu ul {
     display: inline-block;
-  }
+}
   .menu ul {
     position: relative;
     background-color: #333333;
-  }
+}
   .menu ul ul {
     display: none;
     position: absolute;
     background-color: #333333;
     margin-top: 10px;
     margin-left: -20px;
-  }
+}
   .menu ul a {
     font-family: "Tahoma";
     font-size: 14px;
     color: #ffffff;
     text-decoration: none;
-  }
+}
 
   .menu li:hover ul {
     display: block;
-  }
+}
 
   .menu li:hover li {
     display: block;
-  }
+}
+
   .home {
     padding-left: 65px;
   }
+
   .contact {
     padding-right: 30px;
   }
+
   .copyring {
     display: inline-block;
     position: relative;
