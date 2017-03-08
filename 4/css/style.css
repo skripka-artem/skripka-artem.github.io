@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Tahoma';
-    src: url(../font/Tahoma.ttf);
+    src: url(../font/TahomaRegular.ttf);
    }
 body {
   background: linear-gradient(to bottom, #128aa7, #128aa7 30px, #40c5d3 30px, #5ef0ff 30px, #5ef0ff 31px, #20d1e3 31px, #fafefe 182px, #40c5d3 182px, #0c739f);
@@ -52,9 +52,8 @@ body {
 .flag  {
 display: inline-block;
 position: relative;
-float: right;
-margin-right: 30px;
-top: -73px;
+top: -15px;
+left: 160px;
 }
 
 .india,
@@ -77,7 +76,7 @@ a {
 .picture {
   display: inline-block;
   position: relative;
-  top: -68px;
+  top: -8px;
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
 }
@@ -88,20 +87,23 @@ a {
 
 .infa-left {
   display:inline-block;
-position: absolute;
+  position: absolute;
   width: 220px;
   top: 460px;
-  padding-bottom: 349px;
+  padding-bottom: 345px;
   background-color: #edeef0;
   line-height: 20px;
-  font-family: "Tahoma";
+  font-family: 'Tahoma';
   font-size: 14px;
   color: #424c43;
   text-align: center;
+  border-right: 1px solid #c7cacf;
 }
 
-.infa-left p {
+.infa-left .caption {
+  font-family: "Tahoma";
   font-size: 18px;
+  padding-top: 5px;
   text-shadow: #a0a4a2 1px 1px 1px;
 }
 
@@ -109,38 +111,44 @@ position: absolute;
   display:inline-block;
   position: absolute;
   width: 220px;
-  padding-bottom: 9px;
+  padding-bottom: 25px;
   top: 460px;
-  left: 780px;
+  left: 779px;
   background-color: #edeef0;
   line-height: 20px;
   font-family: "Tahoma";
   font-size: 14px;
   color: #424c43;
   text-align: center;
+  border-left: 1px solid #c7cacf;
 }
 
-.infa-right p {
+.infa-right .caption {
+  font-family: "Tahoma";
   font-size: 18px;
+  padding-top: 5px;
   text-shadow: #a0a4a2 1px 1px 1px;
 }
 .menu {
   position: relative;
-  top: -71px;
+  top: -11px;
   border-bottom: 1px solid #000000;
-  box-shadow: #777778 1px 1px 1px;
+  box-shadow: #4f4f50 0px 2px 1px;
 
 }
   .menu ul li {
     padding: 10px;
-    padding-right: 36px;
+    padding-right: 45px;
+
 }
 
   .menu ul  li:hover {
     background-color: #333333;
+
 }
   .menu ul ul  li:hover {
     background-color: #333333;
+
 }
   .menu ul li, .menu ul {
     display: inline-block;
@@ -154,7 +162,9 @@ position: absolute;
     position: absolute;
     background-color: #333333;
     margin-top: 10px;
-    margin-left: -20px;
+    margin-left: -10px;
+    border-top: 1px solid #000000;
+    box-shadow: #4f4f50 2px 3px 2px;
 }
   .menu ul a {
     font-family: "Tahoma";
@@ -176,14 +186,14 @@ position: absolute;
   }
 
   .contact {
-    padding-right: 30.2px;
+    padding-right: 33.15px;
   }
 
   .copyring {
     display: inline-block;
     position: relative;
     margin: auto;
-    top: 470px;
+    top: 530px;
     left: 400px;
     font-family: "Tahoma";
     font-size: 12px;
