@@ -1,0 +1,279 @@
+body {
+   width: 1000px;
+   margin: auto;
+   font-family: 'lucida_sans_unicoderegular';
+}
+/*HEADER*/
+header {
+  display: flex;
+  flex-flow: row;
+  margin-top: 22px;
+}
+
+header .phone {
+  margin-bottom: 11px;
+  margin-left: 8px;
+}
+
+header div {
+  margin-left: 2px;
+  font-family: Arial;
+  font-size: 18px;
+  color: #5e696d;
+}
+
+header form {
+  height: 28px;
+  margin-left: 20px;
+  background: linear-gradient(to top, #0e375b, #1f6787);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #b4b4b4;
+
+}
+
+header .inset {
+  font-size: 11px;
+  width: 115px;
+}
+
+header .inset input::-webkit-input-placeholder {
+  font-family: 'lucida_sans_unicoderegular';
+}
+
+header a {
+  font-family: 'lucida_sans_unicoderegular';
+  font-size: 11px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login:after {
+  content: "";
+  margin-left: 2px;
+  border-right: 1px solid #fff;
+
+}
+
+header .pasword {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'lucida_sans_unicoderegular';
+  font-size: 12px;
+  color: #bfbfbf;
+  text-decoration: underline;
+}
+
+aside {
+  height: 20px;
+  margin-top: 3px;
+  margin-left: 18px;
+  border: 1px solid #c1c8cb;
+  border-radius: 25px;
+  box-shadow: 0px 1px 0px #d3d8db;
+}
+
+aside img {
+  margin-left: 8px;
+}
+
+aside .masage {
+  margin-right: 8px;
+}
+/*NAV*/
+.body {
+  display: flex;
+  flex-flow: row;
+}
+nav ul {
+  display:inline-block;;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 910px;
+  height: 30px;
+  border-top: 4px solid #505860;
+  border-radius: 5px;
+  background: linear-gradient(to top, #020202, #2a2e32);
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'lucida_sans_unicoderegular';
+  font-size: 13.6px;
+  color: #b1bcc0;
+  padding-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav .compani {
+  margin-left: 125px;
+}
+
+nav a:hover {
+  background: linear-gradient(to top, #0d3458, #1f6787);
+  border-radius: 20px;
+}
+
+nav ul {
+  font-family: Arial;
+  font-size: 12px;
+  color: #fff;
+}
+
+nav ul img {
+  margin-right: 5px;
+  margin-left: 20px;
+}
+
+nav span {
+  font-family: Arial;
+  font-size: 12px;
+  color: #0d5a8f;
+}
+/*LEFT SECTION*/
+
+.katalog li {
+  margin-top: 14px;
+}
+
+.katalog a {
+    font-family: 'lucida_sans_unicoderegular';
+    text-decoration: none;
+
+}
+
+.katalog .katalogi {
+    border: 1px solid #8b979c;
+    margin-left: -40px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 150px;
+    box-shadow: 0 2px 1px #8c969a;
+
+}
+
+.katalogi a {
+  font-size: 12.6px;
+  color: #114165;
+
+}
+
+.katalog .katalog_prod {
+  list-style-image: url(../img/katalog.png);
+  margin-top: 0;
+}
+
+.katalog .grup_first {
+  border: 1px solid #8b979c;
+  margin-left: -40px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  width: 150px;
+}
+
+.katalog .grup_first a {
+  color: #114165;
+  font-size: 14px;
+}
+
+.katalog .grup_one {
+  list-style-image: url(../img/metka.png);
+  margin-top: 0;
+}
+
+.katalog .naimen {
+font-size: 12.6px;
+color: #8b979c;
+}
+
+.naimen a {
+  color: #8b979c;
+}
+
+.katalog .naimen:hover {
+  color: #0c3256;
+  font-size: 14px;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 900;
+}
+.katalog a:hover {
+  color: #0c3256;
+}
+/*MAIN*/
+main {
+  display: flex;
+  flex-flow: row;
+  background: linear-gradient(to top, #94a7b0, #e4e7e8);
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 525px;
+}
+
+/*SELECTION*/
+.brend li {
+  margin-top: 14px;
+  list-style-type: none;
+}
+
+.brend a {
+    font-family: 'lucida_sans_unicoderegular';
+    text-decoration: none;
+
+}
+
+.brend .brendi {
+    border: 1px solid #8b979c;
+    margin-left: -40px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    width: 140px;
+    box-shadow: 0 2px 1px #8c969a;
+}
+
+.brend .brend_prod {
+  list-style-image: url(../img/brend.png);
+  margin-top: 0;
+}
+
+.brend .brend_prod  a{
+  font-size: 12.6px;
+  color: #114165;
+}
+
+.brend .grup_last {
+  border: 1px solid #8b979c;
+  margin-left: -10px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  width: 100px;
+}
+
+.brend .grup_last a {
+  color: #114165;
+  font-size: 14px;
+}
+
+.brend .grup_two {
+  list-style-image: url(../img/metka.png);
+  margin-top: 0;
+}
+
+.brend .checkbox {
+  margin-left: -35px;
+}
+
+.brend label {
+  font-family: 'lucida_sans_unicoderegular';
+  font-size: 12.6px;
+  color: #465961;
+}
