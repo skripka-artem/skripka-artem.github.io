@@ -83,7 +83,7 @@ aside .masage {
 .body {
   display: flex;
   flex-flow: row;
-  margin-top: 160px;
+  margin-top: 155px;
 }
 .top_menu ul {
   display:inline-block;
