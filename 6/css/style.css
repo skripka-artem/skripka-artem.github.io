@@ -27,7 +27,8 @@ header div {
 
 header form {
   height: 28px;
-  margin-left: 30px;
+  margin-left: 28px;
+  margin-top: -5px;
   background: linear-gradient(to top, #0e375b, #1f6787);
   border-radius: 3px;
   box-shadow: 2px 2px 2px #b4b4b4;
@@ -74,8 +75,8 @@ header .pasword {
 
 aside {
   height: 20px;
-  margin-top: 3px;
-  margin-left: 18px;
+  margin-top: 0px;
+  margin-left: 15px;
   border: 1px solid #c1c8cb;
   border-radius: 25px;
   box-shadow: 0px 1px 0px #d3d8db;
@@ -137,7 +138,7 @@ form input {
   font-size: 13.6px;
   color: #b1bcc0;
   padding-top: 3px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-right: 20px;
 }
 
@@ -157,8 +158,9 @@ form input {
 }
 
 .top_menu ul img {
+  margin-top: 4px;
   margin-right: 5px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .top_menu span {
@@ -169,7 +171,7 @@ form input {
 /*LEFT SECTION*/
 
 .katalog li {
-  margin-top: 14px;
+  margin-top: 10px;
 
 }
 
@@ -181,9 +183,11 @@ form input {
 .katalog .katalogi {
     border: 1px solid #8b979c;
     margin-left: -40px;
-    padding-bottom: 5px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 2px;
     border-radius: 25px;
-    width: 150px;
+    width: 142px;
     box-shadow: 0 2px 1px #8c969a;
 
 }
@@ -197,25 +201,27 @@ form input {
 
 .katalog .katalog_prod  {
     list-style-type: none;
+    line-height: 1px;
 }
 
 .katalog .katalog_prod i {
   background-image: url(../img/katalog.png);
   background-repeat: no-repeat;
-  margin-left: -30px;
+  margin-left: -35px;
 }
 
 .katalog .katalog_prod a {
   margin-left: 30px;
+
 }
 
 .katalog .grup_first {
   border: 1px solid #8b979c;
   margin-left: -40px;
   margin-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   border-radius: 25px;
-  width: 150px;
+  width: 110px;
 }
 
 .katalog .grup_first a {
@@ -225,12 +231,13 @@ form input {
 
 .katalog .grup_one {
   list-style-image:none;
+
 }
 
 .katalog .grup_one i {
   background-image: url(../img/metka.png);
   background-repeat: no-repeat;
-  margin-left: -30px;
+  margin-left: -35px;
 }
 
 .katalog .grup_one a {
@@ -240,6 +247,7 @@ form input {
 .katalog .naimen {
 font-size: 12.6px;
 color: #8b979c;
+margin-left: -25px;
 }
 
 .naimen a {
@@ -254,6 +262,44 @@ color: #8b979c;
 }
 .katalog a:hover {
   color: #0c3256;
+}
+
+.katalog .grup_two {
+  border: 1px solid #8b979c;
+  margin-left: -40px;
+  margin-top: 4px;
+  padding-bottom: 12px;
+  border-radius: 25px;
+  width: 110px;
+}
+
+.katalog .grup_two a {
+  color: #114165;
+  font-size: 14px;
+}
+
+.katalog .grup_two .grup_one  {
+    list-style-type: none;
+    line-height: 2px;
+}
+
+.katalog .grup_three {
+  border: 1px solid #8b979c;
+  margin-left: -40px;
+  margin-top: 4px;
+  padding-bottom: 12px;
+  border-radius: 25px;
+  width: 110px;
+}
+
+.katalog .grup_three a {
+  color: #114165;
+  font-size: 14px;
+}
+
+.katalog .grup_three .grup_one  {
+    list-style-type: none;
+    line-height: 3px;
 }
 /*MAIN*/
 main {
@@ -575,7 +621,7 @@ main .line_three .one_three {
 }
 /*SELECTION*/
 .brend li {
-  margin-top: 14px;
+  margin-top: 5px;
   list-style-type: none;
 }
 
@@ -587,7 +633,8 @@ main .line_three .one_three {
 
 .brend .brendi {
     border: 1px solid #8b979c;
-    margin-left: -40px;
+    margin-top: 25px;
+    margin-left: -25px;
     padding-bottom: 5px;
     border-radius: 25px;
     width: 140px;
@@ -652,9 +699,31 @@ main .line_three .one_three {
   color: #465961;
 }
 
-.brend .button {
+.brend .grup_firste {
+  border: 1px solid #8b979c;
+  margin-left: -10px;
+  margin-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+  width: 100px;
+}
+
+.brend .grup_firste a {
+  color: #114165;
+  font-size: 14px;
+}
+
+.brend .grup_firste .grup_two i {
+  background-image: url(../img/metka.png);
+  background-repeat: no-repeat;
   margin-left: -40px;
-  padding: 5px 10px 5px 10px;
+}
+
+ .butto {
+   display: inline-block;
+   margin-top: 302px;
+  margin-left: -160px;
+  padding: 5px 17px 7px 17px;
   font-family: Arial;
   font-size: 11px;
   font-weight: normal;
