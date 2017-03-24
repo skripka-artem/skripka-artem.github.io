@@ -59,7 +59,7 @@ header a {
 
 .login:after {
   content: "";
-  margin-left: 2px;
+  margin-left: 5px;
   border-right: 1px solid #fff;
 }
 
@@ -72,6 +72,8 @@ header .pasword {
   color: #bfbfbf;
   text-decoration: underline;
 }
+
+
 
 aside {
   height: 20px;
@@ -93,15 +95,23 @@ aside .masage {
 form {
   width: 495px;
 }
-form i {
-  background-image: url(../img/avtor.png);
-  background-repeat: no-repeat;
+
+form a {
+  font-family: 'lucida_sans_unicoderegular';
+  font-size: 10.1px;
+  color: #fff;
+}
+
+form .pasword {
+  font-family: 'lucida_sans_unicoderegular';
+  font-size: 12px;
+  color: #bfbfbf;
 }
 
  .avatar {
    position: absolute;
-   margin-top: 5px;
-   margin-left: 320px;
+   margin-top: 1px;
+   margin-left: 315px;
 }
 
 form input {
@@ -115,6 +125,7 @@ form input {
   margin-top: 140px;
 
 }
+
 .top_menu ul {
   display:inline-block;
   margin: 0;
@@ -149,6 +160,7 @@ form input {
 .top_menu a:hover {
   background: linear-gradient(to top, #0d3458, #1f6787);
   border-radius: 20px;
+  color: #fff;
 }
 
 .top_menu ul {
@@ -167,6 +179,13 @@ form input {
   font-family: Arial;
   font-size: 12px;
   color: #0d5a8f;
+}
+
+.top_menu div {
+  position: absolute;
+  margin-top: -16px;
+  margin-left: 710px;
+  color: #929b9f;
 }
 /*LEFT SECTION*/
 
@@ -219,7 +238,7 @@ form input {
   border: 1px solid #8b979c;
   margin-left: -40px;
   margin-top: 10px;
-  padding-bottom: 2px;
+  padding-bottom: 9px;
   border-radius: 25px;
   width: 110px;
 }
@@ -231,12 +250,14 @@ form input {
 
 .katalog .grup_one {
   list-style-image:none;
+  line-height: 7px;
 
 }
 
 .katalog .grup_one i {
   background-image: url(../img/metka.png);
   background-repeat: no-repeat;
+
   margin-left: -35px;
 }
 
@@ -268,7 +289,7 @@ margin-left: -25px;
   border: 1px solid #8b979c;
   margin-left: -40px;
   margin-top: 4px;
-  padding-bottom: 12px;
+  padding-bottom: 9px;
   border-radius: 25px;
   width: 110px;
 }
@@ -280,14 +301,14 @@ margin-left: -25px;
 
 .katalog .grup_two .grup_one  {
     list-style-type: none;
-    line-height: 2px;
+    line-height: 7px;
 }
 
 .katalog .grup_three {
   border: 1px solid #8b979c;
   margin-left: -40px;
   margin-top: 4px;
-  padding-bottom: 12px;
+  padding-bottom: 9px;
   border-radius: 25px;
   width: 110px;
 }
@@ -299,7 +320,7 @@ margin-left: -25px;
 
 .katalog .grup_three .grup_one  {
     list-style-type: none;
-    line-height: 3px;
+    line-height: 7px;
 }
 /*MAIN*/
 main {
@@ -665,7 +686,7 @@ main .line_three .one_three {
   border: 1px solid #8b979c;
   margin-left: -10px;
   margin-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   border-radius: 25px;
   width: 100px;
 }
@@ -675,14 +696,15 @@ main .line_three .one_three {
   font-size: 14px;
 }
 
-.brend .grup_two {
+.brend .grup_last .grup_two {
   list-style-image: none;
+  line-height: 17px;
 }
 
 .brend .grup_two i {
   background-image: url(../img/metka.png);
   background-repeat: no-repeat;
-  margin-left: -30px;
+  margin-left: -35px;
 }
 
 .brend .grup_two a {
@@ -703,9 +725,14 @@ main .line_three .one_three {
   border: 1px solid #8b979c;
   margin-left: -10px;
   margin-top: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   border-radius: 25px;
   width: 100px;
+}
+
+.brend .grup_firste .grup_two {
+  list-style-image: none;
+  line-height: 18px;
 }
 
 .brend .grup_firste a {
@@ -716,7 +743,7 @@ main .line_three .one_three {
 .brend .grup_firste .grup_two i {
   background-image: url(../img/metka.png);
   background-repeat: no-repeat;
-  margin-left: -40px;
+  margin-left: -35px;
 }
 
  .butto {
