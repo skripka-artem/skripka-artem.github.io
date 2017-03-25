@@ -20,9 +20,6 @@ header div {
   float: left;
   margin-top: 2px;
   margin-left: 2px;
-  font-family: Arial;
-  font-size: 18px;
-  color: #5e696d;
   line-height: 17px;
 }
 
@@ -52,10 +49,15 @@ header .inset input::-webkit-input-placeholder {
 }
 
 header a {
-  font-family: 'lucida_sans_unicoderegular';
-  font-size: 11px;
+  font-size: 10.9px;
   color: #fff;
   text-decoration: none;
+}
+
+header .nomer {
+  font-family: Arial;
+  font-size: 18px;
+  color: #5e696d;
 }
 
 .login:after {
@@ -768,11 +770,10 @@ margin-top: 140px;
 
  .butto {
   display: inline-block;
-  margin-top: 50px;
   margin-left: 50px;
   padding: 5px 17px 7px 17px;
   font-family: Arial;
-  height: 15px;
+  height: 14px;
   font-size: 11px;
   font-weight: normal;
   color: #e5e9ea;
