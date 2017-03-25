@@ -198,6 +198,7 @@ form input {
 
 .katalog {
 float: left;
+margin-top: 140px;
 }
 
 .katalog a {
@@ -330,7 +331,7 @@ main {
   float: left;
   background: linear-gradient(to top, #94a7b0, #e4e7e8);
   margin-left: 5px;
-  margin-top: 22px;
+  margin-top: 162px;
   width: 525px;
   border-radius: 5px;
 
@@ -658,6 +659,7 @@ main .line_three .one_three {
 display: inline-block;
 float: right;
 margin-right: 80px;
+margin-top: 140px;
 }
 
 .brend li {
