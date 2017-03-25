@@ -32,7 +32,6 @@ header form {
   background: linear-gradient(to top, #0e375b, #1f6787);
   border-radius: 3px;
   box-shadow: 2px 2px 2px #b4b4b4;
-
 }
 
 header .inset {
@@ -72,8 +71,6 @@ header .pasword {
   color: #bfbfbf;
   text-decoration: underline;
 }
-
-
 
 aside {
   height: 20px;
@@ -191,7 +188,6 @@ form input {
 
 .katalog li {
   margin-top: 10px;
-
 }
 
 .katalog a {
@@ -208,14 +204,12 @@ form input {
     border-radius: 25px;
     width: 142px;
     box-shadow: 0 2px 1px #8c969a;
-
 }
 
 .katalogi a {
   font-family: 'lucida_sans_unicoderegular';
   font-size: 12.6px;
   color: #114165;
-
 }
 
 .katalog .katalog_prod  {
@@ -231,7 +225,6 @@ form input {
 
 .katalog .katalog_prod a {
   margin-left: 30px;
-
 }
 
 .katalog .grup_first {
@@ -251,13 +244,11 @@ form input {
 .katalog .grup_one {
   list-style-image:none;
   line-height: 7px;
-
 }
 
 .katalog .grup_one i {
   background-image: url(../img/metka.png);
   background-repeat: no-repeat;
-
   margin-left: -35px;
 }
 
@@ -281,6 +272,7 @@ margin-left: -25px;
   font-style: italic;
   font-weight: 900;
 }
+
 .katalog a:hover {
   color: #0c3256;
 }
@@ -417,6 +409,7 @@ main .line_one .one_two {
  font-weight: 900;
  color: #114165;
 }
+
 main .line_one .one_three {
   width: 150px;
   height: 150px;
@@ -440,6 +433,7 @@ main .line_one .one_three {
  font-size: 12.7px;
  color: #1f2528;
 }
+
 .line_one .one_three .button {
  margin-top: 139px;
  margin-left: 30px;
@@ -505,6 +499,7 @@ main .line_two .one_two {
  font-size: 12.7px;
  color: #1f2528;
 }
+
 .line_two .one_two .button {
  margin-top: 139px;
  margin-left: 31px;
@@ -513,6 +508,7 @@ main .line_two .one_two {
  font-weight: 900;
  color: #114165;
 }
+
 main .line_two .one_three {
   width: 150px;
   height: 150px;
@@ -536,6 +532,7 @@ main .line_two .one_three {
  font-size: 12.7px;
  color: #1f2528;
 }
+
 .line_two .one_three .button {
  margin-top: 139px;
  margin-left: 30px;
@@ -601,6 +598,7 @@ main .line_three .one_two {
  font-size: 12.7px;
  color: #1f2528;
 }
+
 .line_three .one_two .button {
  margin-top: 139px;
  margin-left: 31px;
@@ -609,6 +607,7 @@ main .line_three .one_two {
  font-weight: 900;
  color: #114165;
 }
+
 main .line_three .one_three {
   width: 150px;
   height: 150px;
@@ -632,6 +631,7 @@ main .line_three .one_three {
  font-size: 12.7px;
  color: #1f2528;
 }
+
 .line_three .one_three .button {
  margin-top: 139px;
  margin-left: 30px;
@@ -649,7 +649,6 @@ main .line_three .one_three {
 .brend a {
     font-family: 'lucida_sans_unicoderegular';
     text-decoration: none;
-
 }
 
 .brend .brendi {
