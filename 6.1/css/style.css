@@ -72,7 +72,7 @@ header .pasword {
   text-decoration: underline;
 }
 
-aside {
+section {
   height: 20px;
   margin-top: 0px;
   margin-left: 15px;
@@ -81,11 +81,11 @@ aside {
   box-shadow: 0px 1px 0px #d3d8db;
 }
 
-aside img {
+section img {
   margin-left: 8px;
 }
 
-aside .masage {
+section .masage {
   margin-right: 8px;
 }
 
