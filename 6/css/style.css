@@ -264,12 +264,11 @@ margin-top: 140px;
 
 .katalog .naimen {
 font-size: 12.6px;
-color: #8b979c;
 margin-left: -25px;
 }
 
 .naimen a {
-  color: #8b979c;
+  color: #465961;
 }
 
 .katalog .naimen:hover {
