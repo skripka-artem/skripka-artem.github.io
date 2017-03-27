@@ -657,6 +657,19 @@ margin-right: 80px;
 margin-top: 140px;
 }
 
+  label{
+  	display: inline-block;
+  	cursor: pointer;
+    font-family: 'lucida_sans_unicoderegular';
+    font-size: 12.6px;
+    color: #465961;
+}
+
+.brend input {
+  margin-left: -20px;
+}
+
+
 .brend li {
   margin-top: 5px;
   list-style-type: none;
@@ -730,11 +743,7 @@ margin-top: 140px;
   margin-left: -35px;
 }
 
-.brend label {
-  font-family: 'lucida_sans_unicoderegular';
-  font-size: 12.6px;
-  color: #465961;
-}
+
 
 .brend .grup_firste {
   border: 1px solid #8b979c;
@@ -773,11 +782,13 @@ margin-top: 140px;
   background: linear-gradient(to top, #0e375c, #1f6787);
   border-radius: 15px;
   box-shadow: 1px 2px 2px #bec0c1;
+  text-decoration: none;
 }
 
 .marka {
   margin-top: 20px;
   margin-left: 52px;
+  clear: both;
 }
 /*Footer*/
 footer {
