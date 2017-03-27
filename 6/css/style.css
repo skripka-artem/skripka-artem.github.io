@@ -49,8 +49,7 @@ header .inset input::-webkit-input-placeholder {
 }
 
 header a {
-  font-size: 10.9px;
-  color: #fff;
+  font-family: 'lucida_sans_unicoderegular';
   text-decoration: none;
 }
 
@@ -66,11 +65,10 @@ header .nomer {
   border-right: 1px solid #fff;
 }
 
-header .pasword {
+header form .pasword {
+  font-family: Arial;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 10px;
-  font-family: 'lucida_sans_unicoderegular';
+  margin-left: 15px;
   font-size: 12px;
   color: #bfbfbf;
   text-decoration: underline;
@@ -101,24 +99,18 @@ header .pasword {
 
 form {
   width: 495px;
+
 }
 
 form a {
-  font-family: 'lucida_sans_unicoderegular';
-  font-size: 10.1px;
+  font-family: Arial;
+  font-size: 10.9px;
   color: #fff;
 }
 
-form .pasword {
-  font-family: 'lucida_sans_unicoderegular';
-  font-size: 12px;
-  color: #bfbfbf;
-}
-
-
 
 form input {
-  margin-left: 20px;
+  margin-left: 2px;
   margin-top: 5px;
 }
 
