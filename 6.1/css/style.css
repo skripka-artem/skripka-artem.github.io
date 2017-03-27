@@ -197,7 +197,7 @@ margin-top: 140px;
 }
 
 .katalog a {
-    font-family: 'lucida_sans_unicoderegular';
+    font-family: Arial;
     text-decoration: none;
 }
 
@@ -213,7 +213,7 @@ margin-top: 140px;
 }
 
 .katalogi a {
-  font-family: 'lucida_sans_unicoderegular';
+  font-family: Arial;
   font-size: 12.6px;
   color: #114165;
 }
@@ -275,7 +275,8 @@ margin-left: -25px;
 .katalog .naimen:hover {
   color: #0c3256;
   text-decoration: underline;
-  font-style: italic;
+  font-family: Arial;
+  font-style: oblique;
   font-weight: 900;
 }
 
@@ -293,6 +294,7 @@ margin-left: -25px;
 }
 
 .katalog .grup_two a {
+  font-family: Arial;
   color: #114165;
   font-size: 14px;
 }
@@ -312,6 +314,7 @@ margin-left: -25px;
 }
 
 .katalog .grup_three a {
+  font-family: Arial;
   color: #114165;
   font-size: 14px;
 }
@@ -366,12 +369,14 @@ main .line_one .one_one {
   line-height: 1px;
   text-align: center;
   color: #206988;
+  font-weight: 900;
 }
 
  .line_one .one_one .top p {
   margin-left: 13px;
   font-size: 12.7px;
   color: #1f2528;
+  font-weight: 100;
 }
 
  .line_one .one_one .button {
@@ -403,12 +408,14 @@ main .line_one .one_two {
  line-height: 1px;
  text-align: center;
  color: #206988;
+ font-weight: 900;
 }
 
 .line_one .one_two .top p {
  margin-left: 1px;
  font-size: 12.7px;
  color: #1f2528;
+ font-weight: 100;
 }
 .line_one .one_two .button {
  margin-top: 139px;
@@ -435,12 +442,14 @@ main .line_one .one_three {
  line-height: 1px;
  text-align: center;
  color: #206988;
+ font-weight: 900;
 }
 
 .line_one .one_three .top p {
  margin-left: 1px;
  font-size: 12.7px;
  color: #1f2528;
+ font-weight: 100;
 }
 
 .line_one .one_three .button {
@@ -468,12 +477,14 @@ main .line_two .one_one {
   line-height: 1px;
   text-align: center;
   color: #206988;
+  font-weight: 700;
 }
 
  .line_two .one_one .top p {
   margin-left: 13px;
   font-size: 12.7px;
   color: #1f2528;
+  font-weight: 100;
 }
 
  .line_two .one_one .button {
@@ -501,12 +512,14 @@ main .line_two .one_two {
  line-height: 1px;
  text-align: center;
  color: #206988;
+ font-weight: 700;
 }
 
 .line_two .one_two .top p {
  margin-left: 1px;
  font-size: 12.7px;
  color: #1f2528;
+ font-weight: 100;
 }
 
 .line_two .one_two .button {
@@ -534,12 +547,14 @@ main .line_two .one_three {
  line-height: 1px;
  text-align: center;
  color: #206988;
+ font-weight: 700;
 }
 
 .line_two .one_three .top p {
  margin-left: 1px;
  font-size: 12.7px;
  color: #1f2528;
+ font-weight: 100;
 }
 
 .line_two .one_three .button {
@@ -657,10 +672,10 @@ margin-right: 80px;
 margin-top: 140px;
 }
 
-  label{
+label{
   	display: inline-block;
   	cursor: pointer;
-    font-family: 'lucida_sans_unicoderegular';
+    font-family: Arial;
     font-size: 12.6px;
     color: #465961;
 }
@@ -676,7 +691,7 @@ margin-top: 140px;
 }
 
 .brend a {
-    font-family: 'lucida_sans_unicoderegular';
+    font-family: Arial;
     text-decoration: none;
 }
 
@@ -705,7 +720,7 @@ margin-top: 140px;
 }
 
 .brend .brend_prod  a{
-  font-family: 'lucida_sans_unicoderegular';
+  font-family: Arial;
   font-size: 12.6px;
   color: #114165;
 }
