@@ -290,8 +290,16 @@ margin-left: 40px;
   color: #465961;
 }
 
+.katalog .naimen:hover {
+  font-family: Arial;
+  font-style: italic;
+  color: #0c3256;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
 .katalog .naimen a:hover {
-  font-family: 'Lucida Sans Unicode';
+  font-family: Arial;
   font-style: italic;
   color: #0c3256;
   text-decoration: underline;
