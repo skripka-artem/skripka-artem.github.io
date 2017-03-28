@@ -279,19 +279,14 @@ margin-top: 140px;
 }
 
 .katalog .naimen {
-font-family: 'Lucida Sans Unicode';
-font-style: normal;
-font-size: 13px;
 margin-left: 40px;
 }
 
 .naimen a {
+  font-family: 'Lucida Sans Unicode';
+  font-style: normal;
+  font-size: 13px;
   color: #465961;
-}
-
-.katalog .naimen:hover {
-  text-decoration: underline;
-  font-weight: 900;
 }
 
 .katalog .naimen a:hover {
