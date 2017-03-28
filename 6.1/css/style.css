@@ -150,7 +150,8 @@ form input {
   font-family: 'lucida_sans_unicoderegular';
   font-size: 13.6px;
   color: #b1bcc0;
-  padding-top: 3px;
+  padding-top: 6px;
+  padding-bottom: 4px;
   padding-left: 10px;
   padding-right: 20px;
 }
@@ -162,6 +163,7 @@ form input {
 .top_menu a:hover {
   background: linear-gradient(to top, #0d3458, #1f6787);
   border-radius: 20px;
+
   color: #fff;
 }
 
@@ -281,19 +283,13 @@ font-family: 'Lucida Sans Unicode';
 font-style: normal;
 font-size: 13px;
 margin-left: 40px;
-
 }
 
 .naimen a {
-  font-family: 'Lucida Sans Unicode';
-  font-style: normal;
   color: #465961;
 }
 
 .katalog .naimen:hover {
-  font-family: Arial;
-  font-style: italic;
-  color: #0c3256;
   text-decoration: underline;
   font-weight: 900;
 }
@@ -376,11 +372,11 @@ main a {
 }
 
 main .line_one .one_one {
-  width: 160px;
+  width: 180px;
   height: 160px;
   background: url(../img/kolesa.png) -10px 0 no-repeat;
   margin-top: 43px;
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
  .line_one .one_one .top {
@@ -418,11 +414,11 @@ main .line_one .one_one {
 }
 
 main .line_one .one_two {
-  width: 160px;
+  width: 180px;
   height: 160px;
   background: url(../img/kolesa.png) -178px 0 no-repeat;
   margin-top: 43px;
-  margin-left: -4px;
+  margin-left: -13px;
 }
 
 .line_one .one_two .top {
@@ -454,11 +450,11 @@ main .line_one .one_two {
 }
 
 main .line_one .one_three {
-  width: 150px;
+  width: 180px;
   height: 150px;
   background: url(../img/kolesa.png) -346px 0 no-repeat;
   margin-top: 42px;
-  margin-left: -3px;
+  margin-left: -15px;
 }
 
 .line_one .one_three .top {
@@ -491,11 +487,11 @@ main .line_one .one_three {
 }
 
 main .line_two .one_one {
-  width: 160px;
+  width: 180px;
   height: 160px;
   background: url(../img/kolesa.png) -10px 0 no-repeat;
   margin-top: 27px;
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
  .line_two .one_one .top {
@@ -528,11 +524,11 @@ main .line_two .one_one {
 }
 
 main .line_two .one_two {
-  width: 160px;
+  width: 180px;
   height: 160px;
   background: url(../img/kolesa.png) -178px 0 no-repeat;
   margin-top: 26px;
-  margin-left: -4px;
+  margin-left: -15px;
 }
 
 .line_two .one_two .top {
@@ -565,11 +561,11 @@ main .line_two .one_two {
 }
 
 main .line_two .one_three {
-  width: 150px;
+  width: 180px;
   height: 150px;
   background: url(../img/kolesa.png) -346px 0 no-repeat;
   margin-top: 26px;
-  margin-left: -3px;
+  margin-left: -15px;
 }
 
 .line_two .one_three .top {
@@ -602,11 +598,11 @@ main .line_two .one_three {
 }
 
 main .line_three .one_one {
-  width: 160px;
+  width: 180px;
   height: 160px;
   background: url(../img/kolesa.png) -10px 0 no-repeat;
   margin-top: 27px;
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
  .line_three .one_one .top {
@@ -639,11 +635,11 @@ main .line_three .one_one {
 }
 
 main .line_three .one_two {
-  width: 160px;
+  width: 180px;
   height: 160px;
   background: url(../img/kolesa.png) -178px 0 no-repeat;
   margin-top: 26px;
-  margin-left: -4px;
+  margin-left: -13px;
 }
 
 .line_three .one_two .top {
@@ -676,11 +672,11 @@ main .line_three .one_two {
 }
 
 main .line_three .one_three {
-  width: 150px;
+  width: 180px;
   height: 150px;
   background: url(../img/kolesa.png) -346px 0 no-repeat;
   margin-top: 26px;
-  margin-left: -3px;
+  margin-left: -13px;
 }
 
 .line_three .one_three .top {
