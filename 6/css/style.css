@@ -120,7 +120,7 @@ form input {
 
 .zazor {
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /*NAV*/
 .body {
@@ -248,7 +248,7 @@ margin-top: 140px;
   margin-top: 10px;
   padding-bottom: 9px;
   border-radius: 25px;
-  width: 110px;
+  width: 150px;
 }
 
 .katalog .grup_first a {
@@ -311,7 +311,7 @@ margin-left: 40px;
   margin-top: 4px;
   padding-bottom: 9px;
   border-radius: 25px;
-  width: 110px;
+  width: 150px;
 }
 
 .katalog .grup_two a {
@@ -331,7 +331,7 @@ margin-left: 40px;
   margin-top: 4px;
   padding-bottom: 9px;
   border-radius: 25px;
-  width: 110px;
+  width: 150px;
 }
 
 .katalog .grup_three a {
@@ -403,9 +403,10 @@ main .line_one .one_one {
 }
 
  .line_one .one_one .button {
-  margin-top: 138px;
-  margin-left: 38px;
+  margin-top: 135px;
+  margin-left: 31px;
   font-family: Arial;
+  font-style: italic;
   font-size: 16px;
   font-weight: 900;
   color: #114165;
@@ -413,6 +414,7 @@ main .line_one .one_one {
 
 .button span {
   font-size: 12px;
+  font-style: italic;
 }
 
 main .line_one .one_two {
@@ -442,9 +444,10 @@ main .line_one .one_two {
  font-weight: 100;
 }
 .line_one .one_two .button {
- margin-top: 139px;
- margin-left: 31px;
+ margin-top: 135px;
+ margin-left: 27px;
  font-family: Arial;
+ font-style: italic;
  font-size: 16px;
  font-weight: 900;
  color: #114165;
@@ -478,9 +481,10 @@ main .line_one .one_three {
 }
 
 .line_one .one_three .button {
- margin-top: 139px;
- margin-left: 30px;
+ margin-top: 135px;
+ margin-left: 27px;
  font-family: Arial;
+ font-style: italic;
  font-size: 16px;
  font-weight: 900;
  color: #114165;
@@ -514,9 +518,10 @@ main .line_two .one_one {
 }
 
  .line_two .one_one .button {
-  margin-top: 138px;
-  margin-left: 38px;
+  margin-top: 135px;
+  margin-left: 35px;
   font-family: Arial;
+  font-style: italic;
   font-size: 16px;
   font-weight: 900;
   color: #114165;
@@ -550,9 +555,10 @@ main .line_two .one_two {
 }
 
 .line_two .one_two .button {
- margin-top: 139px;
- margin-left: 31px;
+ margin-top: 135px;
+ margin-left: 27px;
  font-family: Arial;
+ font-style: italic;
  font-size: 16px;
  font-weight: 900;
  color: #114165;
@@ -586,9 +592,10 @@ main .line_two .one_three {
 }
 
 .line_two .one_three .button {
- margin-top: 139px;
- margin-left: 30px;
+ margin-top: 135px;
+ margin-left: 27px;
  font-family: Arial;
+ font-style: italic;
  font-size: 16px;
  font-weight: 900;
  color: #114165;
@@ -622,9 +629,10 @@ main .line_three .one_one {
 }
 
  .line_three .one_one .button {
-  margin-top: 138px;
-  margin-left: 38px;
+  margin-top: 135px;
+  margin-left: 31px;
   font-family: Arial;
+  font-style: italic;
   font-size: 16px;
   font-weight: 900;
   color: #114165;
@@ -658,9 +666,10 @@ main .line_three .one_two {
 }
 
 .line_three .one_two .button {
- margin-top: 139px;
- margin-left: 31px;
+ margin-top: 135px;
+ margin-left: 27px;
  font-family: Arial;
+ font-style: italic;
  font-size: 16px;
  font-weight: 900;
  color: #114165;
@@ -694,10 +703,11 @@ main .line_three .one_three {
 }
 
 .line_three .one_three .button {
- margin-top: 139px;
- margin-left: 30px;
+ margin-top: 135px;
+ margin-left: 27px;
 font-family: Arial, sans-serif;
  font-size: 16px;
+ font-style: italic;
  font-weight: 900;
  color: #114165;
 }
@@ -738,7 +748,7 @@ label{
     margin-top: 25px;
     padding-bottom: 3px;
     border-radius: 25px;
-    width: 140px;
+    width: 175px;
     box-shadow: 0 2px 1px #8c969a;
 }
 
@@ -772,7 +782,7 @@ label{
   margin-left: 15px;
   padding-bottom: 3px;
   border-radius: 25px;
-  width: 100px;
+  width: 135px;
 }
 
 .brend .grup_last a {
@@ -804,7 +814,7 @@ label{
   margin-left: 15px;
   padding-bottom: 3px;
   border-radius: 25px;
-  width: 100px;
+  width: 135px;
 }
 
 .brend .grup_firste .grup_two {
@@ -827,7 +837,7 @@ label{
  .butto {
   display: inline-block;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 5px 17px 5px 17px;
   font-family: 'Lucida Sans Unicode';
   height: 14px;
@@ -841,7 +851,7 @@ label{
 }
 
 .marka {
-  margin-top: 20px;
+  margin-top: 35px;
   margin-left: 52px;
   clear: both;
 }
@@ -849,7 +859,7 @@ label{
 footer {
   display: flex;
   flex-flow: column;
-  margin-top: 18px;
+  margin-top: 35px;
   width: 910px;
   height: 100px;
   background-color: #213a4d;
@@ -859,7 +869,7 @@ footer {
 footer ul {
   display: inline;
   margin-top:  8px;
-  margin-left: 270px;
+  margin-left: 315px;
 }
 
 footer li {
