@@ -198,6 +198,7 @@ margin-top: 140px;
 
 .katalog a {
     font-family: 'Lucida Sans Unicode';
+    font-style: normal;
     text-decoration: none;
 }
 
@@ -214,6 +215,7 @@ margin-top: 140px;
 
 .katalogi a {
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   font-size: 12.6px;
   color: #114165;
 }
@@ -233,6 +235,7 @@ margin-top: 140px;
 .katalog .katalog_prod a {
   margin-left: 30px;
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   font-size: 12.7px;
 }
 
@@ -247,6 +250,7 @@ margin-top: 140px;
 
 .katalog .grup_first a {
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   color: #114165;
   font-size: 14px;
 }
@@ -265,17 +269,20 @@ margin-top: 140px;
 .katalog .grup_one a {
   margin-left: 30px;
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   font-size: 14px;
 }
 
 .katalog .naimen {
 font-family: 'Lucida Sans Unicode';
+font-style: normal;
   font-size: 12.6px;
   margin-left: -25px;
 }
 
 .naimen a {
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   color: #465961;
 }
 
@@ -283,12 +290,14 @@ font-family: 'Lucida Sans Unicode';
   color: #0c3256;
   text-decoration: underline;
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   font-style: oblique;
   font-weight: 900;
 }
 
 .katalog a:hover {
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   color: #0c3256;
 }
 
@@ -303,6 +312,7 @@ font-family: 'Lucida Sans Unicode';
 
 .katalog .grup_two a {
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   color: #114165;
   font-size: 14px;
 }
@@ -323,6 +333,7 @@ font-family: 'Lucida Sans Unicode';
 
 .katalog .grup_three a {
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   color: #114165;
   font-size: 14px;
 }
@@ -734,11 +745,13 @@ label{
 .brend .brend_prod a {
   margin-left: 30px;
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   font-size: 14px;
 }
 
 .brend .brend_prod  a{
   font-family: 'Lucida Sans Unicode';
+  font-style: normal;
   font-size: 12.6px;
   color: #114165;
 }
@@ -754,6 +767,7 @@ label{
 
 .brend .grup_last a {
   color: #114165;
+  font-style: normal;
   font-size: 14px;
 }
 
@@ -769,6 +783,7 @@ label{
 }
 
 .brend .grup_two a {
+  font-style: normal;
   margin-left: 30px;
 }
 
@@ -790,6 +805,7 @@ label{
 .brend .grup_firste .grup_two {
   list-style-image: none;
   line-height: 18px;
+  font-style: normal;
 }
 
 .brend .grup_firste a {
@@ -806,7 +822,7 @@ label{
  .butto {
   display: inline-block;
   margin-left: 50px;
-  padding: 5px 17px 7px 17px;
+  padding: 5px 17px 5px 17px;
   font-family: 'Lucida Sans Unicode';
   height: 14px;
   font-size: 11px;
