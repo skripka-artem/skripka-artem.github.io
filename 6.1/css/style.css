@@ -63,10 +63,18 @@ header .nomer {
   color: #5e696d;
 }
 
-.login:after {
-  content: "";
-  margin-left: 5px;
-  border-right: 1px solid #fff;
+.login {
+  background: none;
+  border: none;
+  font-family: Arial;
+  font-size: 10.9px;
+  color: #fff;
+}
+
+
+.line{
+padding-right: 5px;
+border-right: 1px solid #fff;
 }
 
 header form .pasword {
@@ -105,13 +113,6 @@ form {
   width: 495px;
 
 }
-
-form a {
-  font-family: Arial;
-  font-size: 10.9px;
-  color: #fff;
-}
-
 
 form input {
   margin-left: 2px;
@@ -367,11 +368,25 @@ main a {
 }
 
 main .line_one .one_one {
-  width: 180px;
-  height: 160px;
-  background: url(../img/kolesa.png) -10px 0 no-repeat;
   margin-top: 43px;
   margin-left: 20px;
+}
+
+main .line_one .one_one .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_one .one_one .kolesa .kolesa1 {
+  display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) 0 0 no-repeat;
+margin-left: 30px;
+margin-top: 5px;
 }
 
  .line_one .one_one .top {
@@ -394,7 +409,6 @@ main .line_one .one_one {
 }
 
  .line_one .one_one .button {
-  margin-top: 135px;
   margin-left: 31px;
   font-family: Arial;
   font-style: italic;
@@ -409,11 +423,25 @@ main .line_one .one_one {
 }
 
 main .line_one .one_two {
-  width: 180px;
-  height: 160px;
-  background: url(../img/kolesa.png) -178px 0 no-repeat;
   margin-top: 43px;
   margin-left: -13px;
+}
+
+main .line_one .one_two .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_one .one_two .kolesa .kolesa1 {
+  display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) -167px 0 no-repeat;
+margin-left: 30px;
+margin-top: 5px;
 }
 
 .line_one .one_two .top {
@@ -435,7 +463,6 @@ main .line_one .one_two {
  font-weight: 100;
 }
 .line_one .one_two .button {
- margin-top: 135px;
  margin-left: 27px;
  font-family: Arial;
  font-style: italic;
@@ -445,11 +472,25 @@ main .line_one .one_two {
 }
 
 main .line_one .one_three {
-  width: 180px;
-  height: 150px;
-  background: url(../img/kolesa.png) -346px 0 no-repeat;
   margin-top: 42px;
   margin-left: -15px;
+}
+
+main .line_one .one_three .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_one .one_three .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) -334px 0 no-repeat;
+margin-left: 30px;
+margin-top: 5px;
 }
 
 .line_one .one_three .top {
@@ -472,7 +513,6 @@ main .line_one .one_three {
 }
 
 .line_one .one_three .button {
- margin-top: 135px;
  margin-left: 27px;
  font-family: Arial;
  font-style: italic;
@@ -482,12 +522,27 @@ main .line_one .one_three {
 }
 
 main .line_two .one_one {
-  width: 180px;
-  height: 160px;
-  background: url(../img/kolesa.png) -10px 0 no-repeat;
   margin-top: 27px;
   margin-left: 20px;
 }
+
+main .line_two .one_one .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_two .one_one .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) 0 -200px no-repeat;
+margin-left: 30px;
+margin-top: 5px;
+}
+
 
  .line_two .one_one .top {
   margin-top: -20px;
@@ -509,7 +564,6 @@ main .line_two .one_one {
 }
 
  .line_two .one_one .button {
-  margin-top: 135px;
   margin-left: 35px;
   font-family: Arial;
   font-style: italic;
@@ -519,11 +573,25 @@ main .line_two .one_one {
 }
 
 main .line_two .one_two {
-  width: 180px;
-  height: 160px;
-  background: url(../img/kolesa.png) -178px 0 no-repeat;
   margin-top: 26px;
   margin-left: -15px;
+}
+
+main .line_two .one_two .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_two .one_two .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) -167px -200px no-repeat;
+margin-left: 30px;
+margin-top: 5px;
 }
 
 .line_two .one_two .top {
@@ -546,7 +614,6 @@ main .line_two .one_two {
 }
 
 .line_two .one_two .button {
- margin-top: 135px;
  margin-left: 27px;
  font-family: Arial;
  font-style: italic;
@@ -556,12 +623,27 @@ main .line_two .one_two {
 }
 
 main .line_two .one_three {
-  width: 180px;
-  height: 150px;
-  background: url(../img/kolesa.png) -346px 0 no-repeat;
   margin-top: 26px;
   margin-left: -15px;
 }
+
+main .line_two .one_three .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_two .one_three .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) -334px -200px no-repeat;
+margin-left: 30px;
+margin-top: 5px;
+}
+
 
 .line_two .one_three .top {
  margin-top: -18px;
@@ -583,7 +665,6 @@ main .line_two .one_three {
 }
 
 .line_two .one_three .button {
- margin-top: 135px;
  margin-left: 27px;
  font-family: Arial;
  font-style: italic;
@@ -593,12 +674,27 @@ main .line_two .one_three {
 }
 
 main .line_three .one_one {
-  width: 180px;
-  height: 160px;
-  background: url(../img/kolesa.png) -10px 0 no-repeat;
   margin-top: 27px;
   margin-left: 20px;
 }
+
+main .line_three .one_one .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_three .one_one .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) 0 -405px no-repeat;
+margin-left: 30px;
+margin-top: 5px;
+}
+
 
  .line_three .one_one .top {
   margin-top: -20px;
@@ -620,7 +716,6 @@ main .line_three .one_one {
 }
 
  .line_three .one_one .button {
-  margin-top: 135px;
   margin-left: 31px;
   font-family: Arial;
   font-style: italic;
@@ -630,11 +725,25 @@ main .line_three .one_one {
 }
 
 main .line_three .one_two {
-  width: 180px;
-  height: 160px;
-  background: url(../img/kolesa.png) -178px 0 no-repeat;
   margin-top: 26px;
   margin-left: -13px;
+}
+
+main .line_three .one_two .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_three .one_two .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) -167px -405px no-repeat;
+margin-left: 30px;
+margin-top: 5px;
 }
 
 .line_three .one_two .top {
@@ -657,7 +766,6 @@ main .line_three .one_two {
 }
 
 .line_three .one_two .button {
- margin-top: 135px;
  margin-left: 27px;
  font-family: Arial;
  font-style: italic;
@@ -667,11 +775,25 @@ main .line_three .one_two {
 }
 
 main .line_three .one_three {
-  width: 180px;
-  height: 150px;
-  background: url(../img/kolesa.png) -346px 0 no-repeat;
   margin-top: 26px;
   margin-left: -13px;
+}
+
+main .line_three .one_three .kolesa {
+  width: 140px;
+  height: 130px;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 1px solid #c3cacc;
+  border-radius: 10px;
+}
+main .line_three .one_three .kolesa .kolesa1 {
+display: inline-block;
+width: 80px;
+height: 120px;
+background: url(../img/kolesa1.png) -334px -405px no-repeat;
+margin-left: 30px;
+margin-top: 5px;
 }
 
 .line_three .one_three .top {
@@ -694,7 +816,6 @@ main .line_three .one_three {
 }
 
 .line_three .one_three .button {
- margin-top: 135px;
  margin-left: 27px;
 font-family: Arial, sans-serif;
  font-size: 16px;
@@ -887,7 +1008,7 @@ footer a:hover {
 }
 
 footer p {
-  margin-top: 3px;
+  margin-top: 30px;
   line-height: 1px;
   text-align: center;
   font-family: Arial;
