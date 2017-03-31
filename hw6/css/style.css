@@ -123,7 +123,7 @@ form input {
   padding-bottom: 2px;
   padding-top: 2px;
   padding-left: 5px;
-  border: none;
+  border: 1px solid #9ba1a3;
 }
 
 .zazor {
@@ -383,8 +383,8 @@ main .line_one .one_one .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_one .one_one .kolesa .kolesa1 {
   display: inline-block;
@@ -438,8 +438,8 @@ main .line_one .one_two .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_one .one_two .kolesa .kolesa1 {
   display: inline-block;
@@ -487,8 +487,8 @@ main .line_one .one_three .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_one .one_three .kolesa .kolesa1 {
 display: inline-block;
@@ -537,8 +537,8 @@ main .line_two .one_one .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_two .one_one .kolesa .kolesa1 {
 display: inline-block;
@@ -588,8 +588,8 @@ main .line_two .one_two .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_two .one_two .kolesa .kolesa1 {
 display: inline-block;
@@ -638,8 +638,8 @@ main .line_two .one_three .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_two .one_three .kolesa .kolesa1 {
 display: inline-block;
@@ -689,8 +689,8 @@ main .line_three .one_one .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_three .one_one .kolesa .kolesa1 {
 display: inline-block;
@@ -740,8 +740,8 @@ main .line_three .one_two .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_three .one_two .kolesa .kolesa1 {
 display: inline-block;
@@ -790,8 +790,8 @@ main .line_three .one_three .kolesa {
   height: 130px;
   background-color: #fff;
   margin-top: 5px;
-  border: 1px solid #c3cacc;
-  border-radius: 10px;
+  border: 1px solid #a4aeb1;
+  border-radius: 7px;
 }
 main .line_three .one_three .kolesa .kolesa1 {
 display: inline-block;
@@ -846,9 +846,8 @@ label{
 }
 
 .brend input {
-  font-family: Arial;
-  font-size: 14px;
   margin-left: 25px;
+  margin-bottom: 10px;
 }
 
 .brend li {
@@ -884,7 +883,6 @@ label{
   margin-left: 30px;
   font-family: 'Lucida Sans Unicode';
   font-style: normal;
-  font-size: 14px;
 }
 
 .brend .brend_prod  a{
@@ -955,7 +953,7 @@ label{
  .butto {
   display: inline-block;
   margin-left: 25px;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 5px 17px 5px 17px;
   font-family: 'Lucida Sans Unicode';
   height: 14px;
@@ -1002,7 +1000,7 @@ footer a{
   text-decoration: none;
 }
 
-footer .line:after {
+footer .linen:after {
   content: "";
   margin-left: 14px;
   margin-right: 8px;
