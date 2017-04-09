@@ -1,0 +1,59 @@
+@media (min-width:480px) {
+  body {
+  background-image: url(../img/1.1.png);
+  background-repeat: no-repeat;
+}
+
+.slide_iphone{
+  display: inline-block;
+  
+}
+.slide  {
+  width: 470px;
+}
+.top-menu__home{
+  visibility: hidden;
+}
+.qwer {
+  display:block;
+}
+
+.about {
+  margin-top: 10%;
+  width: 400px;
+}
+.navigation {
+  margin-top: 1%;
+  margin-left: 45%;
+}
+
+.brands-logo {
+  width: 400px;
+}
+
+.pingbuller-news{
+  display: flex;
+  flex-flow: column;
+}
+
+.pingbuller-updates{
+  margin-top: 20%;
+}
+
+.pingbuller-news__copyright-one {
+  display: none;
+}
+
+.pingbuller-news__copyright-one__one {
+  margin-top: 50px;
+}
+
+.footer__menu {
+  display: inline-block;
+  margin-top: 20%;
+}
+
+.designed {
+  margin-left: 30%;
+}
+}

@@ -1,0 +1,124 @@
+@media (min-width:768px) {
+  body {
+  background-image: url(../img/1.3.png);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  text-align: left;
+}
+
+.top-menu {
+  display: none;
+}
+
+.left {
+  margin-top: 50px;
+  padding-right: 0px;
+}
+
+.right {
+  margin-top: 50px;
+  padding-right: 10px;
+}
+
+.top {
+  display: inline-block;
+}
+
+.slide  {
+  width: 750px;
+  margin-top: 200px;
+}
+
+.semper {
+  display: inline-block;
+  margin-left: -210px;
+  margin-top: 70px;
+}
+
+.slide_iphone{
+display: none;
+}
+
+.slide_iphone1{
+display: inline-block;
+}
+
+.navigation {
+  margin-left: 75%;
+}
+
+.about {
+  display: flex;
+  flex-flow: row;
+  width: 700px;
+}
+
+.about-company__text {
+  height: 140px;
+  padding-right: 1px;
+}
+
+.about-company__link {
+  top: 110%;
+}
+
+.pingbuller-updates{
+  margin-top: 35%;
+}
+
+.pingbuller-news {
+  display: flex;
+  flex-flow: row;
+  width: 700px;
+}
+
+.footer {
+  margin-top: 30%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.designed {
+  margin-top: 20px;
+  margin-left: 70%;
+  padding-bottom: 50px;
+}
+
+.pingbuller-updates {
+  display: flex;
+  flex-flow: row;
+}
+
+.starts-here {
+  margin-top: -65px;
+  margin-left: -200px;
+}
+
+.starts-here:before {
+    width: 350px;
+}
+
+.starts-here__text {
+  width: 350px;
+}
+
+.recent-updates {
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+.recent-updates__item  {
+  width: 350px;
+}
+
+.brands-logo {
+  margin-top: -70px;
+  width: 800px;
+}
+
+.footer {
+  margin-top: -50px;
+}
+}
