@@ -1,0 +1,123 @@
+@media (min-width:768px) {
+  body {
+  background-image: url(../img/1.3.png);
+  background-repeat: no-repeat;
+}
+
+.slide {
+  margin: 0;
+  margin-top: 250px;
+}
+.slide_iphone {
+display: none;
+}
+.slide_iphone1 {
+  display: inline-block;
+}
+.logo {
+  display: block;
+  float: left;
+  margin-top: 50px;
+}
+
+.top-menu {
+  display: none;
+}
+.top-menu__home {
+visibility: visible;
+}
+
+.top {
+  display: inline-block;
+}
+.qwer {
+  display: none;
+}
+
+.slide {
+  width: 750px;
+}
+.slide_iphone {
+display: none;
+}
+
+.slide_iphone1 {
+display: inline-block;
+}
+
+.semper {
+  display: block;
+}
+.left {
+  margin-top: 55px;
+}
+.right {
+  margin-top: 55px;
+}
+
+.navigation {
+  margin-top: 40px;
+  margin-left: 65%;
+}
+
+
+.about {
+  display: flex;
+  margin: 0;
+  margin-top: 40px;
+}
+.about-company {
+  margin-left: -3%;
+}
+
+.about-company__text {
+  height: 140px;
+  width: 155px;
+}
+
+.pingbuller-updates {
+  display: flex;
+  margin: 0;
+}
+
+.starts-here {
+  margin-top: -50px;
+}
+.starts-here__text {
+  width: 240px;
+}
+.starts-here:before {
+  width: 290px;
+}
+.recent-updates__item {
+  width: 320px;
+}
+.pingbuller-updates {
+  margin-top: 200px;
+}
+.brands-logo {
+  width: 750px;
+}
+
+.pingbuller-news {
+  display: flex;
+  width: 760px;
+}
+
+.copyright__text-news {
+  width: 220px;
+}
+
+.footer__menu {
+  margin: 0;
+  float: left;
+  margin-top: 100px;
+  margin-left: 5%;
+}
+
+.designed {
+  margin: 0;
+  float: left;
+  margin-top: 160px;
+}
+}

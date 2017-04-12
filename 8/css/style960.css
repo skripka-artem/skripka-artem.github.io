@@ -1,0 +1,76 @@
+@media (min-width:960px) {
+  .top-menu {
+  float: left;
+  }
+
+  .nav-menu__list {
+    margin-top: 65px;
+  }
+
+  .nav-menu__link:hover {
+    text-decoration: underline;
+  }
+
+  .slide {
+    margin: 0;
+    margin: auto;
+    margin-top: 180px;
+    width: 870px;
+  }
+
+  .left {
+    padding-right: 80px;
+  }
+  .right {
+    padding-left: 80px;
+  }
+
+.about {
+  margin: 0;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.pingbuller-updates {
+  margin-left: 10%;
+}
+.pingbuller-news {
+  display: flex;
+}
+
+.pingbuller-news {
+  width: 920px;
+}
+
+.pingbuller-news__copyright-one {
+  margin: 0;
+}
+
+.pingbuller-news__copyright-one {
+  display: inline-block;
+}
+
+.pingbuller-news__copyright-one {
+  padding-right: 40px;
+}
+.pingbuller-news__copyright-one__two{
+  display: none;
+}
+
+.copyright__text-news {
+  width: 285px;
+}
+
+.footer__menu {
+  margin: 0;
+  margin-left: 4%;
+  margin-top: 100px;
+}
+
+.designed {
+  margin: 0;
+  margin-top: 170px;
+  float: right;
+  margin-right: 5%;
+}
+  }

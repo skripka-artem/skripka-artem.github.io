@@ -15,12 +15,16 @@ body {
   margin-top: 50px;
 }
 
+/*top-menu*/
 .top-menu {
   position: relative;
   text-align: center;
 }
-
-
+.top {
+  display: none;
+  font-size: 24px;
+  padding-right: 10px;
+}
 
 .top-menu__list {
   display: none;
@@ -57,8 +61,6 @@ body {
   margin-top: -9px;
   border-top: 2px solid #edbfff;
 }
-
-
 
  .top-menu:hover .top-menu__list{
   display: block;
@@ -154,7 +156,7 @@ body {
   margin: auto;
   border-bottom: 2px solid #edbfff;
 }
-
+/*slide*/
 .lorem {
   float: left;
   font-family: "LeagueGothicRegular";
@@ -178,7 +180,7 @@ body {
 .slide_iphone1 {
   display: none;
   float: right;
-  margin-top: -100px;
+  margin-top: -60px;
 }
 .left {
   float: left;
@@ -200,7 +202,8 @@ body {
   display: none;
   width: 280px;
   float: left;
-  margin-left: 35px;
+  margin-left: -210px;
+  margin-top: 80px;
   font-family: "OpenSans-Light";
   font-style: normal;
   font-size: 16px;
@@ -212,13 +215,11 @@ body {
   float: right;
   margin-top: 15px;
 }
-
+/*navigation*/
 .navigation {
   display: inline-block;
-  margin-left: 40%;
-  margin-top: 100px;
-
-
+  margin-top: 140px;
+  margin-left: 32%;
 }
 
 .navi li {
@@ -269,11 +270,11 @@ body {
 .navi .four:hover {
   background: url(../img/action.png)  no-repeat;
 }
-
+/*about*/
 .about {
   width: 320px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .about__article {
@@ -327,7 +328,6 @@ body {
 
 .about-company__link {
   position: absolute;
-  top: 115px;
   right: 20px;
 }
 
@@ -343,14 +343,13 @@ body {
   color: #fff;
 }
 
-
+/*pingbuller-updates*/
 
 .pingbuller-updates {
   display: block;
   width: 320px;
-  text-align: center;
   margin: auto;
-  margin-top: 105px;
+  margin-top: 80px;
 }
 
 .pingbuller-updates:after {
@@ -378,7 +377,7 @@ body {
   font-size: 24px;
   line-height: 24px;
   color: #454545;
-  max-height: 48px;
+  height: 48px;
   text-align: left;
   padding-top: 95px;
   padding-left: 100px;
@@ -386,7 +385,6 @@ body {
 
 .starts-here__head--color {
   color: #edbfff;
-  letter-spacing: .5px;
 }
 
 .starts-here__text {
@@ -395,8 +393,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #454545;
-  max-width: 56.25%;
-  max-height: 168px;
+  width: 190px;
+  height: 168px;
   overflow: hidden;
   text-align: left;
   margin-top: 5px;
@@ -416,23 +414,12 @@ body {
 }
 
 
-.pingbuller__bullets .bullets__item--active:after {
-  content: '';
-  position: absolute;
-  left: 2px;
-  right: 2px;
-  top: 2px;
-  display: inline-block;
-  border: solid 1px #454545;
-  background-image: linear-gradient(to top, #454545, #6a6a6a);
-  width: 10px;
-  height: 10px;
-}
 
+ /*navigation-two*/
 .navigation-two {
   display: inline-block;
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 40%;
 }
 
 .navi .one-two {
@@ -478,22 +465,11 @@ body {
 .navi .four-two:hover {
   background: url(../img/action1.png)  no-repeat;
 }
-
-.recent-updates {
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 90px;
-}
-
-.recent-updates:after {
-  content: '.';
-  display: block;
-  visibility: hidden;
-  height: 0;
-  clear: both;
-}
+/*recent-updates*/
 
 .recent-updates__item {
   margin-top: 50px;
+  margin-left: 10%;
 }
 
 .recent-updates__head {
@@ -502,8 +478,6 @@ body {
   line-height: 24px;
   text-transform: uppercase;
   color: #454545;
-  text-align: left;
-  margin-left: 25px;
 }
 
 .recent-updates__article {
@@ -511,11 +485,11 @@ body {
 }
 
 .recent-updates__ico {
-  width: 49px;
-  height: 49px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   float: left;
-  margin-left: 25px;
+
 }
 
 .recent-updates__ico--nunc {
@@ -530,7 +504,7 @@ body {
   height: 50px;
   width: 50px;
   background: url("../img/cryg.png") -120px 0 no-repeat;
-  margin-left: 27px;
+
 }
 
 .recent-updates__ico--neque {
@@ -538,36 +512,35 @@ body {
   height: 50px;
   width: 50px;
   background: url("../img/cryg.png") -175px 0 no-repeat;
-  margin-left: 27px;
+
 }
 
 .recent-updates__title {
   font-family: "OpenSans-Extrabold", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 34px;
   color: #454545;
-  max-height: 24px;
-  max-width: 205px;
-  margin-left: 85px;
+  height: 24px;
+  width: 210px;
   overflow: hidden;
 }
 
 .recent-updates__text {
   font-family: "OpenSans-Light", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 34px;
   color: #454545;
-  max-height: 24px;
+  height: 24px;
+  width: 220px;
   overflow: hidden;
 }
 
 .recent-updates__link {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 34px;
   color: #454545;
-  float: right;
-  margin-right: 20px;
   margin-top: 25px;
+  margin-left: 40%;
 }
 
 .recent-updates__link:hover {
@@ -575,7 +548,7 @@ body {
   color: #5b5757;
 }
 
-/*===BRENDS-LOGO===*/
+/*BRENDS-LOGO*/
 .brands-logo {
   width: 320px;
   border-top: 1px solid #fefefe;
@@ -637,13 +610,19 @@ body {
   font-size: 48px;
   color: #454545;
 }
-
+/*pingbuller-news*/
 .pingbuller-news {
   display: none;
 }
 
 .pingbuller-news__copyright-one__one{
-  margin-left: 20px;
+margin: auto;
+padding-bottom: 50px;
+}
+
+.pingbuller-news__copyright-one__two{
+margin: auto;
+padding-bottom: 50px;
 }
 
 .copyright__logo-er{
@@ -654,7 +633,7 @@ body {
   font-family: Georgia;
   font-style: italic;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
   color: #c5c5c5;
 }
 
@@ -663,6 +642,8 @@ body {
   width: 285px;
   margin: auto;
 }
+
+
 
 .copyright__text {
   font-family: "OpenSans-Light";
@@ -684,19 +665,20 @@ body {
   margin-top: 15px;
 }
 
+
+/*footer__menu*/
+.footer__menu {
+  display: none;
+}
+
 .nav__menu {
   margin-left: 30px;
 }
 
-.footer__menu {
-  display: none;
-  margin-top: 45px;
-}
-
 .nav-menu__item {
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .nav-menu__link {
@@ -711,16 +693,14 @@ body {
   text-align: center;
 }
 
-.top {
-  display: none;
-  font-size: 24px;
-  padding-right: 10px;
-}
+
 
 
 .designed {
   display: inline-block;
   width: 175px;
+  margin-top: 120px;
+  padding-bottom: 20px;
   margin-left: 25%;
   font-family: "OpenSans-Light";
   text-align: center;
