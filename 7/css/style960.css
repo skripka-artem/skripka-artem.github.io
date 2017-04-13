@@ -4,7 +4,7 @@
   }
 
   .nav-menu__list {
-    margin-top: 65px;
+    margin-top: 5px;
   }
 
   .nav-menu__link:hover {
@@ -64,7 +64,7 @@
 .footer__menu {
   margin: 0;
   margin-left: 4%;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .designed {

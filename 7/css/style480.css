@@ -4,6 +4,16 @@
   background-repeat: no-repeat;
 }
 
+.header {
+  width: 560px;
+  margin: 0 auto;
+}
+
+.main {
+  width: inherit;
+  margin: 0 auto;
+}
+
 .top-menu__home {
   visibility: hidden;
 }
@@ -54,21 +64,32 @@ display: inline-block;
 
 .pingbuller-news {
   display: inline-block;
+  width: 100%;
+  margin: auto;
   margin-top: 100px;
-  margin-left: 3%;
 }
 
 .pingbuller-news__copyright-one {
   display: none;
 }
+
+.pingbuller-news__copyright-one__one {
+  width: 400px;
+}
+
+.pingbuller-news__copyright-one__two {
+  width: 400px;
+}
 .footer__menu {
   display: inline-block;
-  margin-top: 180px;
+  width: inherit;
+  margin: auto;
+  margin-top: 100px;
 }
 .designed {
-  margin: 0;
+  width: inherit;
+  margin: auto;
   margin-top: 30px;
-  margin-left: 35%;
 }
 
 }

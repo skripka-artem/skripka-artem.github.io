@@ -6,9 +6,17 @@
 body {
   background-image: url(../img/1.png);
   background-repeat: no-repeat;
-
 }
 
+.header {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 320px;
+  margin: 0 auto;
+}
 .logo {
   display: block;
   text-align: center;
