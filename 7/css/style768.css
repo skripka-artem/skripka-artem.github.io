@@ -22,11 +22,11 @@
   }
 
   .nav-menu__item--horizontal {
-    margin-right: 15px;
+    margin-right: 30px;
   }
 
   .nav-menu__link--horizontal {
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 2px;
   }
   .nav-menu__link--horizontal:hover {
@@ -171,15 +171,15 @@
   }
 
   .pingbuller-news__copyright {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .pingbuller-news__comments {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 
   .pingbuller-news__news-categories {
-    margin-top: 80px;
+    margin-top: 30px;
   }
 
   .pingbuller-news {
@@ -205,9 +205,16 @@
   }
 
   .footer .nav-menu__link--horizontal {
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 10px;
   }
+
+  .footer .nav-menu__list--horizontal {
+    min-width: 440px;
+    display: block;
+    text-align: left;
+}
+
 
   .designed-by {
     text-align: right;

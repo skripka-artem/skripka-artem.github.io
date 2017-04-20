@@ -22,8 +22,8 @@
 
   .header__menu {
     display: inline-block;
-    margin-top: 90px;
-    margin-left: 100px;
+    margin-top: 70px;
+    margin-left: 110px;
   }
 
   .nav-menu__list--horizontal {
@@ -31,11 +31,11 @@
   }
 
   .nav-menu__item--horizontal {
-    margin-right: 15px;
+    margin-right: 35px;
   }
 
   .nav-menu__link--horizontal {
-    font-size: 18px;
+    font-size: 22px;
     padding-bottom: 2px;
   }
   .nav-menu__link--horizontal:hover {
@@ -105,7 +105,7 @@
     display: block;
     margin-top: -380px;
     float: left;
-    margin-left: 64%;
+    margin-left: 70%;
   }
 
   .slide__ico--play {
