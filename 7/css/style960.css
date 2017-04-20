@@ -1,6 +1,10 @@
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 960px) {
   .substrate--header {
-    padding-bottom: 158px;
+    padding-bottom: 215px;
+  }
+
+  .substrate--about {
+        margin-top: -103px;
   }
 
   .substrate--news {
@@ -8,13 +12,18 @@
     padding-bottom: 85px;
   }
 
+  .substrate--footer {
+    padding-bottom: 35px;
+  }
+
   .header__logo {
     float: left;
-    margin-left: 20px;
   }
 
   .header__menu {
-    margin: 130px 0 0 20px;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 100px;
   }
 
   .nav-menu__list--horizontal {
@@ -26,7 +35,7 @@
   }
 
   .nav-menu__link--horizontal {
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 2px;
   }
   .nav-menu__link--horizontal:hover {
@@ -45,7 +54,6 @@
     background-color: rgba(0, 0, 0, 0.2);
     min-height: 400px;
     max-height: 400px;
-    margin-top: 84px;
   }
 
   .slider__control--next {
@@ -57,48 +65,53 @@
   }
 
   .slider__bullets {
+    margin-top: 100px;
     position: absolute;
-    top: 100%;
-    right: 17%;
-    margin-top: 162px;
+    right: 20%;
   }
 
   .slide__heading {
-    font-size: 48px;
+    font-size: 60px;
     line-height: 48px;
     text-align: left;
-    margin-left: 5.20833%;
+    padding-left: 5%;
+    margin-left: 40px;
     padding-top: 82px;
   }
 
   .slide__aditional {
+    font-size: 32px;
+    line-height: 34px;
+    max-height: 34px;
     text-align: left;
+    padding-left: 5%;
     margin-left: 40px;
-    min-width: 400px;
+    min-width: 300px;
   }
 
   .slide__description {
     display: block;
-    max-width: 310px;
+    max-width: 500px;
     margin-top: 12px;
     margin-left: 40px;
     text-align: left;
+    padding-left: 5%;
     line-height: 27px;
-    max-height: 108px;
+    max-height: 162px;
     overflow: hidden;
   }
 
   .slide__image {
     display: block;
-    margin-top: -300px;
-    float: right;
-  margin-right: 4%;
+    margin-top: -380px;
+    float: left;
+    margin-left: 64%;
   }
 
   .slide__ico--play {
     display: inline-block;
     top: 130px;
-    right: 15.36458%;
+    right: 14.32292%;
   }
 
   .bullets__item {
@@ -111,26 +124,31 @@
   }
 
   .about__section {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 0;
   }
 
   .about__article {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .about-company__title {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .about-company__text {
-    max-height: 144px;
-    max-width: 90%;
+    margin-top: 10px;
+    max-height: 90px;
+    max-width: 95%;
+  }
+
+  .read-more {
+    padding-right: 10px;
   }
 
   .pingbuller-updates__slider {
-    max-width: 335px;
+    max-width: 425px;
   }
 
   .pingbuller-updates {
@@ -138,47 +156,60 @@
     border-bottom: 1px solid #e6e6e6;
   }
 
+  .slide-content {
+    margin-left: 25px;
+  }
+
   .slide-content__body {
     min-width: 43.61979%;
     padding: 25px 25px 30px 30px;
   }
+  .slide-content__body:after {
+    content: '';
+    display: inline;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    right: 40px;
+    background: url("../img/triangle.png") center center;
+  }
+
+  .slide-content__head {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .slide-content__head--color {
+    display: inline;
+  }
 
   .slide-content__text {
-    max-height: 144px;
+    max-height: 168px;
   }
 
   .pingbuller__bullets {
-    margin-top: 23px;
+    margin-top: 22px;
   }
 
   .recent-updates {
-    margin-top: 35px;
-    padding-bottom: 50px;
+    margin-top: 44px;
+    padding-bottom: 60px;
     border-bottom: none;
-  }
-
-  .recent-updates__item {
-    margin-left: 5.20833%;
   }
 
   .recent-updates__article {
     margin-top: 15px;
+    min-width: 500px;
   }
 
   .recent-updates__title {
     max-width: 71.875%;
   }
 
-  .pingbuller-news__copyright {
-    margin-top: 100px;
-  }
-
-  .pingbuller-news__comments {
-    margin-top: 80px;
-  }
-
-  .pingbuller-news__news-categories {
-    margin-top: 80px;
+  .recent-updates__link {
+    margin-right: 3.125%;
   }
 
   .pingbuller-news {
@@ -201,25 +232,19 @@
 
   .footer__menu {
     display: block;
+    float: left;
   }
 
   .footer .nav-menu__link--horizontal {
-    font-size: 15px;
-    margin-right: 10px;
-  }
-
-  .designed-by {
-    text-align: right;
+    font-size: 20px;
     margin-right: 20px;
   }
 
-
-
-
-
-
-
-
+  .designed-by {
+    float: right;
+    text-align: right;
+    margin: 43px 20px 0 0;
+  }
 
 
 }

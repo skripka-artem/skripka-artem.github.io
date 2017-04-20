@@ -209,7 +209,7 @@ html, body {
 }
 
 .slider__inner {
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -284,7 +284,7 @@ html, body {
 
 .slide__description {
   display: none;
-  font-family: "OpenSans-Light", sans-serif;
+  font-family: 'OpenSans-Extrabold', sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #fff;
@@ -411,10 +411,9 @@ background: url(../img/action.png)  no-repeat;
 .about-company__text {
   font-family: "OpenSans-Light", sans-serif;
   font-size: 16px;
-  line-height: 24px;
   color: #fff;
   text-shadow: 1px 1px #0f1518;
-  max-height: 72px;
+  max-height: 70px;
   overflow: hidden;
 }
 
