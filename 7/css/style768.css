@@ -28,6 +28,8 @@
   .nav-menu__link--horizontal {
     font-size: 25px;
     padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .nav-menu__link--horizontal:hover {
     border-bottom: 2px solid #edbfff;
@@ -136,7 +138,6 @@
 
   .pingbuller-updates {
     display: flex;
-    border-bottom: 1px solid #e6e6e6;
   }
 
   .slide-content__body {
@@ -155,7 +156,7 @@
   .recent-updates {
     margin-top: 35px;
     padding-bottom: 50px;
-    border-bottom: none;
+
   }
 
   .recent-updates__item {

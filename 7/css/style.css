@@ -273,7 +273,7 @@ html, body {
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
-  max-height: 24px;
+  max-height: 30px;
   max-width: 210px;
   overflow: hidden;
   color: #edbfff;
@@ -606,6 +606,7 @@ background: url(../img/action1.png)  no-repeat;
   max-width: 62.5%;
   padding-left: 5.625%;
   overflow: hidden;
+  text-shadow: 1px 1px 2px #9d9d9d;
 }
 
 .recent-updates__text {
