@@ -545,10 +545,7 @@ background: url(../img/action1.png)  no-repeat;
   background: url(../img/action1.png)  no-repeat;
 }
 
-.recent-updates {
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 90px;
-}
+
 
 .recent-updates:after {
   content: '.';
@@ -640,13 +637,12 @@ background: url(../img/action1.png)  no-repeat;
 
 /*BRENDS-LOGO*/
 .brands-logo {
-  border-top: 1px solid #fefefe;
+  border-top: 1px solid #e6e6e6;;
   padding-top: 70px;
   min-width: 320px;
-  max-width: 960px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
