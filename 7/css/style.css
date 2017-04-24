@@ -644,7 +644,7 @@ background: url(../img/action1.png)  no-repeat;
 /*BRENDS-LOGO*/
 .brands-logo {
   border-top: 1px solid #e6e6e6;;
-  padding-top: 70px;
+  padding-top: 20px;
   min-width: 320px;
   width: 100%;
   display: flex;
