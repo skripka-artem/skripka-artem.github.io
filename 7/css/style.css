@@ -476,12 +476,18 @@ background: url(../img/action.png)  no-repeat;
   line-height: 24px;
   color: #454545;
   font-weight: 300;
+
+}
+
+.slide-content__head--shadow {
+text-shadow: 1px 0px 0px #b8b8b8;
 }
 
 .slide-content__head--color {
   color: #edbfff;
   letter-spacing: .5px;
   display: block;
+
 }
 
 .slide-content__text {
@@ -603,7 +609,7 @@ background: url(../img/action1.png)  no-repeat;
   max-width: 62.5%;
   padding-left: 5.625%;
   overflow: hidden;
-  text-shadow: 1px 1px 2px #9d9d9d;
+  text-shadow: 0px 0px 1px #9d9d9d;
 }
 
 .recent-updates__text {
