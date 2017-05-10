@@ -2,6 +2,14 @@
  'use string';
 alert('HW1')
 console.log( 'HW1' );
+
+ for (i=0; i=isNaN(a); i++) {
+     var a = prompt("Введите число a?", '');
+ }
+for (i=0; i=isNaN(n); i++) {
+    var n = prompt("Введите число n?", '');
+}
+
  function pow(a, n) {
       var result = a;
 
@@ -12,8 +20,8 @@ console.log( 'HW1' );
     return result;
  }
 
- var a = prompt("Введите число a?", '');
- var n = prompt("Введите степень n?", '');
+
+
  console.log( pow(a, n) );
 alert('Решение смотреть в консоле')
 
