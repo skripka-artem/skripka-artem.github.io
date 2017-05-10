@@ -2,26 +2,28 @@
  'use string';
 alert('HW1')
 console.log( 'HW1' );
+var a = prompt(" Введите a?", '');
+var n = prompt("Введите n?", '');
+
+function pow(a, n) {
+
+    var result = a;
 
 
+    if(isNaN(a) || isNaN(n)) {
+        return('Помилка введення одне в одному або двох полях було введено не число')
+    }
+        for (var i = 0; i < n; i++) {
+            result = result * a;
+        }
 
- function pow(a, n) {
-      var result = a;
-
-
-     if(isNaN(a) || isNaN(n)) {
-       result = result*a;
-   }
 
     return result;
- }
-var a = prompt("Введите число a?", '');
 
-var n = prompt("Введите число n?", '');
+}
+    console.log( pow(a, n) );
 
 
- console.log( pow(a, n) );
- alert('Решение смотреть в консоле')
 
  //Home2
 alert('HW2')
