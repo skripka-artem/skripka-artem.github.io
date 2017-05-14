@@ -5,7 +5,7 @@
             title: 'Тест по какой-то теме',
             questions: [
                 {
-                    title1: 'Вопрос #1',
+                    title: 'Вопрос #1',
                     answers: ['Вариант овтета 1', 'Вариант овтета 2', 'Вариант овтета 3']
                 },
                 {
@@ -26,10 +26,24 @@
             var formTitle = document.createElement('h1');
             formTitle.classList.add('form-title');
             formTitle.innerHTML = this.data.title;
-
             form.appendChild(formTitle);
 
+            var questions = document.createElement('p');
+            questions.classList.add('question');
+            questions.innerHTML = quest;
+            for (var quest in test.data.questions) {
+                console.log(test.data.questions[quest].title);
+                for (var i=0,  max=test.data.questions[quest]; i<max;i++ ){
+                    console.log(test.data.questions[quest][i].title)
+
+                }
+            }
+
+
+            form.appendChild(questions);
             return form;
+
+
 
         },
         init: function () {
@@ -38,27 +52,12 @@
 
             body.appendChild(this.createForm());
 
-        },
-        createQuestions: function  () {
-
-            var question = document.createElement('p');
-            question.classList.add('question');
-            question.innerHTML = this.data.questions.title ;
-
-            this.createForm().appendChild(question);
-
-            return question;
-        },
-        init1: function () {
-
-            var form = document.body;
-
-            form.appendChild(this.createQuestions());
         }
+
 
     };
 
     test.init();
-    test.init1();
+
 
 })();
