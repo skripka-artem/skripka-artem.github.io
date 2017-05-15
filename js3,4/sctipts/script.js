@@ -28,19 +28,17 @@
             formTitle.innerHTML = this.data.title;
             form.appendChild(formTitle);
 
-            var questions = document.createElement('p');
-            questions.classList.add('question');
-            questions.innerHTML = quest;
-            for (var quest in test.data.questions) {
-                console.log(test.data.questions[quest].title);
-                for (var i=0,  max=test.data.questions[quest]; i<max;i++ ){
-                    console.log(test.data.questions[quest][i].title)
+          for (var i=0; i<this.data.questions[i].answers.length; i++) {
+            var li = document.createElement('li');
+            li.innerHTML = this.data.questions[i].title;
+            form.appendChild(li);
 
-                }
+            for (var k = 0; k<this.data.questions[i].answers[0].length; k++) {
+              var answer  = document.createElement('li');
+              answer.innerHTML = this.data.questions[i].answers[k];
+              li.appendChild(answer);
             }
-
-
-            form.appendChild(questions);
+          }
             return form;
 
 
