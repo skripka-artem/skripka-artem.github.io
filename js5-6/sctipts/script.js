@@ -87,6 +87,8 @@ toggleBtn.addEventListener('click', function() {
 });
 
 resetBtn.addEventListener('click', function() {
+  watch.stop();
     watch.reset();
+    
 });
   })();
