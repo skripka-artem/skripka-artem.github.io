@@ -46,7 +46,7 @@
 
     this.start = function() {
       if (!this.isOn) {
-        interval = setInterval(update.bind(this), 10);
+        interval = setInterval(update.bind(this), 20);
         offset = Date.now();
         this.isOn = true;
       }
@@ -87,8 +87,6 @@ toggleBtn.addEventListener('click', function() {
 });
 
 resetBtn.addEventListener('click', function() {
-  if (!watch.isOn) {
     watch.reset();
-  }
 });
   })();
