@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs {
+background: green;
+padding: 10px;
+}
+
+div.container {
+margin: auto;
+width: 90%;
+margin-bottom: 10px;
+}
+
+ul.tabNavigation {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+ul.tabNavigation li {
+display: inline;
+padding-left: 5px;
+}
+
+ul.tabNavigation li a {
+padding: 3px 9px;
+background-color: yellow;
+color: #000;
+text-decoration: none;
+}
+
+ul.tabNavigation li a:hover {
+background: #ccc;
+color: #000;
+}
+
+.box1 {
+  display: none;
+  line-height: 1px;
+  width: 150px;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+}
+
+
+
+
+input {
+  display: block;
+  line-height: 20px;
+}
+
+
+.tabs div {
+padding: 5px;
+margin-top: 3px;
+border: 1px solid #FFF;
+background: #FFF;
+}
+
+.hide {
+  display: none;
+}
+
+form .forma {
+  display: flex;
+  width: 500px;
+  background: green;
+}
+
+label {
+  padding-right: 20px;
+}
