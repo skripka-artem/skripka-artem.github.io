@@ -9,16 +9,20 @@ $(function () {
 
 $(function () {
     var $input = $('input');
-
+var $button = $('button');
+var $box1 = $('.box1');
    $input.hover(function() {
      var box = '#'+$(this).attr('id')+'_box1';
-         $(box).show(500);
+         $(box).show('slow');
    }, function() {
      var box = '#'+$(this).attr('id')+'_box1';
-         $(box).hide();
+         $(box).hide('slow');
    });
    $input.on('click', function(){
      var box = '#'+$(this).attr('id')+'_box1';
-         $(box).hide();
+         $(box).hide('slow');
    });
+   $button.on('click', function(){
+$($box1).show();
+   })
 });

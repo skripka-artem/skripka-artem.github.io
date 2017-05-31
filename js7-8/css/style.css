@@ -37,23 +37,7 @@ background: #ccc;
 color: #000;
 }
 
-.box1 {
-  display: none;
-  line-height: 1px;
-  width: 150px;
-  height: 10px;
-  border-radius: 5px;
-  margin-top: 8px;
-}
-}
 
-
-
-
-input {
-  display: block;
-  line-height: 20px;
-}
 
 
 .tabs div {
@@ -73,6 +57,26 @@ form .forma {
   background: green;
 }
 
+.box1 {
+  display: none;
+  line-height: 1px;
+  height: 3px;
+  border-radius: 7px;
+  margin-left: 5px;
+}
+
+input {
+  display: block;
+  line-height: 20px;
+}
+
 label {
-  padding-right: 20px;
+  width: 100px;
+}
+
+button {
+  margin-left: 180px;
+  margin-top: 20px;
+  border-radius: 15px;
+  font-size: 20px;
 }
