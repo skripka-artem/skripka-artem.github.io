@@ -18,36 +18,26 @@ $('.jcarousel-pagination').jcarouselPagination({
 
 });
 
-$('select').styler();
+// select
+$(function(){
 
-$('select').change(function() {
-	var value = $(this).val();
-	$(this).find('option').each(function() {
-		if ( $(this).val() == value ) $(this).prop('disabled', true);
-	});
-	$('select').trigger('refresh');
+  $('select').selecter();
 });
 
-(function($) {
-$(function() {
+// checkbow
+$(function(){
+  $(" input[type='checkbox']").ionCheckRadio();
+  $(".js-demo-2").find("input").ionCheckRadio();
+});
 
-$(':checkbox').styler();
-
-var checked = false;
-$('#selall').click(function() {
-    if (checked) {
-        $(':checkbox').each(function() {
-            $(this).prop('checked', false).trigger('refresh');
-        });
-        checked = false;
-    } else {
-        $(':checkbox').each(function() {
-            $(this).prop('checked', true).trigger('refresh');
-        });
-        checked = true;
+//menu
+$(function(){
+  $('.menu ul li').hover(
+    function() {
+      $('ul:first', this).slideDown(150);
+    },
+    function() {
+      $('ul:first', this).slideUp(150);
     }
-    return false;
+  );
 });
-
-});
-})(jQuery)  ;

@@ -11,6 +11,7 @@ Position must be relative!
     overflow: hidden;
       width: 800px;
       margin: auto;
+
 }
 
 /*
@@ -37,7 +38,46 @@ have a fixed width and height (but it's not required).
     float: left;
 }
 
+.jcarousel-prev,
+.jcarousel-next {
+    position: absolute;
+    top: 110px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
 
+.jcarousel-prev {
+  top: 1110px;
+  left: 21%;
+}
+
+.jcarousel-next {
+  top: 1110px;
+  right: 21%;;
+}
+
+.jcarousel-prev:hover span,
+.jcarousel-next:hover span {
+    display: block;
+}
+
+.jcarousel-prev.inactive,
+.jcarousel-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
 
 .css input[type=checkbox] {
     position: absolute;
@@ -76,4 +116,8 @@ have a fixed width and height (but it's not required).
 
 background-position: -107px -26px;
 
+}
+
+.select {
+  margin-top: 500px;
 }

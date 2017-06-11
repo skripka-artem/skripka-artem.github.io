@@ -4,49 +4,89 @@
     <meta charset="utf-8">
     <title>js9-10</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.fs.selecter.css">
+    <link rel="stylesheet" href="css/ion.checkRadio.css">
+    <link rel="stylesheet" href="css/ion.checkRadio.html5.css">
+    <link rel="stylesheet" href="css/style-menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/jquery.fs.selecter.min.js"></script>
+    <script src="js/ion.checkRadio.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
-  <div>
-    <div class="jcarousel">
-    <ul>
-        <li> <img src="img/1.jpg" alt=""></li>
-        <li> <img src="img/2.jpg" alt=""></li>
-        <li> <img src="img/3.jpg" alt=""></li>
-    </ul>
-</div>
+    <div class="menu">
+    				<ul>
+    					<li><a href="#">Главная</a></li>
+    					<li><a href="#">Курсы > </a>
+              <ul>
+                <li><a href="#">IOS > </a>
+                  <ul>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">Offline</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Front-End ></a>
+                  <ul>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">Offline</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Back-End > </a>
+                  <ul>
+                    <li><a href="#">Online</a></li>
+                    <li><a href="#">Offline</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+    					<li><a href="#">Новости > </a>
+                <ul>
+                  <li><a href="#">В сфере IOS</a></li>
+                  <li><a href="#"> В сфере Front-End</a></li>
+                  <li><a href="#"> В сфере Back-End</a></li>
+                </ul>
+              </li>
+    					<li><a href="#">Контакты</a></li>
+    				</ul>
+    			</div>
 
-<div class="jcarousel-pagination">
-        <!-- Pagination items will be generated in here -->
-    </div>
-
-<a class="jcarousel-prev" href="#">Prev</a>
- <a class="jcarousel-next" href="#">Next</a>
-</div>
-<select>
-	<option>Пес</option>
-	<option>Кіт</option>
-	<option>Корова</option>
-	<option>Коза</option>
-</select>
+<p class="select">Какой слайд понравился?</p>
+					<select >
+						<option value="1">Первый</option>
+						<option value="2">Второй</option>
+						<option value="3">Третий</option>
+					</select>
 <div class="css">
-  Css
-
+  Стилизая чекбоксов с помощю css
+<p>Кто нравиться:</p>
 <input type="checkbox" id="test-check1" >
-<label for="test-check1">Чекбокс 1:</label>
+<label for="test-check1">Собаки</label>
+<input type="checkbox" id="test-check2" >
+<label for="test-check2">Коти:</label>
 </div>
 
-<div class="">
-JS
-
-<input type="checkbox"  >
-<label for="test-check1">Чекбокс 2:</label>
+<div >
+Стилизая чекбоксов с помощю JS
+<p>Что любите делать</p>
+<label><input type="checkbox" name="think" value="0" > работать</label>
+<label><input type="checkbox" name="think" value="1" >  отдыхать</label>
+<label><input type="checkbox" name="think" value="2" > учиться</label>
+</div>
+<div class="jcarousel">
+<ul>
+    <li> <img src="img/1.jpg" alt=""></li>
+    <li> <img src="img/2.jpg" alt=""></li>
+    <li> <img src="img/3.jpg" alt=""></li>
+</ul>
+</div>
+<div class="jcarousel-pagination">
+    <!-- Pagination items will be generated in here -->
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
-<script src="js/jquery.jcarousel.js"></script>
-<script src="js/jquery.formstyler.min.js"></script>
-<script src="js/script.js"></script>
-  </body>
+<a class="jcarousel-prev" href="#"> ‹ </a>
+<a class="jcarousel-next" href="#"> › </a>
+
+</body>
 </html>
