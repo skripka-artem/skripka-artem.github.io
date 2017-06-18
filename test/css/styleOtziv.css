@@ -1,0 +1,86 @@
+body {
+  margin:0;
+  padding:0;
+  font:normal 20px Arial, Helvetica, sans-serif
+}
+.inp {
+  width:100%;
+  font:normal 15px Arial, Helvetica, sans-serif;
+}
+.main{
+  min-width:200px;
+  width:80%; margin:0 auto;
+}
+textarea {
+  width:90%;
+  height:120px;
+  font:normal 15px Arial, Helvetica, sans-serif;
+}
+h1{
+  font:Arial, Helvetica, sans-serif;
+  font-size:22px;
+}
+div {
+  margin-bottom:20px;
+}
+.btn-otziv {
+  padding: 5px 35px;
+  border-radius: 23px;
+  font-size:20px; color:#333;
+  box-shadow: 0px -2px 1px rgba(249, 161, 122, 0.35) inset;
+  background: transparent linear-gradient(to bottom, #c9fc7a, #8ed81c) repeat scroll 0% 0%;
+}
+.lv-order-form div.lv-row {
+  display: block;
+  margin-bottom: 8px;
+}
+.lv-order-form input[type=text],
+.lv-order-form select,
+.lv-order-form textarea {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  border: thin solid #bfbfbf;
+  border-radius: 4px;
+  color: inherit;
+}
+.lv-order-form textarea {
+  height: 80px;
+}
+.lv-order-form input[type=checkbox] {
+  display: inline-block;
+  margin: 0 8px 0 0;
+}
+.lv-order-form .lv-row-error {
+  color: red;
+}
+.lv-order-form .lv-label span.required {
+  color: red;
+}
+.lv-order-form .lv-label label {
+  display: inline;
+}
+.lv-order-form .lv-sub-label label {
+  display: inline;
+  color: gray;
+}
+.lv-order-form .lv-order-button {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+.lv-order-form-css {
+  padding: 15px;
+  border: thin solid gray;
+}
+.lv-order-form-css input[type=text],
+.lv-order-form-css select,
+.lv-order-form-css textarea {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.lv2-form.lv2-form-validation-by-alert .lv2-form-error {
+  display: none!important;
+}

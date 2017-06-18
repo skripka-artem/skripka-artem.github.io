@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bluetooth-автосканер - добавить отзыв</title>
+    <link rel="stylesheet" href="css/styleOtziv.css">
+    <script type="text/javascript" src="js/scriptform.js"></script>
+    <script type="text/javascript" src="js/scriptFormHelper.js"></script>
+  </head>
+  <body>
+
+<div class="main">
+
+<h1>Отзыв</h1>
+<form id="lv-formLanding1" class=" lv2-form lv2-form1 lv2-form-validation-by-alert" action="/otziv.html" method="post">
+<div style="display:none"><input type="hidden" value="264b24f2cbbac773c76056fcecd21ee9f0a0db4d" name="YII_CSRF_TOKEN" /></div>
+<div>Ваше имя: <br />
+
+        <input id="lv-formLanding1-fio" class="" name="FormLanding[fio]" type="text" maxlength="255" />
+        <div class="error lv2-form-error" style="color: red;display:none" id="lv-formLanding1-fio_em_"></div>
+
+</div>
+<div>Фото: <br /><input type="file" name="new_filename"></div>
+<div>Город: <br />
+
+        <textarea id="lv-formLanding1-city" class="" name="FormLanding[city]"></textarea>
+        <div class="error lv2-form-error" style="color: red;display:none" id="lv-formLanding1-city_em_"></div>
+
+<div>Ваш отзыв: <br />
+
+
+        <textarea id="lv-formLanding1-comment" class="" name="FormLanding[comment]"></textarea>
+        <div class="error lv2-form-error" style="color: red;display:none" id="lv-formLanding1-comment_em_"></div>
+
+<br />
+<br />
+
+<div style="text-align:center; width:150px;">
+<input type="submit1" class="btn-otziv" value="Добавить">
+</div>
+</div>
+<input class="lv-input-goods" id="lv-formLanding1-goods" type="hidden" value="" name="FormLanding[goods]" /><input type="hidden" value="/success.html" name="FormLanding[redirect]" id="FormLanding_redirect" /><input class="lv-form-timezone" type="hidden" value="" name="FormLanding[timezone]" id="FormLanding_timezone" /><input type="hidden" value="1" name="formID" id="formID" /></form>
+</div>
+
+  </body>
+</html>
