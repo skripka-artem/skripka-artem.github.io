@@ -57,20 +57,16 @@ if(lvjq1.trim(value)=='') {
 });
 
 lvjq1(document).ready(function () {lvjq1(".lv-form-timezone").val(new Date().getTimezoneOffset());});
-/*]]>*/
 
 
 
-  <script>
+
+
   if ('US'=='UA')
     window.location.href = 'http://c.trklp.ru/bAGX';
-</script>
 
-  <script>
   if ('US'=='BY')
     window.location.href = 'http://c.trklp.ru/bAGX';
-</script>
 
-  <script>
   if ('US'=='KZ')
     window.location.href = 'http://kzshoping.kz/powerbank-m/Hvr5j/';
