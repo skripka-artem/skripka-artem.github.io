@@ -39,12 +39,3 @@
 })();
 
 
-var API_KEY = '5748773-95b30dc3ce1789fbe99be3f8e';
-var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent('car');
-
-$.getJSON(URL, function(data){
-    if (parseInt(data.totalHits) > 0)
-        $.each(data.hits, function(i, hit){ console.log(hit.previewURL); });
-    else
-        console.log('No hits');
-});
