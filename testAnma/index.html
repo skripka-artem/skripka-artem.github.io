@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>questionnaire</title>
+    <script src="js/sctipt.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>Questionnaire</h2>
+    <!--Контейнер-->
+    <form>
+  <div class="form-group">
+    <label>First name</label>
+    <input type="text" class="form-control width"  placeholder="Enter first name">
+  </div>
+  <div class="form-group">
+    <label>Last name</label>
+    <input type="text" class="form-control width"   placeholder="Enter last name">
+  </div>
+  <!--Тип дата-->
+  <div class="form-group">
+    <label>Birthdate</label>
+    <input type="date" class="form-control width">
+    <small  class="form-text text-muted">Enter your date of birth.</small>
+  </div>
+  <div class="form-group">
+    <!--Textarea-->
+    <label for="exampleTextarea">About myself</label>
+    <textarea class="form-control width" id="exampleTextarea" rows="3"></textarea>
+    <small  class="form-text text-muted">Tell us about yourself</small>
+  </div>
+  <div class="form-check">
+    <label>Marital status</label>
+    <div class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Married
+    </div>
+    <div class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Free
+    </div>
+    <div class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Divorced
+    </div>
+    <div class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Have children
+    </div>
+    <small  class="form-text text-muted">Select your marital status.</small>
+  </div>
+  <fieldset class="form-group">
+    <label>Language</label>
+    <div class="form-check">
+      <label class="form-check-label fonts">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" >
+        English
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label fonts">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        French
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label fonts">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" >
+        German
+      </label>
+    </div>
+    <small  class="form-text text-muted">Choose the language you speak.</small>
+  </fieldset>
+  <!--Селектор с возможностю вибора нескольких вариантов-->
+  <div class="form-group">
+    <label for="exampleSelect">Quantity</label>
+    <select multiple class="form-control width " id="exampleSelect">
+      <option>1</option>
+      <option>2</option>
+      <option>2+1</option>
+      <option>3+2</option>
+    </select>
+  </div>
+  <button type="button" name="button" class="btn btn-primary">Submit</button>
+</form>
+  </body>
+</html>

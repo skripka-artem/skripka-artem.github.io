@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #dc4225,#002f4b);
+}
+
+.width {       /* Ширина инпутов*/
+  width: 200px;
+}
+
+form {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.fonts {
+  font-weight: normal;
+}
