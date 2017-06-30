@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*карусель*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 820px;
+    top: 50px;
+
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.jcarousel-prev,
+.jcarousel-next {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #e6e6e6;
+}
+
+.jcarousel-prev {
+    margin-left: 250px;
+}
+
+.jcarousel-prev:hover span,
+.jcarousel-next:hover span {
+    display: block;
+}
+
+.jcarousel-prev.inactive,
+.jcarousel-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+/*меню*/
+nav {
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding-left: 5px;
+}
+
+.home {
+  text-decoration: none;
+  font-family: "Roboto-Bold";
+  font-size: 18px;
+  font-weight: bolder;
+  color: #545454;
+  padding-right: 30px;
+}
+
+.submenu {
+  text-decoration: none;
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  font-weight: normal;
+  color: #545454;
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
+  padding: 10px 20px 10px 20px;
+}
+
+.submenu:hover {
+  background-color: #ff5252;
+}
+
+
+/*блоки*/
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 265px;
+  border: 1px solid #d8d8d8;
+  border-radius: 3px;
+
+}
+
+img {
+  margin: auto;
+}
+
+.pele {
+  text-decoration: none;
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+  font-weight: bolder;
+  color: #3f598c;
+  margin: auto;
+}
+
+.info {
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  color: #808080;
+  margin-left: 35px;
+}
+
+.new {
+  font-family: "Roboto-Bold";
+  font-size: 18px;
+  font-weight: bolder;
+  color: #000000;
+  margin-left: 35px;
+  padding-top: 22px;
+}
+
+.old {
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  color: #808080;
+  margin-left: 35px;
+  text-decoration: line-through;
+  padding-bottom: 35px;
+}
+
+.informs {
+  font-family: "Roboto-Regular";
+  font-size: 13px;
+  color: #545454;
+  margin-left: 35px;
+}
+
+.informs:last-child {
+  padding-bottom: 10px;
+}
+
+.stock  {
+  position: absolute;
+  top: 25px;
+  margin-left: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: #ff5252;
+  border-radius: 3px;
+  font-family: "Roboto-Bold";
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.like {
+  position: absolute;
+  top: 15px;
+  left: 220px;
+}
+
+
+.like li {
+  float: none;
+  padding-top: 10px;
+}
+
+.star {
+  left: 35px;
+}
