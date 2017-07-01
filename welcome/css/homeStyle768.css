@@ -1,0 +1,21 @@
+@media screen and (min-device-width: 768px) {
+    .header a {
+        padding: 50px  55px 50px 55px;
+    }
+
+    .inventarium {
+        font-size: 43px;
+    }
+
+    .text {
+        width: 390px;
+        font-family: "SFUIDisplay-Light";
+        font-size: 17px;
+
+    }
+
+    .contacts img {
+        width: auto;
+    }
+
+}
