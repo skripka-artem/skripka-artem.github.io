@@ -187,22 +187,48 @@ body {
     .article-img__setTwo {
       width: 50px;
       height: 50px;
-      background: url(../img/setings.png) -50px 0 no-repeat;
+      background: url(../img/setings.png) -65px 0 no-repeat;
     }
     .article-img__setThree {
       width: 50px;
       height: 50px;
-      background: url(../img/setings.png) -122px 0 no-repeat;
+      background: url(../img/setings.png) -140px 0 no-repeat;
     }
   }
 
   .article-text {
-    margin-top: 13px;
+    margin-top: 10px;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .article-text__header {
+    margin-top: -15px;
+    font-family: 'ubuntu-medium';
+    font-weight: bold;
+    font-size: 20px;
+    color: #2a2b2e;
+  }
+  .article-text__main {
+    width: 250px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #8a8a8a;
+  }
+  .more {
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'ubuntu-medium';
+    font-size: 13px;
+    color: #2a2b2e;
+  }
+  .more:hover {
+    color: #248cec;
+  }
+
 }
 
 

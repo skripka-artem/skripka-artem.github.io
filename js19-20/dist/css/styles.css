@@ -93,11 +93,16 @@
     align-items: center; }
   .footerFooter section span {
     margin-right: 45px;
+    text-decoration: none;
     color: #5d6063;
     font-family: Arial,serif;
     font-size: 12px; }
-  .footerFooter section span i {
-    margin-left: 13px; }
+  .footerFooter section a {
+    margin-right: 45px;
+    text-decoration: none;
+    color: #5d6063;
+    font-family: Arial,serif;
+    font-size: 12px; }
 
 * {
   margin: 0;
@@ -290,13 +295,13 @@ body {
     .articles .article-img .article-img__setTwo {
       width: 50px;
       height: 50px;
-      background: url(../img/setings.png) -50px 0 no-repeat; }
+      background: url(../img/setings.png) -65px 0 no-repeat; }
     .articles .article-img .article-img__setThree {
       width: 50px;
       height: 50px;
-      background: url(../img/setings.png) -122px 0 no-repeat; }
+      background: url(../img/setings.png) -140px 0 no-repeat; }
   .articles .article-text {
-    margin-top: 13px;
+    margin-top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -310,6 +315,27 @@ body {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start; }
+  .articles .article-text__header {
+    margin-top: -15px;
+    font-family: 'ubuntu-medium';
+    font-weight: bold;
+    font-size: 20px;
+    color: #2a2b2e; }
+  .articles .article-text__main {
+    width: 250px;
+    margin-top: 20px;
+    line-height: 20px;
+    font-family: Arial;
+    font-size: 13px;
+    color: #8a8a8a; }
+  .articles .more {
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'ubuntu-medium';
+    font-size: 13px;
+    color: #2a2b2e; }
+  .articles .more:hover {
+    color: #248cec; }
 
 .jcarousel {
   position: relative;
@@ -393,10 +419,13 @@ that the width is big enough to contain all items.
     flex-flow: row wrap; }
   .main div figure figcaption {
     margin-top: 35px;
-    text-align: center;
-    font-family: 'ubuntu-medium';
-    color: #fff;
-    font-size: 16px; }
+    margin-left: 20px;
+    text-align: center; }
+    .main div figure figcaption a {
+      text-decoration: none;
+      font-family: 'ubuntu-medium';
+      color: #fff;
+      font-size: 16px; }
   .main div figure:hover figcaption {
     color: #f4b60d; }
   .main div figure div a img {
@@ -544,17 +573,19 @@ that the width is big enough to contain all items.
     width: 70%;
     margin-top: -150px;
     margin-left: 180px; }
-    .main-middle .artNew h3 a {
+    .main-middle .artNew a {
       font-family: 'ubuntu-medium';
       font-size: 16px;
       color: #2a2d32;
       text-decoration: none; }
-    .main-middle .artNew h6 {
+    .main-middle .artNew .comment {
       margin-top: 10px;
       font-family: Arial, sans-serif;
       font-weight: normal;
       font-size: 13px;
       color: #9d9d9d; }
+    .main-middle .artNew span {
+      color: #0187f4; }
     .main-middle .artNew p {
       margin-top: 30px;
       font-family: Arial, sans-serif;
