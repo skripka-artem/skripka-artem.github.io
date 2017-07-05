@@ -381,247 +381,250 @@ that the width is big enough to contain all items.
 
 .main {
   background-color: #2a2d32; }
-  .main .content {
-    margin: 0 auto;
-    height: 100%;
-    max-width: 1160px; }
-  .main .main-header {
-    height: 500px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column wrap;
-    flex-flow: column wrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .main .main-header p {
-    width: 100%;
-    margin-top: 45px;
-    text-align: left;
-    font-family: 'ubuntu-medium';
-    color: #fff;
-    font-size: 24px; }
-  .main div div {
-    margin-top: 25px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap; }
-  .main div figure figcaption {
-    margin-top: 35px;
-    margin-left: 20px;
-    text-align: center; }
-    .main div figure figcaption a {
-      text-decoration: none;
-      font-family: 'ubuntu-medium';
-      color: #fff;
-      font-size: 16px; }
-  .main div figure:hover figcaption {
-    color: #f4b60d; }
-  .main div figure div a img {
-    width: 258px;
-    height: 258px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    padding-left: 30px; }
-  .main div figure div p {
-    display: none; }
-  .main p {
-    width: 100%;
-    margin-top: 45px;
-    text-align: left;
-    font-family: 'ubuntu-medium';
-    color: #fff;
-    font-size: 24px; }
-  .main .main-header div figure div a:hover p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: absolute;
-    margin-top: -262px;
-    margin-left: 30px;
-    width: 258px;
-    height: 258px;
-    font-size: 60px;
-    color: #fff;
-    background-color: #2e8ce3;
-    opacity: .9; }
+
+.content {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1160px; }
+
+.main-header {
+  height: 500px;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.services {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row;
+  flex-flow: row; }
+
+div figure figcaption {
+  margin-top: 35px;
+  margin-left: 20px;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  font-family: 'ubuntu-medium';
+  color: #fff;
+  font-size: 16px; }
+
+div figure:hover figcaption {
+  color: #f4b60d; }
+
+div figure div a img {
+  width: 258px;
+  height: 258px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding-left: 30px; }
+
+div figure div p {
+  display: none; }
+
+.our {
+  font-family: 'ubuntu-medium';
+  font-size: 24px;
+  color: #FFffff;
+  margin-left: 30px; }
+
+.main-header div figure div a:hover p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -262px;
+  margin-left: 30px;
+  width: 258px;
+  height: 258px;
+  font-size: 60px;
+  color: #fff;
+  background-color: #2e8ce3;
+  opacity: .9; }
 
 .main-middle {
   width: 100%;
   height: 540px;
-  background-color: #f7f7f7;
-  padding-bottom: 50px; }
-  .main-middle .content {
-    margin: 0 auto;
-    height: 100%;
-    max-width: 1160px; }
-  .main-middle .wrapNews {
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .main-middle .articleNews {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 49%;
-    height: 99%; }
-  .main-middle .hide {
-    display: none; }
-  .main-middle .headerNews {
-    margin-top: 64px;
-    margin-bottom: 48px;
-    color: #2a2d32;
-    font-family: 'ubuntu-medium';
-    font-size: 24px; }
-  .main-middle .place {
-    margin-top: 60px; }
-  .main-middle .sectNews {
-    margin-bottom: 30px;
-    height: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .main-middle .photo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative; }
-    .main-middle .photo div {
-      position: absolute;
-      top: -50px;
-      left: -20px;
-      width: 50px; }
-  .main-middle .photo img {
-    width: 150px;
-    height: 150px;
-    -o-object-fit: cover;
-    object-fit: cover; }
-  .main-middle .photo div p {
-    width: 40px;
-    height: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .main-middle .photo div p:first-child {
-    background-color: #248cec;
-    color: #fff;
-    font-family: 'ubuntu-medium';
-    font-size: 15px;
-    color: #FFffff; }
-  .main-middle .photo div p:last-child {
-    background-color: #f4b60d;
-    color: #000;
-    margin-top: 0px; }
-  .main-middle .artNew {
-    width: 70%;
-    margin-top: -150px;
-    margin-left: 180px; }
-    .main-middle .artNew a {
-      font-family: 'ubuntu-medium';
-      font-size: 16px;
-      color: #2a2d32;
-      text-decoration: none; }
-    .main-middle .artNew .comment {
-      display: block;
-      margin-top: 10px;
-      font-family: Arial, sans-serif;
-      font-weight: normal;
-      font-size: 13px;
-      color: #9d9d9d; }
-    .main-middle .artNew span {
-      color: #0187f4; }
-    .main-middle .artNew p {
-      margin-top: 30px;
-      font-family: Arial, sans-serif;
-      font-weight: normal;
-      font-size: 13px;
-      line-height: 20px;
-      color: #8a8a8a; }
-  .main-middle .accordion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .main-middle .accordion-header {
-    margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    background-color: #FFffff;
-    text-decoration: none;
-    font-family: 'ubuntu-medium';
-    font-size: 13px;
-    color: #000000;
-    text-transform: uppercase; }
-  .main-middle .accordion-header:focus {
-    background-color: #f4b60d;
-    color: #ffffff; }
-  .main-middle .accordion-content {
-    width: 540px;
-    margin-left: 50px;
-    font-family: Arial;
-    font-size: 13px;
-    color: #8a8a8a; }
+  background-color: #f7f7f7; }
+
+.content {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1160px; }
+
+.wrapNews {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.articleNews {
+  width: 49%;
+  height: 99%; }
+
+.articleNews .headerNews {
+  margin-top: 64px;
+  margin-bottom: 48px;
+  color: #2a2d32;
+  font-family: 'ubuntu-medium';
+  font-size: 24px;
+  font-weight: bold; }
+
+.articleNews .sectNews {
+  margin-bottom: 30px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.photo {
+  position: relative; }
+
+.photo img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.photo div {
+  position: absolute;
+  top: 12px;
+  left: -20px; }
+
+.photo div p {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.photo div p:first-child {
+  background-color: #248cec;
+  color: #fff; }
+
+.photo div p:last-child {
+  background-color: #f4b60d;
+  color: #000; }
+
+.articleNews .sectNews .artNew {
+  width: 70%; }
+
+.artNew a {
+  font-family: 'ubuntu-medium';
+  font-size: 16px;
+  color: #2a2d32;
+  text-decoration: none; }
+
+.artNew a:hover {
+  color: #248cec; }
+
+.artNew .comment {
+  display: block;
+  margin-top: 10px;
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #9d9d9d; }
+
+.artNew .comment a {
+  margin-top: 10px;
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #0187f4; }
+
+.artNew p {
+  margin-top: 30px;
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8a8a8a; }
+
+.hide {
+  display: none; }
+
+.main-middle .accordion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.main-middle .accordion-header {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: #FFffff;
+  text-decoration: none;
+  font-family: 'ubuntu-medium';
+  font-size: 13px;
+  color: #000000;
+  text-transform: uppercase; }
+
+.main-middle .accordion-content {
+  width: 540px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: 13px;
+  color: #8a8a8a; }
+
+.main-middle .accordion-header:focus {
+  background-color: #f4b60d;
+  color: #ffffff; }
 
 .main-footer {
   height: 240px;
