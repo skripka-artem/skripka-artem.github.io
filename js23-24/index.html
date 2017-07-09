@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23-24</title>
+
+        <link rel="stylesheet" type="text/css" href="css/src/style.css">
+		<script data-main="js/src/main" src="js/src/require.js"></script>
+
+</head>
+<body>
+<h1>МИНИЗАДАЧНИК</h1>
+<script type="text/template" id="wrapper-template">
+    <div class="wrapper">
+    <ol class="item-list">
+
+    </ol>
+	    <div class="controlls">
+		    <input type="text" class="item-value" placeholder="Введите новую задачу">
+		    <button class="item-add">Додать</button>
+	    </div>
+    </div>
+	</script>
+	<script type="text/template" id="list-template">
+		<% for (var i=0;i < data.length ;i++) { %>
+		<li class="elemList"><%= data[i] %> <span class="item-delete" data-value= "<%= data[i] %>">Удалить</span></li>
+		<% }; %>
+	</script>
+
+
+</body>
+</html>
+

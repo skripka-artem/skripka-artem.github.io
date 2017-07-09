@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #dc4225,#002f4b);}
+
+.item-list li {
+  text-align: left;
+  font-size: 24px;
+  color: #0e0d0d;
+  width: 250px;
+  height: 40px;
+  position: relative; }
+
+
+.controlls {
+  text-align: center; }
+
+h1 {
+  font-size: 33px;
+  color: #0c3256; }
+.item-add {
+display: inline-block;
+height:40px;
+width:70px;
+background-color:#E74C3C;
+font-weight:bold;
+color:#E3D8C9;
+border-radius: 5px;
+text-align:center;
+
+}
+.item-delete {
+display:inline-block;
+float:right;
+line-height:24px;
+text-align:center;
+cursor:pointer;
+  color: #aa0000;
+}
+
+.item-value {
+  height: 30px;
+}
