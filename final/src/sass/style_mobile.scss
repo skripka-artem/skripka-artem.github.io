@@ -1,0 +1,242 @@
+@media (min-width: 320px) and (max-width: 479px) {
+  .container {
+    max-width: 479px;
+  }
+  .header {
+    height: 540px;
+  }
+  .inner {
+    max-width: 459px;
+  }
+  .box-header {
+    nav{
+      margin-top: 26px;
+      display: flex;
+      flex-flow: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      height: 170px;
+      h1{
+       width: 100%;
+        justify-content: center;
+        height: 30px;
+      }
+      .box-signUp {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+      }
+    }
+    .box-findPartner {
+      margin-top: 0;
+      height: 220px;
+      justify-content: flex-start;
+      h1{
+        font-size: 30px;
+      }
+      h6{
+        font-size: 18px;
+        width: 70%;
+      }
+      h2 {
+        button {
+          width: 280px;
+        }
+      }
+    }
+  }
+  .controls{
+
+    i{
+      font-size: 30px;
+      opacity: 0;
+    }
+  }
+  .galary{
+    height: 820px;
+    h5 {
+      margin-top: 38px;
+    }
+    .wrapSlider{
+      margin-top: 20px;
+      height: 740px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+      .containerSlider{
+        position: relative;
+        width: 95%;
+        height:32%;;
+        ul{
+          width: 100%;
+          height: 100%;
+          li{
+            img {
+
+            }
+            article {
+
+              h2 {
+                .btnStep {
+
+                }
+
+              }
+              h1 {
+
+              }
+              p {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .socials {
+    height: 1126px;
+    h5{
+      margin-top: 20px;
+      width: 70%;
+
+    }
+    .wrapFigure {
+      margin-top: 36px;
+      width: 100%;
+      height: 935px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+      figure {
+        width: 70%;
+        height: 24%;      }
+    }
+    h3 {
+      button {
+        width: 278px;
+      }
+    }
+  }
+  .interests {
+    width: 100%;
+    h5 {
+
+      &:last-child {
+      }
+    }
+    #result {
+      margin-top: 40px ;
+      max-width: 100%;
+      display: flex;
+      flex-flow:column wrap;
+      justify-content: space-around;
+      align-items: center;
+
+      .itemImage {
+
+        .divShow {
+
+          img {
+
+          }
+          .divWrapP{
+
+            &:hover {
+              background-color: transparent;
+            }
+            .pShow {
+
+            }
+          }
+        }
+      }
+    }
+    h6{
+
+    }
+    form{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+
+      #textApi {
+        margin-right: 3px;
+        width:280px ;
+        height: 38px;
+
+      }
+      #butSearch {
+        width:280px ;
+        height: 38px;
+
+      }
+    }
+  }
+  .footer {
+    background-color: #ffffff;
+    border-top: 4px solid #ff4e50;
+    margin-top: 40px;
+  }
+  .box-footer {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    .slogan {
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+      align-items: center;
+      h1 {
+        text-align: center;
+        a{
+
+        }
+      }
+    }
+    .nav-footer {
+      margin-top: 18px;
+      width: 100%;
+      display: flex;
+      flex-flow:column wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      ul{
+        width: 100%;
+        h6 {
+          text-align: center;
+        }
+        li {
+          display: inline-block;
+          text-align: center;
+        }
+      }
+    }
+    .designed {
+      margin-top: 18px;
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+      align-items: center;
+      h6 {
+
+      }
+
+    }
+  }
+
+}
