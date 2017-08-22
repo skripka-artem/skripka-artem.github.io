@@ -1,0 +1,72 @@
+@media screen and (min-device-width: 320px) {
+
+    .company {
+        width: 290px;
+        height: 865px;
+        border-radius: 4px;
+        background-color: #ffffff;
+    }
+
+
+    .company ul {
+        padding-left: 40px;
+        padding-top: 34px;
+    }
+
+    .company li {
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+
+    }
+
+    .company a {
+        text-decoration: none;
+        font-family: "SFNSText";
+        font-size: 13px;
+        text-align: left;
+        color: #8891a2;
+    }
+
+    .text {
+        display: inline-block;
+    }
+
+    .park {
+        font-family: "SFNSDisplay";
+        font-size: 20px;
+        text-align: left;
+        color: #000000;
+        margin-left: 46px;
+        margin-top: 12px;
+        margin-bottom: 40px;
+    }
+
+    .park span {
+        color: #e63737;
+    }
+
+    .tch {
+        font-family: "SFNSText";
+        font-size: 14px;
+        text-align: left;
+        color: #565656;
+        margin-left: 46px;
+        margin-right: 47px;
+        margin-bottom: 40px;
+    }
+
+    .tch span {
+        color: #000000;
+    }
+}
+
+
+@media screen and (min-device-width: 768px) {
+    .company {
+        width: 795px;
+        margin-left: 47px;
+        margin-top: 46px;
+    }
+
+}

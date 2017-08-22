@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goldCoach/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goldCoach/css/styleDesktop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goldCoach/css/styleMobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goldCoach/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,48 +21,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goldCoach/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleDesktop.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goldCoach/css/styleDesktop.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goldCoach/css/fonts.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleMobile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goldCoach/css/styleMobile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,9 +49,9 @@
         <option value="$PROJECT_DIR$/welcome/css/homeStyle320.css" />
         <option value="$PROJECT_DIR$/goldCoach/css/style.css" />
         <option value="$PROJECT_DIR$/goldCoach/css/fonts.css" />
-        <option value="$PROJECT_DIR$/goldCoach/index.html" />
         <option value="$PROJECT_DIR$/goldCoach/css/styleMobile.css" />
         <option value="$PROJECT_DIR$/goldCoach/css/styleDesktop.css" />
+        <option value="$PROJECT_DIR$/goldCoach/index.html" />
       </list>
     </option>
   </component>
@@ -127,7 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,12 +122,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/people" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -284,16 +239,17 @@
       <workItem from="1499604607059" duration="2118000" />
       <workItem from="1499615479042" duration="36000" />
       <workItem from="1503342670575" duration="7280000" />
-      <workItem from="1503381221827" duration="12446000" />
+      <workItem from="1503381221827" duration="13443000" />
+      <workItem from="1503397847593" duration="523000" />
+      <workItem from="1503408459895" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43146000" />
+    <option name="totallyTimeSpent" value="44788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11820852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -509,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,39 +472,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goldCoach/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldCoach/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldCoach/css/styleMobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goldCoach/css/styleDesktop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldCoach/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldCoach/css/styleMobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
         </state>
       </provider>
     </entry>

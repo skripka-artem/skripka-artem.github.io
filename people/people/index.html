@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<head>
+	<title>Наш Миллениум Парк</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="">
+    <meta name="Keywords" content="">
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="top_banner"></div>
+		<div class="top_menu">
+			<div class="logo_part">
+				<div class="logo">
+					<img src="img/logo.svg">
+				</div>
+				<!--<div class="logo_text">
+					<div class="logo_text_top">
+						Наш
+					</div>
+					Миллениум Парк
+				</div>-->
+			</div>
+			<div class="menu_wr" id="main_menu">
+				<div class="close_mobile_mnu"></div>
+				<ul class="nav_menu">
+					<li>
+						<a href="#">Главная</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="#">Условия работы</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="login_menu">
+				<a href="#">Вход</a><span>/</span><a href="#">Регистрация</a>
+			</div>
+			<div class="mobile_menu">
+				<div class="toggle-mnu"><span></span></div>
+			</div>
+		</div>
+		
+	</header>
+	<section class="main_section">
+		<div class="banner_part">
+			<div class="reg_form_block">
+				<div class="reg_form_wr">
+					<div class="reg_title">
+						Личный кабинет
+					</div>
+					<form action="/" class="reg_form">
+						<label>Логин</label>
+						<input type="text" name="login">
+						<label>Пароль</label>
+						<input type="password" name="password">
+						<div>
+							<input type="checkbox" name="memory" id="memory_check" class="memory_check">
+							<label class="memory_label" for="memory_check">
+								Запомнить меня
+							</label>
+						</div>
+						<div>
+							<button>Войти</button>
+							<span class="change_pass">Забыли пароль?</span>
+						</div>
+					</form>	
+				</div>
+			</div>
+			<div class="banner">
+				<div class="bg"></div>
+				<div class="banner_text">
+					Подготовка обращения жителей поселка в правление Village Estate
+				</div>
+				<a href="#" class="button">Принять участие</a>
+			</div>
+		</div>
+		<div class="news_part">
+			<div class="big_news news_item">
+				<div class="news_image" style="background: url('img/5.jpg') center/cover no-repeat">
+				</div>
+				<div class="text_part">
+					<h2 class="news_name">Товарищество собственников недвижимости <span>Millenium Park</span></h2>
+					<div>
+						<div class="news_text">
+							<p>
+								<span>Наше ТСН, зарегистрированное 10 июня 2017 года,</span> объединяет собственников домов земельных участков в коттеджном посёлке «Миллениум Парк». По состоянию на начало августа 2017 года в нашем объединении уже более 60-ти членов.
+							</p>
+							<a href="company.html" class="button news_more">
+								Подробнее
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news_block_3">
+				<div class="left_part">
+					<div class="news_top news_item">
+						<div class="text_part">
+							<div class="news_date">
+								от 17.07.2017
+							</div>
+							<h2 class="news_title">
+								Опубликован протокол собрания участников
+							</h2>
+						</div>
+						<div class="news_image" style="background: url('img/1.jpg') center/cover no-repeat">	
+						</div>
+					</div>
+					<div class="news_bottom news_item">
+						<div class="text_part">
+							<div class="news_date">
+								от 17.07.2017
+							</div>
+							<h2 class="news_title">
+								С 1 июля вступают изменения по мезжеванию земельных участков
+							</h2>
+						</div>
+						<div class="news_image" style="background: url('img/2.jpg') center/cover no-repeat">	
+						</div>
+					</div>
+				</div>
+				<div class="right_part">
+					<div class="vertical_news news_item">
+						<div class="news_item_text">
+							<div class="news_date">
+								от 17.07.2017
+							</div>
+							<h2 class="news_title">
+								Результаты голосования по принятию устава товарищества
+							</h2>
+						</div>
+						<div class="vertical_news_img">
+							<div class="diagram-container">
+								<canvas id="diagram1"></canvas>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="diagram_block">
+				<div class="diagram_left">
+					<form method="post" class="vote_form">
+						<div class="vote_title">
+							Принять устав поселка
+						</div>
+						<ul class="vote_list">
+							<li>
+								<input type="radio" name="vote" value="accept" class="vote_radio" id="vote_1" checked>
+								<label class="vote_label" for="vote_1">
+									Считаю, что нужно принять устав
+								</label>
+							</li>
+							<li>
+								<input type="radio" name="vote" value="abort" class="vote_radio" id="vote_2">
+								<label class="vote_label" for="vote_2">
+									Считаю, что устав нужно доработать
+								</label>
+							</li>
+							<li>
+								<input type="radio" name="vote" value="none" class="vote_radio" id="vote_3">
+								<label class="vote_label" for="vote_3">
+									Воздержусь
+								</label>
+							</li>
+						</ul>
+						<button class="vote_button">
+							Проголосовать
+						</button>
+					</form>
+				</div>
+				<div class="diagram_delimiter"></div>
+				<div class="diagram_right">
+					<div class="diagram_wr">
+						<div class="diagram-container">
+							<canvas id="myDiagram"></canvas>
+							<div class="diagram_title">
+								<span>203</span>
+									Голоса
+							</div>
+						</div>
+						<div class="diagram_desc">
+							<ul>
+								<li class="accept">
+									Принять <span>55%</span>
+								</li>
+								<li class="abort">
+									Доработать <span>38%</span>
+								</li>
+								<li class="none">
+									Воздержаться <span>7%</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news_block_2">
+				<div class="left_part">
+					<div class="vertical_news_big news_item">
+						<div class="news_item_text">
+							<div class="news_date">
+								от 17.07.2017
+							</div>
+							<h2 class="news_title">
+								Продажа земельного участка 16 соток от собственника
+							</h2>
+							<div class="news_text">
+								<p>
+									Правильной формы размером в поселке "Миллениум Парк", расположенный вдоль водного канала с выходом к центральному озеру парка "Усадьба".
+								</p>
+							</div>
+						</div>
+						<div class="vertical_news_img" style="background: url('img/3.jpg') center/cover no-repeat">	
+						</div>
+					</div>
+				</div>
+				<div class="right_part">
+					<div class="vertical_news_big news_item">
+						<div class="news_item_text">
+							<div class="news_date">
+								от 17.07.2017
+							</div>
+							<h2 class="news_title">
+								Продажа дома с авторской отделкой 634 кв.м от собственника
+							</h2>
+							<div class="news_text">
+								<p>
+									Стильный, очень светлый и грамотно спланированный дом в стиле Арт-деко в поселке Миллениум Парк. По периметру участка высажены туи, большая ель, плодовые деревья, газон. 
+								</p>
+							</div>
+						</div>
+						<div class="vertical_news_img" style="background: url('img/6.jpg') center/cover no-repeat">	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<section class="contact_section">
+		<div class="contact_container">
+			<div class="map_block">
+				<div class="map" id="map"></div>
+			</div>
+			<div class="contact_block">
+				<div class="contacts_wr">
+					<div class="contact_title">
+						Наши контакты
+					</div>
+					<div class="contact_info">
+						<p>
+							Московская область,<br>
+							19 км Новорижского шоссе,
+							поселок «Миллениум Парк»
+						</p>
+						<p>
+							Телефон: +7 (964) 648 82 79
+						</p>
+					</div>
+					<button class="show_send_form">Написать письмо</button>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<footer>
+		<ul class="footer_menu left_menu">
+			<li>
+				<a href="#">Правление</a>
+			</li>
+			<li>
+				<a href="#">Ревизионная комиссия</a>
+			</li>
+			<li>
+				<a href="#">Реквизиты</a>
+			</li>
+			<li>
+				<a href="#">Контакты</a>
+			</li>
+		</ul>
+		<ul class="footer_menu center_menu">
+			<li>
+				<a href="#">Учередительные документы</a>
+			</li>
+			<li>
+				<a href="#">Документы правления</a>
+			</li>
+			<li>
+				<a href="#">Документы ревизионной комиссии</a>
+			</li>
+			<li>
+				<a href="#">Общее собрание</a>
+			</li>
+			<li>
+				<a href="#">Обращение ТСН</a>
+			</li>
+		</ul>
+		<ul class="footer_menu right_menu">
+			<li>
+				<a href="#">Вступить в ТСН</a>
+			</li>
+			<li>
+				<a href="#">Решения общих собраний</a>
+			</li>
+			<li>
+				<a href="#">Решения правлений</a>
+			</li>
+			<li>
+				<a href="#">Отчетность</a>
+			</li>
+			<li>
+				<a href="#">Пожелания</a>
+			</li>
+		</ul>
+	</footer>
+
+	<!-- Load Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/Chart.bundle.min.js"></script>
+	<script src="js/googlemap.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&key=AIzaSyBGupD1yL8xFskFa331Guf6-EyGtaFNJPw&sensor=false&callback=initMap"></script>
+</body>
+
+			
+</html>
+
+	

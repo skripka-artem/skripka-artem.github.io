@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "SFNSText";
+    src: url("../fonts/SFNSTextRegular/SFNSTextRegular.eot");
+    src: url("../fonts/SFNSTextRegular/SFNSTextRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SFNSTextRegular/SFNSTextRegular.woff") format("woff"),
+    url("../fonts/SFNSTextRegular/SFNSTextRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SFNSDisplay";
+    src: url("../fonts/SFNSDisplayRegular/SFNSDisplayRegular.eot");
+    src: url("../fonts/SFNSDisplayRegular/SFNSDisplayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SFNSDisplayRegular/SFNSDisplayRegular.woff") format("woff"),
+    url("../fonts/SFNSDisplayRegular/SFNSDisplayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
