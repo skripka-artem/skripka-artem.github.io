@@ -1,0 +1,29 @@
+
+@media screen and (min-device-width: 768px) {
+    .block {
+        flex-direction: row;
+
+
+    }
+    .infa {
+        width: 49%;
+    }
+
+    .time {
+        margin-left: 150px;
+    }
+    .infaHeader {
+        width: 600px;
+        margin-left: 20px;
+    }
+
+
+    .spicer {
+        width: 49%;
+        margin-left: -11px;
+    }
+
+    .bookingYes {
+        width: 500px;
+    }
+}

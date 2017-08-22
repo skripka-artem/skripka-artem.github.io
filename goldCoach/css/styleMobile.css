@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-device-width: 320px) {
+    .logo {
+        display: block;
+        margin: 40px auto;
+    }
+
+    .logoText {
+        font-family: "PTSansRegular";
+        font-size: 27px;
+        color: #18374b;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .headerText {
+        font-family: "circleBold";
+        font-size: 30px;
+        color: #000000;
+        text-align: center;
+        width: 430px;
+        margin: 0 auto;
+    }
+
+    .freeFebinar {
+        font-size: 34px;
+        color: #ff621f;
+        padding-bottom: 50px;
+    }
+
+    .booking {
+        display: block;
+        width: 440px;
+        margin: 0 auto;
+        text-decoration: none;
+        font-family: "PTSansBold";
+        font-size: 30px;
+        color: #FFffff;
+        text-align: center;
+        padding: 15px 0 20px 0;
+        background-color: #ff621f;
+        border-bottom: 5px solid #ff332a;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .infa {
+        width: 90%;
+        margin: 0 auto;
+        background-color: #eaeaea;
+    }
+
+    .start {
+        width: 300px;
+        font-family: "PTSansBold";
+        font-size: 12px;
+        color: #2b2e35;
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .time {
+        margin-left: 300px;
+        margin-bottom: 60px;
+    }
+
+    .time li {
+        float: left;
+        list-style: none;
+        font-family: "circleBold";
+        font-size: 54px;
+        color: #FFffff;
+        margin-left: 15px;
+        padding: 15px;
+        background-color: #2b2e35;
+        border-radius: 10px;
+    }
+
+    .infaHeader {
+        display: inline-block;
+        width: 700px;
+        margin-left: 110px;
+        font-family: "PTSansBold";
+        font-size: 37px;
+        color: #2b2e35;
+        margin-top: 50px;
+    }
+
+    .advantage {
+        width: 490px;
+        margin: auto;
+        margin-top: 60px;
+        font-family: "PTSansRegular";
+        font-size: 20px;
+        color: #2b2e35;
+    }
+
+    .advantage li {
+        list-style: none;
+        padding-bottom: 40px;
+    }
+
+    .advantage li span {
+        font-family: "PTSansBold";
+    }
+
+    .spicer {
+        width: 90%;
+        margin: 0 auto;
+        background: linear-gradient(to top, #fb7035, #ff621f);
+    }
+
+    .data {
+        float: left;
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .dataText {
+        display: inline-block;
+        width: 120px;
+        margin-left: 50px;
+        margin-top: 50px;
+        font-family: "circleBold";
+        font-size: 34px;
+        color: #FFffff;
+    }
+
+    .hours {
+        display: block;
+        font-family: "PTSansRegular";
+        font-size: 17px;
+        color: #FFffff;
+        margin-left: 230px;
+        margin-right: 20px;
+        border-top: 3px dashed #FFffff;
+    }
+
+    .spicerImg {
+        display: block;
+        margin: 40px auto;
+    }
+
+    .spicerText {
+        width: 90px;
+        margin: auto;
+        font-family: 'Georgia';
+        font-size: 25px;
+        color: #FFffff;
+        text-align: center;
+    }
+
+    .name {
+        width: 200px;
+        margin: auto;
+        font-family: "PTSansBold";
+        font-size: 25px;
+        color: #FFffff;
+        text-align: center;
+    }
+
+    .infaSpicer {
+        width: 480px;
+        margin: auto;
+        font-family: "PTSansRegular";
+        font-size: 20px;
+        color: #FFffff;
+
+    }
+
+    .infaSpicer li {
+        padding-bottom: 40px;
+    }
+
+    .place {
+        width: 550px;
+        margin: 55px auto;
+        text-align: center;
+        font-family: "PTSansRegular";
+        font-size: 28px;
+        color: #2b2e35;
+    }
+
+    .why {
+        width: 320px;
+        margin: 55px auto;
+        text-align: center;
+        font-family: "PTSansBold";
+        font-size: 36px;
+        color: #FFffff;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #ff621f;
+    }
+
+    .whyPeople {
+        width: 600px;
+        margin: 55px auto;
+        text-align: center;
+        font-family: "PTSansRegular";
+        font-size: 30px;
+        color: #2b2e35;
+        padding-bottom: 30px;
+        border-bottom: 3px dashed #7a7b7e;
+    }
+
+    .technol {
+        width: 700px;
+        margin: 55px auto;
+        text-align: center;
+        font-family: "PTSansBold";
+        font-size: 24px;
+        color: #2b2e35;
+        padding-bottom: 30px;
+    }
+
+    main p {
+        width: 770px;
+        margin: 0 auto;
+        font-family: "PTSansRegular";
+        font-size: 24px;
+        color: #2b2e35;
+        padding-bottom: 30px;
+    }
+
+    main p span {
+        font-family: "PTSansBold";
+    }
+
+    .galery {
+        display: block;
+        margin: 40px auto;
+    }
+
+    footer {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .bookingYes {
+        margin: 0 auto;
+        font-family: "PTSansBold";
+        font-size: 27px;
+        color: #FFffff;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #ff621f;
+        text-decoration: none;
+    }
+
+    .network ul {
+        width: 200px;
+        margin: 50px auto;
+        padding-bottom: 100px;
+    }
+    .network li {
+        float: left;
+        list-style: none;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .network li a {
+        text-decoration: none;
+
+    }
+
+}
+
