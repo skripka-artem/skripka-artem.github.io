@@ -1,12 +1,15 @@
 
 @media screen and (min-device-width: 768px) {
+    .headerText {
+        width: 90%;
+        margin-bottom: 30px;
+    }
     .block {
-        flex-direction: row;
-
-
+        flex-direction: row-reverse;
     }
     .infa {
         width: 49%;
+        margin-left: -11px;
     }
 
     .time {
@@ -20,10 +23,37 @@
 
     .spicer {
         width: 49%;
-        margin-left: -11px;
+
+    }
+
+    .place {
+        width: 45%;
+    }
+
+    .whyPeople {
+        width: 70%;
+    }
+
+    .technol {
+        width: 80%;
+    }
+    main p {
+        width: 80%;
     }
 
     .bookingYes {
         width: 500px;
+    }
+    .blockGalery {
+        background: url("../img/fon2.png");
+        width: 98%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blockText {
+        background: url("../img/fon1.png");
+        width: 98%;
+        margin: 0 auto;
     }
 }

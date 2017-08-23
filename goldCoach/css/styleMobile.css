@@ -98,6 +98,27 @@
         margin-top: 50px;
     }
 
+    .hoursStart {
+        display: block;
+
+    }
+
+    .hoursStart .d {
+        float: left;
+        display: block;
+        width: 50px;
+    }
+
+    .hoursStart .ch {
+        float: left;
+    }
+    .hoursStart .m {
+        float: left;
+    }
+    .hoursStart .s {
+        float: left;
+    }
+
     .advantage {
         width: 490px;
         margin: auto;
@@ -108,7 +129,7 @@
     }
 
     .advantage li {
-        list-style: none;
+        list-style-image: url("../img/check.png");
         padding-bottom: 40px;
     }
 
@@ -140,6 +161,7 @@
 
     .hours {
         display: block;
+        width: 400px;
         font-family: "PTSansRegular";
         font-size: 17px;
         color: #FFffff;
@@ -208,11 +230,11 @@
     }
 
     .whyPeople {
-        width: 600px;
+        width: 70%;
         margin: 55px auto;
         text-align: center;
         font-family: "PTSansRegular";
-        font-size: 30px;
+        font-size: 36px;
         color: #2b2e35;
         padding-bottom: 30px;
         border-bottom: 3px dashed #7a7b7e;
