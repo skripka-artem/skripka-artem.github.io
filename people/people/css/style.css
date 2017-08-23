@@ -64,9 +64,9 @@ body {
 }
 
 
-@media screen and (min-device-width: 1024px) {
+@media screen and (min-device-width: 1023px) {
     .company {
-        width: 795px;
+        width: 65%;
         margin-left: 47px;
         margin-top: 46px;
     }
