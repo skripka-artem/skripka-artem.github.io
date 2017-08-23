@@ -50,7 +50,7 @@ body {
 
     .tch {
         font-family: "SFNSText";
-        font-size: 14px;
+        font-size: 20px;
         text-align: left;
         color: #565656;
         margin-left: 46px;
@@ -68,7 +68,7 @@ body {
     .company {
         width: 65%;
         margin-left: 47px;
-        margin-top: 46px;
+        margin-top: -45px;
     }
 
 }
