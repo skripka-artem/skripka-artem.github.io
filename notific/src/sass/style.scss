@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Roboto-M";
+  src: url("../fonts/roboto.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto-R";
+  src: url("../fonts/regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: #e0e0e0;
+  display: flex;
+}
+
+.container {
+  width: 300px;
+  margin-right: 50px;
+
+
+  .user {
+    border-radius: 2px;
+    height: 130px;
+  }
+    .while {
+      background-color: #ffffff;
+    }
+
+  .blackGray {
+    background-color: #444444;
+  }
+
+  .top::before, .top::after {
+    content: '';
+    position: absolute;
+    left: 30px; top: -2px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #ffffff;
+  }
+
+  .right::before, .right::after {
+    content: '';
+    position: absolute;
+    left: 657px; top: 60px;
+    border: 15px solid transparent;
+    border-left: 15px solid #444444;
+  }
+
+  .buttons {
+    border-radius: 2px;
+    margin-top: -10px;
+  }
+
+  .gray{
+    background-color: #f9f9f9;
+  }
+
+  .black {
+    background-color: #333333;
+  }
+
+  img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-left: 25px;
+  margin-top: 25px;
+    background-color: #e0e0e0;
+}
+
+    .name {
+    font-family: "Roboto-M";
+    font-size: 18px;
+      color: #333333;
+      padding-top: 29px;
+  }
+
+  .whileText {
+    color: #ffffff;
+  }
+
+  p {
+    font-family: "Roboto-M";
+    font-size: 14px;
+    color: #888888;
+    line-height: 12px;
+    margin-left: 140px;
+  }
+  .message {
+    font-family: "Roboto-R";
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #00bcd4;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px 15px 20px ;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 15px;
+
+  }
+  .like {
+    font-family: "Roboto-R";
+    font-size: 14px;
+    color: #333333;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 20px 15px 20px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}

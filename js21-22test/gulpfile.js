@@ -18,14 +18,14 @@ var pngquant = require('imagemin-pngquant');
 var paths = {
   src: {
     html: 'src/*.html',
-    css: 'src/css/**/*.+(scss|css)',
+    css: 'src/sass/**/*.+(scss|sass)',
     js: 'src/js/**/*.js',
     fonts: 'src/fonts/**/*.*',
     img: 'src/img/**/*.+(png|jpg|gif|svg)'
   },
   dist: {
     html: 'dist',
-    css: 'dist/css',
+    css: 'dist/sass',
     js: 'dist/js',
     fonts: 'dist/fonts',
     img: 'dist/img',
@@ -57,7 +57,7 @@ gulp.task('bundleHtml', function() {
     }));
 });
 
-// собираем css
+// собираем sass
 gulp.task('bundleCss', function() {
   return gulp.src(paths.src.css)
     .pipe(sass().on('error', sass.logError))

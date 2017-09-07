@@ -668,7 +668,7 @@
           transitionProperty: duration > 0 ? (function() {
             if (transforms || transforms3d) {
               // We have to use 'all' because jQuery doesn't prefix
-              // css values, like transition-property: transform;
+              // sass values, like transition-property: transform;
               return 'all';
             }
 

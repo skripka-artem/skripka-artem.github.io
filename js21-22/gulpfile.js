@@ -22,7 +22,7 @@ var paths = {
   },
   dist: {
     html: 'dist',
-    css: 'dist/css',
+    css: 'dist/sass',
     js: 'dist/js',
     fonts: 'dist/fonts',
     img: 'dist/img',

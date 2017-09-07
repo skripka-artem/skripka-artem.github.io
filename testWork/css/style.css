@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.carousel {
+    padding: 10px 40px;
+
+}
+
+
+
+
+.carousel img {
+    width: 453px;
+    display: block;
+    border-radius: 15px;
+}
+
+.arrow {
+    position: absolute;
+    top: 150px;
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+.prev {
+    left: 7px;
+}
+
+.next {
+    right: 7px;
+}
+
+.gallery {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery ul {
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: margin-left 250ms;
+    /* remove white-space between inline-block'ed li */
+    /* http://davidwalsh.name/remove-whitespace-inline-block */
+
+    font-size: 0;
+}
+
+.gallery li {
+    display: inline-block;
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .carousel img {
+        width: 240px;
+    }
+
+    .arrow {
+        top: 70px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .carousel img {
+        width: 400px;
+    }
+
+    .arrow {
+        top: 110px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel img {
+        width: 345px;
+    }
+
+    .arrow {
+        top: 100px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .carousel img {
+        width: 315px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

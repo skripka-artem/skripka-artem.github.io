@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     sourcemaps = require('gulp-sourcemaps'),
-    concatCss = require('gulp-concat-css'),
+    concatCss = require('gulp-concat-sass'),
     prefixer = require('gulp-autoprefixer'),
     uglifycss = require('gulp-uglifycss'),
     babel = require('gulp-babel'),
@@ -27,7 +27,7 @@ gulp.task('js', function () {
 
 });
 gulp.task('css', function () {
-    return gulp.src('css/src/*.css')
+    return gulp.src('sass/src/*.css')
         .pipe(uglifycss({
             "maxLineLen": 80,
             "uglyComments": true
@@ -37,7 +37,7 @@ gulp.task('css', function () {
             cascade: false
         }))
         .pipe(concatCss("main.min.css"))
-        .pipe(gulp.dest('css/dist'));
+        .pipe(gulp.dest('sass/dist'));
 });
 // gulp.task('testJasmine', () =>
 // 	gulp.src('spec/test.js')
@@ -48,6 +48,6 @@ gulp.task('css', function () {
 
 gulp.task('default',['js','css']);
 gulp.task('watch', function() {
-    gulp.watch('css/src/*.css', ['css']);
+    gulp.watch('sass/src/*.css', ['css']);
     gulp.watch('js/src/*.js', ['js']);
 });
