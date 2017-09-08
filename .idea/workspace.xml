@@ -2,43 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notific/src/fonts/regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notific/src/fonts/roboto.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/img/img9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notific/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testWork/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/src/sass/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coderiver/src/sass/styleM.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notific/src/sass/styleM.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/notific/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/notific/dist/sass/styles.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/notific/dist/fonts/regular.ttf" afterPath="$PROJECT_DIR$/coderiver/src/fonts/robotoRegular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/notific/dist/fonts/roboto.ttf" afterPath="$PROJECT_DIR$/coderiver/src/fonts/robotoMedium.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/23-24/gulpfile.js" afterPath="$PROJECT_DIR$/23-24/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/dist/js/scripts.js" afterPath="$PROJECT_DIR$/final/dist/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/gulpfile.js" afterPath="$PROJECT_DIR$/final/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/src/js/mosonry_script.js" afterPath="$PROJECT_DIR$/final/src/js/mosonry_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/src/sass/1_reset.css" afterPath="$PROJECT_DIR$/final/src/sass/1_reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/src/sass/font.css" afterPath="$PROJECT_DIR$/final/src/sass/font.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/src/sass/style_desktop.css" afterPath="$PROJECT_DIR$/final/src/sass/style_desktop.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/src/sass/style_mobile.css" afterPath="$PROJECT_DIR$/final/src/sass/style_mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final/src/sass/style_tablet.css" afterPath="$PROJECT_DIR$/final/src/sass/style_tablet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js19-20/dist/js/jquery.jcarousel.js" afterPath="$PROJECT_DIR$/js19-20/dist/js/jquery.jcarousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js19-20/dist/js/jquery.js" afterPath="$PROJECT_DIR$/js19-20/dist/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js19-20/gulpfile.js" afterPath="$PROJECT_DIR$/js19-20/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js19-20/src/js/jquery.jcarousel.js" afterPath="$PROJECT_DIR$/js19-20/src/js/jquery.jcarousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js19-20/src/js/jquery.js" afterPath="$PROJECT_DIR$/js19-20/src/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js21-22/gulpfile.js" afterPath="$PROJECT_DIR$/js21-22/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js21-22test/gulpfile.js" afterPath="$PROJECT_DIR$/js21-22test/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js9-10/js/jquery.jcarousel.js" afterPath="$PROJECT_DIR$/js9-10/js/jquery.jcarousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js9-10/js/modernizr.js" afterPath="$PROJECT_DIR$/js9-10/js/modernizr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/.idea/workspace.xml" afterPath="$PROJECT_DIR$/resume/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test905/js/jquery.jcarousel.js" afterPath="$PROJECT_DIR$/test905/js/jquery.jcarousel.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,14 +33,45 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coderiver/src/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleM.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coderiver/src/sass/styleM.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="161" column="18" lean-forward="true" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coderiver/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -102,6 +109,14 @@
         <option value="$PROJECT_DIR$/notific/gulpfile.js" />
         <option value="$PROJECT_DIR$/notific/src/index.html" />
         <option value="$PROJECT_DIR$/notific/src/sass/style.scss" />
+        <option value="$PROJECT_DIR$/coderiver/src/sass/style.scss.css" />
+        <option value="$PROJECT_DIR$/coderiver/src/sass/font.css" />
+        <option value="$PROJECT_DIR$/notific/src/sass/styleM.scss" />
+        <option value="$PROJECT_DIR$/coderiver/dist/sass/styleM.scss" />
+        <option value="$PROJECT_DIR$/coderiver/gulpfile.js" />
+        <option value="$PROJECT_DIR$/coderiver/src/sass/style.scss" />
+        <option value="$PROJECT_DIR$/coderiver/src/sass/styleM.scss" />
+        <option value="$PROJECT_DIR$/coderiver/src/index.html" />
       </list>
     </option>
   </component>
@@ -112,6 +127,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/coderiver/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/notific/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
@@ -134,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,27 +161,38 @@
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="notific" type="462c0819:PsiDirectoryNode" />
+              <item name="coderiver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="notific" type="462c0819:PsiDirectoryNode" />
+              <item name="coderiver" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="notific" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="notific" type="462c0819:PsiDirectoryNode" />
+              <item name="coderiver" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="coderiver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="coderiver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="notific" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -176,25 +203,15 @@
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
-              <item name="people" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="notific" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -209,11 +226,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver\dist\sass" />
+      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver\src\fonts" />
+      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver" />
       <recent name="C:\Users\Артем\goit\skripka-artem.github.io\notific\src\fonts" />
       <recent name="C:\Users\Артем\goit\skripka-artem.github.io\notific" />
-      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\testWork\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver\src\sass" />
       <recent name="C:\Users\Артем\goit\skripka-artem.github.io\welcome\css" />
     </key>
   </component>
@@ -330,22 +350,26 @@
       <workItem from="1504275849446" duration="429000" />
       <workItem from="1504771671060" duration="2427000" />
       <workItem from="1504792304970" duration="5406000" />
+      <workItem from="1504798511659" duration="251000" />
+      <workItem from="1504800519011" duration="6199000" />
+      <workItem from="1504857214317" duration="12371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68628000" />
+    <option name="totallyTimeSpent" value="87449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11820852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19750367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -368,43 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/welcome/css/homeStyle.css" />
-    <entry file="file://$PROJECT_DIR$/7-8/css/style768.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-8/css/style480.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7-8/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js17-18/src/css/font.css" />
-    <entry file="file://$PROJECT_DIR$/js17-18/dist/img/Right.png" />
-    <entry file="file://$PROJECT_DIR$/js19-20/src/img/right.png" />
-    <entry file="file://$PROJECT_DIR$/js19-20/src/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/js19-20/src/css/footer.scss" />
-    <entry file="file://$PROJECT_DIR$/js19-20/src/css/header.scss" />
-    <entry file="file://$PROJECT_DIR$/19-20/src/css/main.scss" />
-    <entry file="file://$PROJECT_DIR$/19-20/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/js19-20/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="144" column="25" lean-forward="false" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js19-20/src/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -416,13 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-24/css/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -517,24 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goldCoach/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goldCoach/css/styleDesktop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldCoach/css/styleMobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -545,31 +511,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/final/src/sass/style_mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/final/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testWork/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -622,19 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notific/dist/sass/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/people/people/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10217">
           <caret line="601" column="15" lean-forward="false" selection-start-line="601" selection-start-column="15" selection-end-line="601" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,14 +585,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="32" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notific/src/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="80" column="14" lean-forward="true" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/src/sass/font.css" />
+    <entry file="file://$PROJECT_DIR$/coderiver/src/img/phone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testWork/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testAnma/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldCoach/css/styleMobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldCoach/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/src/sass/style_mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-24/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-24/css/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notific/dist/sass/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test905/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2635">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notific/src/sass/styleM.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/dist/sass/styleM.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/dist/sass/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/src/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/src/sass/styleM.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="161" column="18" lean-forward="true" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coderiver/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
           <folding />
         </state>
       </provider>
