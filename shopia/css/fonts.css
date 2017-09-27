@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato-Italic";
+    src: url(../fonts/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Italic";
+    src: url(../fonts/PlayfairDisplay-Italic.otf);
+}
+
+@font-face {
+    font-family: "KrinkesDecorPERSONAL";
+    src: url(../fonts/KrinkesDecorPERSONAL.ttf);
+}
