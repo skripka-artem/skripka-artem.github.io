@@ -6,8 +6,11 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/styleMobile.css">
     <link rel="stylesheet" href="css/styleDesktop.css">
+    <script src="js/script.js"></script>
 </head>
-<body>
+<body onload="time()">
+
+
 <header>
     <img src="img/gold.png" alt="" class="logo">
 <p class="logoText">GoldCoach представляет… </p>
@@ -22,11 +25,11 @@
     <div class="block">
 <section class="infa">
     <p class="start">ДО СТАРТА ТРАНСЛЯЦИИ ОСТАЛОСЬ…</p>
-    <ul class="time">
-        <li>0</li>
-        <li>0</li>
-        <li>0</li>
-        <li>0</li>
+    <ul  class="time">
+        <li id="d">0</li>
+        <li id="h">0</li>
+        <li id="m">0</li>
+        <li id="s">0</li>
     </ul>
     <p class="infaHeader">ВОТ ВСЕГО ЛИШЬ МАЛАЯ ЧАСТЬ ИЗ ТОГО, ЧТО ТЫ УЗНАЕШЬ НА ВЕБИНАРЕ:</p>
     <ul class="advantage">
