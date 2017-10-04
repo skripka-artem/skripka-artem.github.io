@@ -302,5 +302,11 @@
 
     }
 
+    .infa .timeHours {
+        padding-left: 80px;
+        margin: 0 auto;
+        width: 60%;
+    }
+
 }
 
