@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+.containerBlock {
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+.blockFirst {
+    background-color: #14cac2;
+    width: 384px;
+}
+.blockFirst p {
+    font-family: "Calibri";
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    width: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.blockEven {
+    background-color: #0cb1aa;
+    width: 192px;
+    height: 192px;
+}
+
+.blockEven p {
+    font-family: "Calibri";
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFffff;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.blockNotEven {
+    background-color: #eefaf9;
+    width: 192px;
+    height: 192px;
+    text-align: center;
+}
+
+.statistics {
+    background-color: #04726d;
+    width: 100%;
+}
+
+.statistics h2 {
+    font-family: "Calibri";
+    font-size: 83px;
+    font-weight: bold;
+    color: #FFffff;
+    float: left;
+    margin-left: 125px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+.statistics p {
+    font-family: "Calibri";
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFffff;
+    text-transform: uppercase;
+    width: 1250px;
+    margin-top: 45px;
+}
+
+.info {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 180px;
+    float: left;
+}
+
+.info h2{
+    font-family: "Calibri";
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.info p{
+    font-family: "Calibri";
+    font-size: 16px;
+    color: #000000;
+}
+
+.forma {
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+.forma .input {
+    float: left;
+    margin-right: 20px;
+}
+
+.forma .input input[type="text"] {
+    margin-top: 10px;
+    border: 1px solid #0cb1aa;
+    padding: 9.5px;
+    width: 315px;
+}
+
+.forma p {
+    font-family: "Calibri";
+    font-size: 16px;
+    color: #000000;
+}
+
+.forma textarea {
+    width: 315px;
+    border: 1px solid #0cb1aa;
+    margin-top: 10px;
+    resize: none;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+input[type="submit"] {
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #f69fa1, #f6c7c7);
+    border: none;
+    box-shadow: 0 5px 0px #f59799;
+    margin-top: 10px;
+    margin-left: 187px;
+}
