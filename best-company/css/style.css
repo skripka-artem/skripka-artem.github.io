@@ -247,6 +247,7 @@ main li {
 
 
 .container {
+    width: 95%;
     display: flex;
     flex-direction: row;
 }
