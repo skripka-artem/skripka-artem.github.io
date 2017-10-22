@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "LatoThin";
+    src: url(../fonts/LatoThin.ttf);
+}
+
+@font-face {
+    font-family: 'helveticaneuecyr-thin';
+    src: url(../fonts/helveticaneuecyr-thin.otf);
+}
+
+@font-face {
+    font-family: 'LatoRegular.ttf';
+    src: url(../fonts/LatoRegular.ttf);
+}
