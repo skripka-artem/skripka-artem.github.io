@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/index.html" afterPath="$PROJECT_DIR$/resume/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/images/bx_loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/images/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/vendor/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/vendor/jquery.fitvids.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,13 +36,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resume/index.html">
+        <entry file="file://$PROJECT_DIR$/eshopmakers/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1172">
-              <caret line="613" column="109" lean-forward="false" selection-start-line="613" selection-start-column="109" selection-end-line="613" selection-end-column="109" />
-              <folding>
-                <element signature="n#style#0;n#p#1;n#section#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eshopmakers/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,11 +60,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bx-wrapper</find>
+      <find>bx-</find>
+      <find>MaxWidth</find>
+      <find>width</find>
+      <find>100</find>
+      <find>100%</find>
+      <find>67</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,13 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js19-20/src/css/header.scss" />
-        <option value="$PROJECT_DIR$/js19-20/src/css/footer.scss" />
-        <option value="$PROJECT_DIR$/19-20/src/css/main.scss" />
-        <option value="$PROJECT_DIR$/js19-20/src/css/main.scss" />
-        <option value="$PROJECT_DIR$/js19-20/src/index.html" />
-        <option value="$PROJECT_DIR$/welcome/index.html" />
-        <option value="$PROJECT_DIR$/welcome/css/homeStyle320.css" />
         <option value="$PROJECT_DIR$/goldCoach/css/style.css" />
         <option value="$PROJECT_DIR$/goldCoach/css/fonts.css" />
         <option value="$PROJECT_DIR$/people/people/css/style.css" />
@@ -102,6 +127,13 @@
         <option value="$PROJECT_DIR$/goldCoach/index.html" />
         <option value="$PROJECT_DIR$/goldCoach/js/script.js" />
         <option value="$PROJECT_DIR$/resume/index.html" />
+        <option value="$PROJECT_DIR$/eshopmakers/css/fonts.css" />
+        <option value="$PROJECT_DIR$/eshopmakers/script.js" />
+        <option value="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js" />
+        <option value="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css" />
+        <option value="$PROJECT_DIR$/eshopmakers/js/script.js" />
+        <option value="$PROJECT_DIR$/eshopmakers/css/style.css" />
+        <option value="$PROJECT_DIR$/eshopmakers/index.html" />
       </list>
     </option>
   </component>
@@ -117,7 +149,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -135,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,19 +178,30 @@
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="goldCoach" type="462c0819:PsiDirectoryNode" />
+              <item name="eshopmakers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="goldCoach" type="462c0819:PsiDirectoryNode" />
+              <item name="eshopmakers" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="goldCoach" type="462c0819:PsiDirectoryNode" />
+              <item name="eshopmakers" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -170,6 +212,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,17 +225,19 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\githab\skripka-artem.github.io\shopia\css" />
-      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver\src\sass" />
-      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\welcome\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\githab\skripka-artem.github.io\eshopmakers" />
       <recent name="D:\githab\skripka-artem.github.io\bravo\src\fonts" />
       <recent name="D:\githab\skripka-artem.github.io\bravo" />
       <recent name="D:\githab\skripka-artem.github.io\luxeryHomes\img" />
       <recent name="D:\githab\skripka-artem.github.io\luxeryHomes" />
-      <recent name="D:\githab\skripka-artem.github.io\luxeryHomes\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\githab\skripka-artem.github.io\eshopmakers\jquery.bxslider\images" />
+      <recent name="D:\githab\skripka-artem.github.io\eshopmakers\js" />
+      <recent name="D:\githab\skripka-artem.github.io\shopia\css" />
+      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver\src\sass" />
+      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\welcome\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,16 +364,18 @@
       <workItem from="1509875011334" duration="9312000" />
       <workItem from="1509885295920" duration="6899000" />
       <workItem from="1510474614606" duration="5462000" />
+      <workItem from="1511094618824" duration="15082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148214000" />
+    <option name="totallyTimeSpent" value="163296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19750367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19867061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -360,31 +407,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notific/gulpfile.js" />
-    <entry file="file://$PROJECT_DIR$/notific/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/people/people/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10217">
-          <caret line="601" column="15" lean-forward="false" selection-start-line="601" selection-start-column="15" selection-end-line="601" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notific/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/coderiver/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notific/src/sass/style.scss" />
     <entry file="file://$PROJECT_DIR$/coderiver/src/sass/font.css" />
     <entry file="file://$PROJECT_DIR$/coderiver/src/img/phone.png">
       <provider selected="true" editor-type-id="images">
@@ -409,13 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -605,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="102" column="7" lean-forward="false" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,11 +654,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1172">
+        <state relative-caret-position="17">
           <caret line="613" column="109" lean-forward="false" selection-start-line="613" selection-start-column="109" selection-end-line="613" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#section#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/images/controls.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1190">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
