@@ -78,6 +78,7 @@ body {
         float: left;
         width: 160px;
         margin-left: 53%;
+        margin-top: -30px;
     }
 
     .basketSmall img {
@@ -145,7 +146,7 @@ body {
     }
 
     header .topSitebar .search input{
-        padding: 7px 100px 7px 7px;
+        padding: 7px 50px 7px 7px;
         background-color: #992524;
         border: none;
         border-bottom: 1px solid #ff5553;
@@ -164,14 +165,12 @@ body {
     header .topSitebar .search img{
         position: absolute;
         top: -4px;
-        left: 220px;
+        left: 175px;
     }
 
     header .left {
         width: 210px;
-        float: left;
-        margin-top: 35px;
-        margin-left: 2%;
+        margin: 0 auto;
     }
 
     header .left p{
@@ -275,6 +274,7 @@ body {
     }
 
     header .right {
+        display: none;
         float: right;
         margin-top: 35px;
         margin-right: 2%;
@@ -316,7 +316,7 @@ body {
         clear: left;
         margin-top: 35px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -359,9 +359,7 @@ body {
     }
 
     main .leftSitebar {
-        width: 15%;
-        float: left;
-        margin-left: 2%;
+       text-align: center;
     }
 
     main .leftSitebar li {
@@ -384,15 +382,12 @@ body {
     main  .contentBlock {
         background-image: url("../img/bgtext.png");
         background-size: cover;
-        float: left;
-        margin-left: 2%;
-        width: 55%;
         border-right: 5px solid #FFffff;
         border-radius: 1px;
         box-shadow: 1px 1px 15px #d1cece;
         padding-top: 43px;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-right: 5px;
     }
 
     main  .contentBlock p {
@@ -408,8 +403,7 @@ body {
     }
 
     main .rightSitebar {
-        float: right;
-        margin-right: 2%;
+       margin: 5px auto;
         width: 176px;
     }
 
@@ -477,6 +471,7 @@ body {
     }
 
     footer nav {
+        display: none;
         float: right;
         margin-right: 2%;
         margin-top: -22px;
@@ -499,6 +494,57 @@ body {
 
 @media (min-width: 761px)  {
 
+    .basketSmall {
+        float: left;
+        width: 160px;
+        margin-left: 53%;
+        margin-top: 0;
+    }
 
+    header .topSitebar .search input{
+        padding: 7px 100px 7px 7px;
+    }
+
+    header .topSitebar .search img{
+
+        left: 220px;
+    }
+    header .left {
+        width: 210px;
+        float: left;
+        margin-top: 35px;
+        margin-left: 2%;
+    }
+
+    header .right {
+        display: block;
+    }
+
+    header .containerDoors {
+        flex-direction: row;
+    }
+
+    main .leftSitebar {
+        width: 15%;
+        float: left;
+        margin-left: 2%;
+    }
+
+    main  .contentBlock {
+        float: left;
+        margin-left: 2%;
+        width: 55%;
+        padding-right: 30px;
+    }
+
+    main .rightSitebar {
+        float: right;
+        margin-right: 2%;
+        width: 176px;
+    }
+
+    footer nav {
+       display: block;
+    }
 
 }

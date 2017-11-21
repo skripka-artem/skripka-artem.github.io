@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/FFF_EULA_license.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Book.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Helvetica_Neue/Helvetica_Neue/HelveticaNeue.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nakitel/css/style.css" afterPath="$PROJECT_DIR$/nakitel/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css" afterPath="$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,8 +46,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nakitel/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="350" column="25" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
+            <state relative-caret-position="312">
+              <caret line="406" column="21" lean-forward="false" selection-start-line="406" selection-start-column="21" selection-end-line="406" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -76,8 +66,8 @@
       <file leaf-file-name="jquery.bxslider.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -395,12 +385,12 @@
       <workItem from="1510474614606" duration="5462000" />
       <workItem from="1511094618824" duration="15240000" />
       <workItem from="1511199750312" duration="20278000" />
-      <workItem from="1511247692705" duration="3225000" />
+      <workItem from="1511247692705" duration="5361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186957000" />
+    <option name="totallyTimeSpent" value="189093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
@@ -745,16 +735,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nakitel/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="350" column="25" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
+        <state relative-caret-position="312">
+          <caret line="406" column="21" lean-forward="false" selection-start-line="406" selection-start-column="21" selection-end-line="406" selection-end-column="21" />
           <folding />
         </state>
       </provider>
