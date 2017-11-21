@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/images/bx_loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/images/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/vendor/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/jquery.bxslider/vendor/jquery.fitvids.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eshopmakers/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/FFF_EULA_license.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Book.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Bebas_Neue/Bebas_Neue/TTF's/BebasNeue Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/fonts/Helvetica_Neue/Helvetica_Neue/HelveticaNeue.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nakitel/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,21 +33,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eshopmakers/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nakitel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="408">
+              <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eshopmakers/css/style.css">
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nakitel/css/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nakitel/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="350" column="25" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nakitel/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.bxslider.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,13 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/goldCoach/css/style.css" />
-        <option value="$PROJECT_DIR$/goldCoach/css/fonts.css" />
-        <option value="$PROJECT_DIR$/people/people/css/style.css" />
-        <option value="$PROJECT_DIR$/goldCoach/css/styleDesktop.css" />
-        <option value="$PROJECT_DIR$/testWork/_post.php" />
-        <option value="$PROJECT_DIR$/testWork/index.php" />
-        <option value="$PROJECT_DIR$/testWork/js/script.js" />
         <option value="$PROJECT_DIR$/testWork/css/style.css" />
         <option value="$PROJECT_DIR$/testWork/index2.html" />
         <option value="$PROJECT_DIR$/testWork/index.html" />
@@ -130,10 +151,17 @@
         <option value="$PROJECT_DIR$/eshopmakers/css/fonts.css" />
         <option value="$PROJECT_DIR$/eshopmakers/script.js" />
         <option value="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js" />
-        <option value="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css" />
         <option value="$PROJECT_DIR$/eshopmakers/js/script.js" />
         <option value="$PROJECT_DIR$/eshopmakers/css/style.css" />
         <option value="$PROJECT_DIR$/eshopmakers/index.html" />
+        <option value="$PROJECT_DIR$/nakitel/сss/fonts.css" />
+        <option value="$PROJECT_DIR$/nakitel/сss/style.css" />
+        <option value="$PROJECT_DIR$/nakitel/css/fonts.css" />
+        <option value="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css" />
+        <option value="$PROJECT_DIR$/nakitel/index.html" />
+        <option value="$PROJECT_DIR$/nakitel/js/script.js" />
+        <option value="$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css" />
+        <option value="$PROJECT_DIR$/nakitel/css/style.css" />
       </list>
     </option>
   </component>
@@ -167,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,41 +205,43 @@
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="eshopmakers" type="462c0819:PsiDirectoryNode" />
+              <item name="nakitel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="eshopmakers" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="nakitel" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="eshopmakers" type="462c0819:PsiDirectoryNode" />
+              <item name="nakitel" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.bxslider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="nakitel" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="test905" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
+              <item name="test905" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,19 +254,19 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\githab\skripka-artem.github.io\eshopmakers" />
-      <recent name="D:\githab\skripka-artem.github.io\bravo\src\fonts" />
-      <recent name="D:\githab\skripka-artem.github.io\bravo" />
-      <recent name="D:\githab\skripka-artem.github.io\luxeryHomes\img" />
-      <recent name="D:\githab\skripka-artem.github.io\luxeryHomes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\githab\skripka-artem.github.io\nakitel" />
+      <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts\Helvetica_Neue\Helvetica_Neue" />
       <recent name="D:\githab\skripka-artem.github.io\eshopmakers\jquery.bxslider\images" />
       <recent name="D:\githab\skripka-artem.github.io\eshopmakers\js" />
       <recent name="D:\githab\skripka-artem.github.io\shopia\css" />
-      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\coderiver\src\sass" />
-      <recent name="C:\Users\Артем\goit\skripka-artem.github.io\welcome\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\githab\skripka-artem.github.io\7-8\fonts" />
+      <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts" />
+      <recent name="D:\githab\skripka-artem.github.io\eshopmakers" />
+      <recent name="D:\githab\skripka-artem.github.io\bravo\src\fonts" />
+      <recent name="D:\githab\skripka-artem.github.io\bravo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,12 +393,14 @@
       <workItem from="1509875011334" duration="9312000" />
       <workItem from="1509885295920" duration="6899000" />
       <workItem from="1510474614606" duration="5462000" />
-      <workItem from="1511094618824" duration="15082000" />
+      <workItem from="1511094618824" duration="15240000" />
+      <workItem from="1511199750312" duration="20278000" />
+      <workItem from="1511247692705" duration="3225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163296000" />
+    <option name="totallyTimeSpent" value="186957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
@@ -381,7 +412,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -389,7 +420,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -407,55 +438,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coderiver/src/sass/font.css" />
-    <entry file="file://$PROJECT_DIR$/coderiver/src/img/phone.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testWork/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testAnma/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final/src/sass/style_mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-24/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-24/css/src/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notific/dist/sass/styles.css" />
-    <entry file="file://$PROJECT_DIR$/test905/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2635">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notific/src/sass/styleM.scss" />
     <entry file="file://$PROJECT_DIR$/coderiver/dist/sass/styleM.css" />
     <entry file="file://$PROJECT_DIR$/coderiver/dist/sass/styles.css">
@@ -648,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,25 +637,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="613" column="109" lean-forward="false" selection-start-line="613" selection-start-column="109" selection-end-line="613" selection-end-column="109" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/css/fonts.css" />
     <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3434">
           <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,18 +653,52 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eshopmakers/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test905/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2601">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7-8/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -707,18 +711,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/css/style.css">
+    <entry file="file://$PROJECT_DIR$/nakitel/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="66" column="22" lean-forward="true" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/index.html">
+    <entry file="file://$PROJECT_DIR$/nakitel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="102" column="10" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final/src/sass/style_mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nakitel/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nakitel/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="350" column="25" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
           <folding />
         </state>
       </provider>
