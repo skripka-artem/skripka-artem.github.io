@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nakitel/css/style.css" afterPath="$PROJECT_DIR$/nakitel/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css" afterPath="$PROJECT_DIR$/nakitel/jquery.bxslider/jquery.bxslider.css" />
-    </list>
+    <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -385,16 +382,15 @@
       <workItem from="1510474614606" duration="5462000" />
       <workItem from="1511094618824" duration="15240000" />
       <workItem from="1511199750312" duration="20278000" />
-      <workItem from="1511247692705" duration="5361000" />
+      <workItem from="1511247692705" duration="5546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189093000" />
+    <option name="totallyTimeSpent" value="189278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19867061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
