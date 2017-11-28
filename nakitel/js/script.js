@@ -5,3 +5,6 @@ jQuery(document).ready(function(){
         maxSlides: 1
     });
 });
+
+
+
