@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Макет</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header>
+    <div id="sweeties" class="menu">
+        <span class="title"><img src="img/m.png" alt=""></span>
+        <ul>
+            <li><a href="">Menu1</a></li>
+            <li><a href="">Menu2</a></li>
+            <li><a href="">Menu3</a></li>
+        </ul>
+
+    </div>
+    <img src="img/1.jpg" alt="" class="logo">
+    <ul class="top-menu">
+        <li><a href="">Menu1</a></li>
+        <li><a href="">Menu2</a></li>
+        <li><a href="">Menu3</a></li>
+    </ul>
+    <a href="#" class="button">help button</a>
+</header>
+<main>
+    <aside class="left-sitebar">
+        <h3>Block1</h3>
+
+    </aside>
+    <aside class="content">
+        <h3>Block2</h3>
+        <div class="block">
+            <img src="img/1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci alias blanditiis corporis distinctio fugiat, hic, impedit iusto minima perferendis, provident quasi quidem quos repellat sint soluta vitae. Quam, vel!</p>
+        </div>
+        <div class="block">
+            <img src="img/1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci alias blanditiis corporis distinctio fugiat, hic, impedit iusto minima perferendis, provident quasi quidem quos repellat sint soluta vitae. Quam, vel!</p>
+        </div>
+        <div class="block">
+            <img src="img/1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci alias blanditiis corporis distinctio fugiat, hic, impedit iusto minima perferendis, provident quasi quidem quos repellat sint soluta vitae. Quam, vel!</p>
+        </div>
+        <div class="block">
+            <img src="img/1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci alias blanditiis corporis distinctio fugiat, hic, impedit iusto minima perferendis, provident quasi quidem quos repellat sint soluta vitae. Quam, vel!</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem expedita, fugiat incidunt quod temporibus veniam! Architecto atque iste maxime molestiae nesciunt quas, quasi ratione similique tenetur vero voluptate voluptatem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque beatae delectus deleniti dignissimos dolor doloribus earum harum, id impedit neque nisi officia, optio, rem rerum soluta temporibus tenetur </p>
+
+    </aside>
+    <aside class="right-sitebar" >
+        <h3>Block3</h3>
+    </aside>
+</main>
+<script>
+    var menuElem = document.getElementById('sweeties');
+    var titleElem = menuElem.querySelector('.title');
+
+    titleElem.onclick = function() {
+        menuElem.classList.toggle('open');
+    };
+</script>
+</body>
+</html>
