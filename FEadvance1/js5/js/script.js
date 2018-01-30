@@ -20,20 +20,21 @@ const keyboard = {
     currentLang: ""
 };
 
-var variant = (function () {
-    const language = prompt("введите язык для тренировки. en-0, ru-1, ua-2");
-    return language
-})()
+(function () {
+    const language = prompt("введите язык для тренировки. en, ru, ua");
+    for (var keys in keyboard.layouts) {
+        if (keys === language) {
+            keyboard.currentLang = language;
+            console.log(keyboard.currentLang);
+            console.log(keyboard);
+            const arrey = keyboard.layouts[keys].topRow + keyboard.layouts[keys].middleRow + keyboard.layouts[keys].bottomRow;
+            const rand = Math.floor(Math.random() * arrey.length);
+            alert(arrey[rand]);
+            keyboard.currentLang = language;
+        } else {
 
-var ory = (function(variant) {
-    for (var key in keyboard.langs) {
-        if (key === variant) {
-            alert(keyboard.langs[key])
-            keyboard.currentLang = keyboard.langs[key]
-            console.log(keyboard.currentLang)
         }
     }
 
-
-})(variant)
+})();
 
