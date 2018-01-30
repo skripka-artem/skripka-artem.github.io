@@ -8162,8 +8162,8 @@ if(!length){length=1;object=undefined;}while(++index<length){var value=object==n
          *
          * // Use the HTML "escape" delimiter to escape data property values.
          * var compiled = _.template('<b><%- value %></b>');
-         * compiled({ 'value': '<script>' });
-         * // => '<b>&lt;script&gt;</b>'
+         * compiled({ 'value': '<js>' });
+         * // => '<b>&lt;js&gt;</b>'
          *
          * // Use the "evaluate" delimiter to execute JavaScript and generate HTML.
          * var compiled = _.template('<% _.forEach(users, function(user) { %><li><%- user %></li><% }); %>');
@@ -9433,7 +9433,7 @@ lodash.prototype.at=wrapperAt;lodash.prototype.chain=wrapperChain;lodash.prototy
 lodash.prototype.first=lodash.prototype.head;if(symIterator){lodash.prototype[symIterator]=wrapperToIterator;}return lodash;};/*--------------------------------------------------------------------------*/// Export lodash.
 var _=runInContext();// Some AMD build optimizers, like r.js, check for condition patterns like:
 if(typeof define=='function'&&_typeof(define.amd)=='object'&&define.amd){// Expose Lodash on the global object to prevent errors when Lodash is
-// loaded by a script tag in the presence of an AMD loader.
+// loaded by a js tag in the presence of an AMD loader.
 // See http://requirejs.org/docs/errors.html#mismatch for more details.
 // Use `_.noConflict` to remove Lodash from the global object.
 root._=_;// Define as an anonymous module so, through path mapping, it can be
