@@ -17,26 +17,27 @@ const keyboard = {
         }
     },
     langs: ['en', 'ru', 'ua'],
-    currentLang: ""
+    currentLang: ''
 };
 
-function ory() {
+function randomProgram() {
     const language = prompt("введите язык для тренировки. en, ru, ua");
+    if ((language === "ru") || (language === "ua") || (language === "en") ) {
     for (var keys in keyboard.layouts) {
         if (keys === language) {
             keyboard.currentLang = language;
-            console.log(keyboard.currentLang);
-            console.log(keyboard);
             const arrey = keyboard.layouts[keys].topRow + keyboard.layouts[keys].middleRow + keyboard.layouts[keys].bottomRow;
             const rand = Math.floor(Math.random() * arrey.length);
             alert(arrey[rand]);
             keyboard.currentLang = language;
-        } else {
-            ory();
         }
+    }
+    }
+    else {
+        alert("Не верный язык")
+        randomProgram()
     }
 
 }
 
-ory();
-
+randomProgram()
