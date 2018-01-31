@@ -20,7 +20,7 @@ const keyboard = {
     currentLang: ""
 };
 
-(function () {
+function ory() {
     const language = prompt("введите язык для тренировки. en, ru, ua");
     for (var keys in keyboard.layouts) {
         if (keys === language) {
@@ -32,9 +32,11 @@ const keyboard = {
             alert(arrey[rand]);
             keyboard.currentLang = language;
         } else {
-
+            ory();
         }
     }
 
-})();
+}
+
+ory();
 
