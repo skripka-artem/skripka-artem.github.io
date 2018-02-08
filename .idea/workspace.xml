@@ -5,16 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/FEadvance1/js4/js/script.js" line="21" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js6/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js6/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/app/calc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/app/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/views/home.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node/views/layouts/main.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -363,12 +354,12 @@
       <workItem from="1517734030092" duration="6176000" />
       <workItem from="1517743305224" duration="6478000" />
       <workItem from="1518112598444" duration="1738000" />
-      <workItem from="1518115007947" duration="8667000" />
+      <workItem from="1518115007947" duration="8774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277321000" />
+    <option name="totallyTimeSpent" value="277428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
