@@ -5,7 +5,12 @@
     <bookmark url="file://$PROJECT_DIR$/FEadvance1/js4/js/script.js" line="21" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="" />
+    <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js7/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js7/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js7/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,21 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FEadvance1/js6/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FEadvance1/js6/js/script.js">
+        <entry file="file://$PROJECT_DIR$/FEadvance1/js7/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="765">
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -49,9 +44,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -78,12 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bravo/package-lock.json" />
-        <option value="$PROJECT_DIR$/bravo/package.json" />
-        <option value="$PROJECT_DIR$/bravo/src/sass/fonts.scss" />
-        <option value="$PROJECT_DIR$/bravo/src/sass/style.scss" />
-        <option value="$PROJECT_DIR$/bravo/src/index.html" />
-        <option value="$PROJECT_DIR$/goldCoach/index.html" />
         <option value="$PROJECT_DIR$/goldCoach/js/script.js" />
         <option value="$PROJECT_DIR$/resume/index.html" />
         <option value="$PROJECT_DIR$/eshopmakers/css/fonts.css" />
@@ -129,6 +118,12 @@
         <option value="$PROJECT_DIR$/node/views/main.hbs" />
         <option value="$PROJECT_DIR$/node/index.js" />
         <option value="$PROJECT_DIR$/FEadvance1/js6/js/script.js" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7.js" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7/script.js" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7/js/script.js" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7/index.html" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7/js/css/style.css" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7/css/style.css" />
       </list>
     </option>
   </component>
@@ -140,11 +135,10 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/bravo/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node/node_modules" />
     <handled-path value="$PROJECT_DIR$/not/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-13" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
@@ -164,7 +158,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,10 +165,29 @@
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="FEadvance1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="FEadvance1" type="462c0819:PsiDirectoryNode" />
+              <item name="js7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="FEadvance1" type="462c0819:PsiDirectoryNode" />
+              <item name="js7" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,19 +201,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\githab\skripka-artem.github.io\node\views\layouts" />
-      <recent name="D:\githab\skripka-artem.github.io\nakitel" />
-      <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts\Helvetica_Neue\Helvetica_Neue" />
-      <recent name="D:\githab\skripka-artem.github.io\eshopmakers\jquery.bxslider\images" />
-      <recent name="D:\githab\skripka-artem.github.io\eshopmakers\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\githab\skripka-artem.github.io\efection\src" />
       <recent name="D:\githab\skripka-artem.github.io\7-8\fonts" />
       <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts" />
       <recent name="D:\githab\skripka-artem.github.io\eshopmakers" />
       <recent name="D:\githab\skripka-artem.github.io\bravo\src\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js7" />
+      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js7\js" />
+      <recent name="D:\githab\skripka-artem.github.io\node\views\layouts" />
+      <recent name="D:\githab\skripka-artem.github.io\nakitel" />
+      <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts\Helvetica_Neue\Helvetica_Neue" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,16 +367,18 @@
       <workItem from="1517743305224" duration="6478000" />
       <workItem from="1518112598444" duration="1738000" />
       <workItem from="1518115007947" duration="8774000" />
+      <workItem from="1518201003896" duration="37000" />
+      <workItem from="1518342914483" duration="4524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277428000" />
+    <option name="totallyTimeSpent" value="281989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-13" y="0" width="1370" height="744" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19867061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -398,28 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/goldCoach/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldCoach/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="613" column="109" lean-forward="false" selection-start-line="613" selection-start-column="109" selection-end-line="613" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/css/fonts.css" />
     <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3434">
@@ -680,45 +672,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/package.json">
+    <entry file="file://$PROJECT_DIR$/node/package.json" />
+    <entry file="file://$PROJECT_DIR$/node/app/calc.js" />
+    <entry file="file://$PROJECT_DIR$/node/index.js" />
+    <entry file="file://$PROJECT_DIR$/node/views/layouts/main.hbs" />
+    <entry file="file://$PROJECT_DIR$/node/views/home.hbs" />
+    <entry file="file://$PROJECT_DIR$/node/app/index.js" />
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js6/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/app/calc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/views/layouts/main.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/views/home.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,10 +694,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js6/js/script.js">
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="33" />
           <folding />
         </state>
       </provider>
