@@ -1,4 +1,4 @@
-
+const root = document.getElementById("root");
 const playSound = note => {
     const audio = document.querySelector("audio[data-note=" +note);
     audio.currentTime = 0;
@@ -63,5 +63,5 @@ function sound() {
         checked.sound = true
     }
 }
-document.addEventListener("keydown", onDown)
+root.addEventListener("keydown", onDown)
 label.addEventListener("click", sound);
