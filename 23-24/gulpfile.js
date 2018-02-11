@@ -40,7 +40,7 @@ gulp.task('css', function () {
         .pipe(gulp.dest('sass/dist'));
 });
 // gulp.task('testJasmine', () =>
-// 	gulp.src('spec/test.js')
+// 	gulp.src('spec/script.js')
 // 	// gulp-jasmine works on filepaths so you can't have any plugins before it
 // 		.pipe(jasmine())
 // );

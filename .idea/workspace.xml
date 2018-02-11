@@ -6,10 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js7/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js7/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js7/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js8/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js8/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEadvance1/js8/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/23-24/gulpfile.js" afterPath="$PROJECT_DIR$/23-24/gulpfile.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,25 +29,14 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FEadvance1/js7/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,6 +49,7 @@
       <find>100</find>
       <find>100%</find>
       <find>67</find>
+      <find>act</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -73,11 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/goldCoach/js/script.js" />
-        <option value="$PROJECT_DIR$/resume/index.html" />
-        <option value="$PROJECT_DIR$/eshopmakers/css/fonts.css" />
-        <option value="$PROJECT_DIR$/eshopmakers/script.js" />
-        <option value="$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js" />
         <option value="$PROJECT_DIR$/eshopmakers/js/script.js" />
         <option value="$PROJECT_DIR$/eshopmakers/css/style.css" />
         <option value="$PROJECT_DIR$/eshopmakers/index.html" />
@@ -124,6 +110,11 @@
         <option value="$PROJECT_DIR$/FEadvance1/js7/index.html" />
         <option value="$PROJECT_DIR$/FEadvance1/js7/js/css/style.css" />
         <option value="$PROJECT_DIR$/FEadvance1/js7/css/style.css" />
+        <option value="$PROJECT_DIR$/FEadvance1/js7/js/script0.js" />
+        <option value="$PROJECT_DIR$/FEadvance1/js8/js/script0.js" />
+        <option value="$PROJECT_DIR$/FEadvance1/js8/index.html" />
+        <option value="$PROJECT_DIR$/FEadvance1/js8/css/style.css" />
+        <option value="$PROJECT_DIR$/FEadvance1/js8/js/script.js" />
       </list>
     </option>
   </component>
@@ -137,7 +128,7 @@
     <handled-path value="$PROJECT_DIR$/bravo/node_modules" />
     <handled-path value="$PROJECT_DIR$/not/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-13" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
@@ -174,13 +165,20 @@
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="FEadvance1" type="462c0819:PsiDirectoryNode" />
-              <item name="js7" type="462c0819:PsiDirectoryNode" />
+              <item name="js8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="FEadvance1" type="462c0819:PsiDirectoryNode" />
-              <item name="js7" type="462c0819:PsiDirectoryNode" />
+              <item name="js8" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="FEadvance1" type="462c0819:PsiDirectoryNode" />
+              <item name="js8" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -201,19 +199,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js8\js" />
+      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js7" />
+      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js7\js" />
+      <recent name="D:\githab\skripka-artem.github.io\node\views\layouts" />
+      <recent name="D:\githab\skripka-artem.github.io\nakitel" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\githab\skripka-artem.github.io\efection\src" />
       <recent name="D:\githab\skripka-artem.github.io\7-8\fonts" />
       <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts" />
       <recent name="D:\githab\skripka-artem.github.io\eshopmakers" />
       <recent name="D:\githab\skripka-artem.github.io\bravo\src\fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js7" />
-      <recent name="D:\githab\skripka-artem.github.io\FEadvance1\js7\js" />
-      <recent name="D:\githab\skripka-artem.github.io\node\views\layouts" />
-      <recent name="D:\githab\skripka-artem.github.io\nakitel" />
-      <recent name="D:\githab\skripka-artem.github.io\nakitel\fonts\Helvetica_Neue\Helvetica_Neue" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,22 +367,33 @@
       <workItem from="1518115007947" duration="8774000" />
       <workItem from="1518201003896" duration="37000" />
       <workItem from="1518342914483" duration="4524000" />
+      <workItem from="1518350757600" duration="6443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281989000" />
+    <option name="totallyTimeSpent" value="288432000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="0" width="1370" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19867061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2001488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -392,7 +401,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -412,39 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/jquery.bxslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/jquery.bxslider/images/controls.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eshopmakers/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="66" column="22" lean-forward="false" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test905/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -682,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +668,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js7.js">
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7.js" />
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../eee/goit-school/home_ work _module_08/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -702,26 +701,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/index.html">
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js8/js/script0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="363">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/css/style.css">
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js8/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="1173">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js7/js/script.js">
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js8/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="-221">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEadvance1/js8/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
