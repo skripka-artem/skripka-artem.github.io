@@ -24,8 +24,13 @@ window.addEventListener("keydown", function(event){
                 if(main === chars){
                     clearInterval(time);
                     result.textContent = `Ти справился за ${counter} секунд`;
-                    if (counter < getItem) {
+                    if ( getItem === null) {
                         localStorage.setItem("data", JSON.stringify(counter));
+                    }
+                    else {
+                        if (counter < getItem) {
+                            localStorage.setItem("data", JSON.stringify(counter));
+                        }
                     }
                 }
                 else {
