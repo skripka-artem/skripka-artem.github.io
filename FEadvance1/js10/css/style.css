@@ -1,0 +1,26 @@
+body {
+    background: #000;
+}
+
+.timer {
+    text-align: center;
+    display: block;
+    width: 50px;
+    background-color: red;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.text {
+    width: 35px;
+    background: red;
+    padding: 8px;
+    margin: 10px auto;
+}
+
+.result {
+    margin: 10px auto;
+    width: 187px;
+    background-color: red;
+    padding: 10px;
+}
