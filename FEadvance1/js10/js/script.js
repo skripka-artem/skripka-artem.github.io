@@ -11,7 +11,8 @@ let time = setInterval(() => {
 let arrMain = [];
 let allKeys = [];
 text.innerHTML = string;
-result.textContent = `Лучший результат ${localStorage.getItem("data")} секунд`;
+
+result.textContent = `Твой результат ${localStorage.getItem("data")} секунд`;
 let getItem = localStorage.getItem("data")
 
 window.addEventListener("keydown", function(event){
@@ -24,14 +25,7 @@ window.addEventListener("keydown", function(event){
                 if(main === chars){
                     clearInterval(time);
                     result.textContent = `Ти справился за ${counter} секунд`;
-                    if ( getItem === null) {
-                        localStorage.setItem("data", JSON.stringify(counter));
-                    }
-                    else {
-                        if (counter < getItem) {
-                            localStorage.setItem("data", JSON.stringify(counter));
-                        }
-                    }
+                    localStorage.setItem("data", JSON.stringify(counter));
                 }
                 else {
                     clearInterval(time);
