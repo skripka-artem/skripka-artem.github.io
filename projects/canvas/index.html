@@ -1,0 +1,38 @@
+<html>
+ <body >
+   <canvas id="canvas" > </canvas>
+        <script>
+
+			var canvas = document.getElementById("canvas");
+            var t = canvas.getContext("2d");
+
+			
+			
+
+function triangle(mouseX, mouseY){
+            t.clearRect(0, 0, canvas.width, canvas.height);
+            t.beginPath();
+            t.moveTo(mouseX, mouseY);
+            t.lineTo( 150, 140);
+            t.lineTo( 150, 30);
+			t.closePath();
+            t.stroke();
+}
+
+console.log(t)
+
+canvas.addEventListener('mousemove',function(e){
+  triangle(e.clientX, e.clientY);
+});
+
+
+canvas.addEventListener('mouseout',function(e){
+  t.clearRect(0, 0, canvas.width, canvas.height);
+});
+
+
+        </script>
+ </body>
+</html>
+
+
