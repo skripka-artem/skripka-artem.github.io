@@ -25,3 +25,6 @@ class Dog extends Animal {
     console.log(dog.bark() === 'Dog Aban is barking');
 
 })()
+
+
+
