@@ -1,69 +1,57 @@
 
-(function() {
+var counter = document.getElementById('counter'),
+    start = document.getElementById('start'),
+    stop = document.getElementById('stop')
 
-    var buttonStart = document.querySelector(".start");
-    var buttonStop = document.querySelector(".stop");
-    var wrapper =  document.getElementById('t');
+var hour, min, sec, timer;
 
+counter.innerText = '0' + ':' + '0' + ':' + '0';
 
-    let timeS = {};
+function initcounter() {
+    counter.innerText = hour + ':' + min + ':' + sec; }
 
-    function SuperTimeObj(){
-        this.time = function() {
-            let today = new Date();
-            today = Math.floor((today)/1000);
-            tsec=today%60; today=Math.floor(today/60); if(tsec<10)tsec='0'+tsec;
-            tmin=today%60; today=Math.floor(today/60); if(tmin<10)tmin='0'+tmin;
-            thour=today%24; today=Math.floor(today/24);
-            timestr=thour+" hours "+tmin+" min "+tsec+" sec";
-            wrapper.innerHTML=timestr;
+function Watch() {
+    this.watch = function () {
+        if (sec === 59) {
+            sec = 0;
+            min++;
+            initcounter();
+        } else if (min === 60) {
+            min = 0;
+            hour++;
+            initcounter();
+        } else {
+            sec++;
+            initcounter();
         }
-
-        this.start = function() {
-            timerS = setInterval(this.time, 1000);
-            let startdate = new Date();
-            this.startTime = startdate;
-        }
-
-        this.stop = function() {
-            clearInterval(timerS);
-            let stopdate = new Date();
-            this.stopTime = stopdate;
-            this.interval = Math.floor((this.stopTime - this.startTime)/1000);
-            wrapper.innerHTML = `interval: ${this.interval} sec`;
-        }
-
     }
+    this.startW = function () {
+        hour = 0;
+        min = 0;
+        sec = 0;
 
-    function timeObj(start, stop){
-        this.startTime = start;
-        this.stopTime = stop;
-        this.interval = stop - start;
+        initcounter();
+
+        timer = setInterval(this.watch, 1000);
     }
-
-    timeObj.prototype = new SuperTimeObj();
-
-    var obj = new timeObj(10, 15);
-
-    buttonStart.addEventListener("click", function(){
-        obj.start();
-        console.log(obj);
-    });
-
-    buttonStop.addEventListener("click", function(){
-        obj.stop();
-        console.log(obj);
-    });
-
-
-    console.log(obj);
-
-})();
-
-var x=5
-
-for ( i=0; i<5; i++) {   x=x+3
 
 }
 
-console.log(x);
+function Timer() {
+    this.stop = function () {
+        console.log(hour +":"+ min +":" + sec )
+        clearInterval(timer);
+    }
+}
+
+Timer.prototype = new Watch()
+let result = new Timer()
+console.log(result)
+
+
+start.addEventListener('click',  function () {
+    result.watch();
+    result.startW()
+});
+
+stop.addEventListener('click',  result.stop);
