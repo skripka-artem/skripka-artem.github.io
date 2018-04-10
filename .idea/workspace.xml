@@ -6,253 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/fonts/Ubuntu-condenced.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/fonts/ubuntu-medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/icons2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/iconsHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/img11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/img12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/img15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/logos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/seach.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/img/setings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/fonts/Ubuntu-condenced.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/fonts/ubuntu-medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/icons2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/iconsHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/img1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/img11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/img12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/img15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/logos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/seach.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/img/setings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Montserrat-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Montserrat-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Montserrat-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Montserrat-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Montserrat-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Montserrat-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Black.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Black.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-BlackItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-BlackItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-BoldItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-BoldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Italic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-LightItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-LightItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-MediumItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-MediumItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-ThinItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/Roboto-ThinItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/fontello.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/fontello.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/fontello.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/fontello.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/001-flask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/002-paper-plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/003-coffee-cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/004-television.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/areto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/backroundHeader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/forSlider_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/forSlider_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/forSlider_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/fotoPartner_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/fotoPartner_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/fotoPartner_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/fotoPartner_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/img/fotoPartner_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Montserrat-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Montserrat-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Montserrat-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Montserrat-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Montserrat-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Montserrat-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Black.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Black.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-BlackItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-BlackItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-BoldItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-BoldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Italic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-LightItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-LightItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Medium.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-MediumItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-MediumItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Thin.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-ThinItalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/Roboto-ThinItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/fontello.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/fontello.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/fontello.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/fontello.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/001-flask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/002-paper-plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/003-coffee-cup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/004-television.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/areto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/backroundHeader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/forSlider_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/forSlider_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/forSlider_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/fotoPartner_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/fotoPartner_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/fotoPartner_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/fotoPartner_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/img/fotoPartner_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/js/jquery.jcarousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/js/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/dist/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/css/footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/css/header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/css/jcarousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/css/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/js/jquery.jcarousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/js/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/build/src/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/fonts/fontello.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/dist/js/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/fonts/fontello.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/js/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/js/mosonry_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/js/slider_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/1_reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/1_reset.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/1_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/font.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/fontello-codes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/fontello-embedded.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/fontello.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_desktop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_desktop.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_desktop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_mobile.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_mobile.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_tablet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_tablet.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/final/src/sass/style_tablet.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/api/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/api/js/lodash.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/api/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/quest/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/quest/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/quest/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/css/main.css" afterPath="$PROJECT_DIR$/resume/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/index.html" afterPath="$PROJECT_DIR$/resume/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/js/main.js" afterPath="$PROJECT_DIR$/resume/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -275,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="645" column="105" lean-forward="false" selection-start-line="645" selection-start-column="105" selection-end-line="645" selection-end-column="105" />
+            <state relative-caret-position="35">
+              <caret line="803" column="27" lean-forward="false" selection-start-line="803" selection-start-column="27" selection-end-line="803" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#7;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -329,18 +93,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FE#9/js21-22test/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FE#9/js13-14/index.html">
+        <entry file="file://$PROJECT_DIR$/FE#9/js5-6/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -352,8 +106,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="732" column="14" lean-forward="false" selection-start-line="732" selection-start-column="14" selection-end-line="732" selection-end-column="14" />
+            <state relative-caret-position="221">
+              <caret line="772" column="13" lean-forward="true" selection-start-line="772" selection-start-column="13" selection-end-line="772" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -380,6 +134,7 @@
       <find>100%</find>
       <find>67</find>
       <find>act</find>
+      <find>tab</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -394,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FEadvance1/js7/js/script0.js" />
         <option value="$PROJECT_DIR$/FEadvance1/js8/js/script0.js" />
         <option value="$PROJECT_DIR$/FEadvance1/js8/index.html" />
         <option value="$PROJECT_DIR$/FEadvance1/js8/css/style.css" />
@@ -441,10 +195,11 @@
         <option value="$PROJECT_DIR$/FEadvance1/js15/js/script.js" />
         <option value="$PROJECT_DIR$/FEadvance1/js16/index.html" />
         <option value="$PROJECT_DIR$/FEadvance1/js16/js/script.js" />
-        <option value="$PROJECT_DIR$/resume/css/main.css" />
         <option value="$PROJECT_DIR$/FE#9/7-8/index.html" />
-        <option value="$PROJECT_DIR$/resume/index.html" />
         <option value="$PROJECT_DIR$/projects/final/dist/css/styles.css" />
+        <option value="$PROJECT_DIR$/resume/js/main.js" />
+        <option value="$PROJECT_DIR$/resume/css/main.css" />
+        <option value="$PROJECT_DIR$/resume/index.html" />
       </list>
     </option>
   </component>
@@ -503,7 +258,7 @@
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="FE#9" type="462c0819:PsiDirectoryNode" />
-              <item name="js13-14" type="462c0819:PsiDirectoryNode" />
+              <item name="js5-6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -733,12 +488,12 @@
       <workItem from="1523092493931" duration="66000" />
       <workItem from="1523096069111" duration="2529000" />
       <workItem from="1523099170925" duration="637000" />
-      <workItem from="1523356359661" duration="5962000" />
+      <workItem from="1523356359661" duration="11702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372010000" />
+    <option name="totallyTimeSpent" value="377750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,37 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js13/js.js" />
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js13/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/testProto/js.js" />
-    <entry file="file://$PROJECT_DIR$/projects/testProto/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/projects/testProto/js/scriptES5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/goldCoach/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/testProto/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/testProto/js/scriptES6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1011,14 +735,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="732" column="14" lean-forward="false" selection-start-line="732" selection-start-column="14" selection-end-line="732" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/pingbuller/css/font.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1072,10 +788,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/build/src/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FE#9/js21-22test/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FE#9/js13-14/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="772" column="13" lean-forward="true" selection-start-line="772" selection-start-column="13" selection-end-line="772" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FE#9/js19-20/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FE#9/js15'16/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/api/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/quest/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FE#9/js13-14/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="645" column="105" lean-forward="false" selection-start-line="645" selection-start-column="105" selection-end-line="645" selection-end-column="105" />
+        <state relative-caret-position="35">
+          <caret line="803" column="27" lean-forward="false" selection-start-line="803" selection-start-column="27" selection-end-line="803" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#7;n#div#0;n#div#1;n#section#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1127,7 +923,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/build/src/js/jquery.js">
+    <entry file="file://$PROJECT_DIR$/FE#9/js9-10/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1135,7 +931,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FE#9/js19-20/dist/index.html">
+    <entry file="file://$PROJECT_DIR$/FE#9/js7,8/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1143,23 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FE#9/js21-22test/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FE#9/js15'16/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FE#9/js13-14/index.html">
+    <entry file="file://$PROJECT_DIR$/FE#9/js5-6/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

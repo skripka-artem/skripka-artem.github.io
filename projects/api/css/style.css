@@ -1,0 +1,17 @@
+
+  h1 {
+    text-align: center;
+  }
+.input {
+    width: 100px;
+    margin-left: 45%;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 50px;
+
+}

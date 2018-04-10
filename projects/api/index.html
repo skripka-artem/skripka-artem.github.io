@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS 15-16</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="search">
+  <h1>Галерея картинок</h1>
+  <input type="text" class="input" >
+    <button class="button">Пошук</button>
+  <div id="container"></div>
+  <script type="text/template" id="template">
+    <div class="items">
+      <% _.forEach (hits, function(item) { %>
+        <div class="item">
+          <a href="<%- item.webformatURL %>">
+            <img src="<%- item.previewURL %>">
+          </a>
+        </div>
+        <%});%>
+    </div>
+  </script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/lodash.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

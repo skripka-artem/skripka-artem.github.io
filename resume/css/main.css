@@ -748,7 +748,59 @@ body {width: 92%; margin: 0 auto}
 
 .portfolio_block {
   width: 30%;
+  height: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+
+.portfolio_block .img-responsive {
+ height: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.textSpan  {padding-top: 0em!important;
+text-transform: capitalize!important;
+font-size: 20px!important; }
+
+
+
+#tabb{text-align: center;}
+
+
+#tabb .tabb {
+  display: inline-block;
+
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  z-index:5;
+}
+#tabb .whiteborder {
+ color: red;
+}
+#tabb .hide {
+  display: none;
+}
+#tabb .show {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 1280px) { 
@@ -771,3 +823,5 @@ body {width: 92%; margin: 0 auto}
 #portfolio p a {
 
 }
+
+
