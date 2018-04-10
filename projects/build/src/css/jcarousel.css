@@ -1,0 +1,51 @@
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+.jcarousel img {
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+}
+
+.jcarousel-pagination {
+    position: absolute;
+    top: 600px;
+    left: 650px;
+}
+
+.jcarousel-pagination a{
+   margin-left: 5px;
+    text-decoration: none;
+    color: #FFffff;
+    padding: 5px;
+    background: #000000;
+    border-radius: 5px;
+}
+
+.jcarousel-pagination a:focus{
+    background: red;
+}
+
+
