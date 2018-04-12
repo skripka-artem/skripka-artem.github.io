@@ -137,6 +137,7 @@ header {
 
     .information:nth-child(1) .information-block:nth-child(2) img {
         position: absolute;
+
         left: -72px;
         width: 10%;
         top: 70px;
