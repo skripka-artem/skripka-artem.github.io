@@ -69,7 +69,6 @@ module.exports = {
       title: 'Webpack is awesome',
       filename: 'index.html',
       template: 'src/index.html',
-      favicon: 'src/favicon.png',
       inject: true
     }),
     new CleanWebpackPlugin(['dist']),
