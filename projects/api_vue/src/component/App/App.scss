@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 60%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+.blockImg {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  li {
+    list-style: none;
+    width: 30%;
+    margin-bottom: 1%;
+
+
+  img {
+    height: 200px;
+    width: 100%;
+
+  }
+  a {
+display: block;
+    margin-top: -4px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+  }
+  }
+}
+input {
+  padding: 5px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}

@@ -25,13 +25,9 @@
     <div class="keyboard">
         <% buttonsCont.button.forEach(key=>{ %>
         <div class="keyboard__row">
-            <%
-            let start = 0;
-            key.forEach(button=>{
-            %>
+            <%let start = 0;key.forEach(button=>{%>
             <button class="keyboard__btn" data-note="<%- buttonsCont.note[start] %>"><%- button %></button>
-            <% start++
-            }) %>
+            <% start++}) %>
         </div>
         <% }) %>
     </div>

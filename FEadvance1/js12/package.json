@@ -22,5 +22,8 @@
     "start": "gulp start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xlsx-to-json": "^0.3.0"
+  }
 }

@@ -1,0 +1,30 @@
+.sitebar {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-bottom-right-radius: 30%;
+
+  h2 {
+    text-align: center;
+  }
+
+  li {
+    list-style: none;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: red;
+    }
+
+    li {
+      margin-left: 5%;
+      a {
+        color: #000;
+      }
+    }
+  }
+
+
+}
