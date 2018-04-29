@@ -6,15 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/editTable/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/editTable/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/editTable/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/api_vue/src/component/Modal/Modal.js" afterPath="$PROJECT_DIR$/projects/api_vue/src/component/Modal/Modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/api_vue/src/component/Modal/Modal.scss" afterPath="$PROJECT_DIR$/projects/api_vue/src/component/Modal/Modal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/api_vue/src/component/Modal/Modal.vue" afterPath="$PROJECT_DIR$/projects/api_vue/src/component/Modal/Modal.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/api_vue/src/router/Picture/Picture.js" afterPath="$PROJECT_DIR$/projects/api_vue/src/router/Picture/Picture.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/api_vue/src/router/Picture/Picture.vue" afterPath="$PROJECT_DIR$/projects/api_vue/src/router/Picture/Picture.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/index.html" afterPath="$PROJECT_DIR$/resume/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,31 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/editTable/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resume/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/editTable/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/editTable/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+            <state relative-caret-position="184">
+              <caret line="811" column="68" lean-forward="false" selection-start-line="811" selection-start-column="68" selection-end-line="811" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -104,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/Sitebar.vue" />
         <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/Home.vue" />
         <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/router/Nature/Nature.vue" />
         <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/router/Animals/Animals.vue" />
@@ -155,6 +127,7 @@
         <option value="$PROJECT_DIR$/projects/editTable/css/style.css" />
         <option value="$PROJECT_DIR$/projects/editTable/index.html" />
         <option value="$PROJECT_DIR$/projects/editTable/js/script.js" />
+        <option value="$PROJECT_DIR$/resume/index.html" />
       </list>
     </option>
   </component>
@@ -211,13 +184,7 @@
             <path>
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="editTable" type="462c0819:PsiDirectoryNode" />
+              <item name="resume" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -463,12 +430,12 @@
       <workItem from="1524644509215" duration="373000" />
       <workItem from="1524671213394" duration="4571000" />
       <workItem from="1524686810415" duration="121000" />
-      <workItem from="1524989393506" duration="9367000" />
+      <workItem from="1524989393506" duration="10027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="512558000" />
+    <option name="totallyTimeSpent" value="513218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,13 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/ProductDetails.vue" />
     <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/ProductsList.vue" />
     <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/ProductItem.vue" />
@@ -822,6 +782,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/editTable/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/editTable/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -830,10 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/editTable/js/script.js">
+    <entry file="file://$PROJECT_DIR$/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+        <state relative-caret-position="184">
+          <caret line="811" column="68" lean-forward="false" selection-start-line="811" selection-start-column="68" selection-end-line="811" selection-end-column="68" />
           <folding />
         </state>
       </provider>
