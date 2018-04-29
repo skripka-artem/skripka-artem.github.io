@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>editTable</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+
+    <div id="table" class="table-editable">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="hide">
+                <td contenteditable="true"></td>
+                <td contenteditable="true"></td>
+                <td>
+                    <span class="table-remove">Видалити</span>
+                </td>
+                <td>
+                    <span class="table-up">Вверх</span>
+                    <span class="table-down">Вниз</span>
+                </td>
+            </tr>
+            <tr>
+                <td contenteditable="true">Tecт</td>
+                <td contenteditable="true">Тест</td>
+                <td><span class="table-remove">Видалити</span></td>
+                <td>
+                    <span class="table-up">Вверх</span>
+                    <span class="table-down">Вниз</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <p class="table-add">Додати поле</p>
+    <button id="export-btn" class="btn btn-primary">Подивитися як виглядає масив</button>
+    <p id="export"></p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

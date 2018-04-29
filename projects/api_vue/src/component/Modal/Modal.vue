@@ -5,17 +5,17 @@
 
       <md-tabs md-dynamic-height>
         <md-tab md-label="General">
-          <div v-for="elem in elems">
-          <p>{{elem.id.largeImageURL}}</p>
+          <div >
+          <p>Описание</p>
           </div>
         </md-tab>
 
         <md-tab md-label="Activity">
-          <p>q</p>
+          <p>Описание</p>
          </md-tab>
 
         <md-tab md-label="Account">
-       <p>q</p>
+       <p>Описание</p>
         </md-tab>
       </md-tabs>
 

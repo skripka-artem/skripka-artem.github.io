@@ -1,10 +1,13 @@
 import Modal from '../../component/Modal/Modal.vue'
+import _ from 'lodash';
 export default {
-  data: function ()  {
+  props: ['largeImageURL'],
+  data()  {
     return {
       elems:[],
       name: 'DialogCustom',
-      showDialog: false
+      showDialog: false ,
+
     }
   },
   components: {
@@ -24,6 +27,10 @@ export default {
 
       )
   },
-
+  methods: {
+    clicked(){
+      console.log (this.largeImageURL)
+    }
+  }
 }
 
