@@ -1,0 +1,95 @@
+.buttons {
+  width: 83%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  button{
+    background-color: #ffffff;
+    border: 2px solid #ff5722;
+    padding: 5px;
+    float: left;
+    font-family: Roboto;
+    color:  #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &:active {
+      border-color: none;
+    }
+    &:first-child{
+      border-top-left-radius: 15%;
+      border-bottom-left-radius: 15%;
+    }
+    &:last-child{
+      border-top-right-radius: 15%;
+      border-bottom-right-radius: 15%;
+    }
+    &:not(:last-child) {
+      border-right: none;
+    }
+  }
+
+}
+
+.buttons:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.buttons button:hover {
+    background-color: #ff5722;
+    color: #ffffff;
+}
+
+.buttons button {
+  .image_bar {
+    background: url(../img/bar.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    &:hover{
+      background: url(../img/bar_white.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .image_line {
+    background: url(../img/line.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    &:hover{
+      background: url(../img/line_white.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .image_pie{
+    background: url(../img/pie.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    &:hover{
+      background: url(../img/pie_white.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .image_dough {
+    background: url(../img/donut.png) no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    &:hover{
+      background: url(../img/donut_white.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+

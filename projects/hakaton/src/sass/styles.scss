@@ -1,0 +1,148 @@
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #f1f2f2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    height: 20px;
+    background-color: #3f51b5;
+  }
+
+  .pieChartWrapper {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: "Myriad Pro";
+    width: 50%;
+    min-height: 410px;
+    height: 65%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 3px #d2d3d3;
+
+  }
+.pieChartWrapper>img{
+  position: absolute;
+  margin: 1% 0 0 96%;
+  width: 20px;
+  height: 20px;
+}
+  .tableBlock{
+    padding: 15px;
+    margin: auto;
+    width: 76%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 3px #d2d3d3;
+
+
+
+    .controls{
+
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+          &__upload,
+          &__stylish{
+            width: 30px;
+            height: 30px;
+            margin: 0 20px;
+            background-repeat: no-repeat;
+            border: none;
+            padding: 0;
+            position: relative;
+            background-color: #ffffff0a;
+          }
+
+          &__stylish::before,
+          &__upload::before{
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 10;
+            background-repeat: no-repeat;
+            background-size: contain;
+          }
+
+          &__stylish::before{
+            background-image: url( ../img/brush.png );
+            background-position: 1px;
+          }
+
+          &__upload::before{
+            content: url(../img/download.png );
+          }
+
+
+          &__buttonSave{
+            color: #ffffff;
+            background-color: #ff8159;
+            border: 2px solid #ff8159;
+            border-radius: 2px;
+            padding: 0 20px;
+            display: inline-table;
+            vertical-align: middle;
+          }
+
+          &__input{
+            border: 2px solid #ff8159;
+            border-radius: 3px;
+          }
+          &__input[placeholder]{
+            color: #d1d3d4;
+            padding: 0 5px;
+          }
+
+      }
+    .table{
+
+      margin: auto;
+      width: 100%;
+
+      &__body{
+
+        border-collapse: collapse;
+      }
+
+      &__row{
+        width: 100%;
+      }
+
+      &__cell{
+        font-size: 35px;
+        padding: 0 5px;
+        width: 130px;
+        min-width: 80px;
+        border: 1px solid #f1f2f2;
+        border-collapse: collapse;
+      }
+
+      &__textarea{
+        width: 100%;
+        height: 50%;
+        border: none;
+      }
+    }
+    }
+
+.addTable {
+  margin-top: 10px;
+}
+
+
+table tbody td {
+  font-size: 35px;
+}
+#picker_wrapper {
+  z-index: 9;
+}

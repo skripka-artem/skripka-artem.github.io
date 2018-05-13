@@ -1,0 +1,78 @@
+.btn {
+    background: #3498db;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+  table {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table td, table th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table tbody td {
+    font-size: 13px;
+  }
+  table tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table thead {
+    background: #1C6EA4;
+    border-bottom: 2px solid #444444;
+  }
+  table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 2px solid #D0E4F5;
+  }
+  table thead th:first-child {
+    border-left: none;
+  }
+
+  table tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #D0E4F5;
+    border-top: 2px solid #444444;
+  }
+  table tfoot td {
+    font-size: 14px;
+  }
+  table tfoot .links {
+    text-align: right;
+  }
+  table tfoot .links a{
+    display: inline-block;
+    background: #1C6EA4;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  .row {
+      margin-right: 0;
+      width: 40%;
+  }
+
+  #loadExcel {
+    color: #fff;
+
+  }
+

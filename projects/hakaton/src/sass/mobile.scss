@@ -1,0 +1,53 @@
+@media (min-width: 320px) and (max-width: 765px) {
+  .container {
+    width: 100%;
+  }
+  .pieChartWrapper>img {
+    position: absolute;
+    margin: 1% 0 0 90%!important;
+    width: 20px;
+    height: 20px;
+  }
+  #chartJSContainer {
+    display: block;
+    width: 100%!important;
+    height: 250px!important;
+  }
+
+  .controls__stylish {
+    margin-left: 15px!important;
+    margin-right: 23px!important;
+  }
+
+  .pieChartWrapper {
+    margin: 30px 20px 20px;
+    font-size: 22px;
+    font-family: Myriad Pro;
+    width: 100%!important;
+    min-height: 300px!important;
+
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .buttons button:not(:last-child) {
+    border: 2px solid #ff5722;
+  }
+
+  .buttons button:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .buttons button:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .buttons button {
+    margin-bottom: 5px;
+  }
+}
+
+
