@@ -103,8 +103,7 @@
   }
 
   main {
-    max-width: 1570px;
-    margin: auto;
+    
     .h2big {
       margin-left: 6%;
       padding-top: 30px;
@@ -214,6 +213,15 @@
       }
     }
 
+    .norm {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .revers {
+      display: flex;
+      flex-direction: column;
+    }
     .information {
       .image {
         position: relative;
@@ -264,6 +272,9 @@
     background-image: url(../img/bg2.png);
     background-size: 100% 100%;
 
+    
+      
+
     .surface-logo {
       padding-top: 100px;
       svg {
@@ -275,7 +286,7 @@
         border-radius: 15px;
       }
     }
-
+  
     .logoText {
       text-align: center;
       .downloadText {

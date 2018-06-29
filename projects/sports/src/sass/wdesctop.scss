@@ -36,28 +36,35 @@
         margin: 0;
         margin-top: 250px;
         margin-right: 10px;
+        
       }
 
       .qualities {
         .textBlock {
+          width: 3000px;
           margin-left: -472px;
-
           padding-left: 472px;
         }
       }
     }
     .reverse {
       .qualities {
+        width: 3000px;
         .textBlock {
           margin: 0;
           padding: 0;
           margin-right: -70%;
+          width: 100%;
         }
+
+      
+      }
+      picture {
+        position: absolute;
       }
     }
 
     .norm {
-      display: flex;
       flex-direction: row;
 
       .image {
@@ -85,8 +92,14 @@
     }
 
     .revers {
-      display: flex;
       flex-direction: row-reverse;
+
+        .textBlock {
+          margin: 0;
+          padding: 0;
+          margin-right: -70%;
+        }
+      
 
       .image {
         width: 50%;
@@ -120,3 +133,18 @@
   }
 }
 
+@media (min-width: 1500px) {
+  main {
+      .norm {
+        .image {
+
+        
+        .namber {
+          bottom: 370px;
+        left: 93%;
+        }
+      }
+    }
+  }
+
+}
