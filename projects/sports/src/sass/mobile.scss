@@ -223,28 +223,35 @@
       flex-direction: column;
     }
     .information {
-      .image {
-        position: relative;
         picture {
           img {
             width: 100%;
           }
         }
         .namber {
+          font-family: "OpenSans-Bold";
+          font-size: 14px;
+          color: #fff;
           padding: 25px;
           background-color: #5e42b0;
           position: absolute;
-          bottom: -10px;
-          left: 26px;
-          span {
-            font-family: "OpenSans-Bold";
-            font-size: 14px;
-            color: #fff;
-            border-bottom: 5px solid #8f7bc8;
-          }
+          bottom: 90%;
+
         }
-      }
+        .namber:before{
+            content: "";
+            position: absolute;
+            top: 62%;
+            height: 6px;
+            border-radius: 25%;
+            width: 26%;
+            background-color: #8f7bc8;
+
+          }
+        
+      
       .text {
+        position: relative;
         h2 {
           margin-top: 35px;
           margin-left: 6%;
