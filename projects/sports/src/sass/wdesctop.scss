@@ -32,10 +32,15 @@
 
   main {
     .norma {
+
+      .qualities {
+        z-index: 2;
+      }
       picture {
         width: 50%;
         margin: 0;
         margin-top: 0;
+        z-index: 3;
 
         img {
           width: 500px;
@@ -53,6 +58,7 @@
         
         .textBlock {
           margin-right: 0;
+          padding-right: 30%;
         }
 
       
