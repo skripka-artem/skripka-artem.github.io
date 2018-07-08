@@ -1,0 +1,19 @@
+main .interviewContainer .homeForm p {
+  width: 270px;
+  font-size: 24px;
+}
+
+h3 {
+  margin-top: 100px;
+  margin-left: 10%;
+  text-transform: uppercase;
+  font-family: "Open-Sans-Bold";
+  font-size: 34px;
+  color: #000;
+}
+
+main .interviewContainer .homeForm #submit {
+  padding: 20px 50px 20px 50px;
+  background: #1da7c0;
+  color: #fff;
+}

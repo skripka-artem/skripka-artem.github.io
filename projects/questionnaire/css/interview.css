@@ -1,0 +1,68 @@
+#form2 .value-text {
+  margin-bottom: 30px;
+  padding-left: 105px;
+  padding-right: 70px;
+}
+
+#form2 .value-text.one {
+  margin-top: 80px;
+}
+
+#form2 .value-text.two {
+  margin-left: 10%;
+}
+
+#form2 .one .value-text:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 70px;
+  width: 30px;
+  height: 35px;
+  background-image: url(../img/value1.png);
+}
+
+#form2 .two .value-text:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 70px;
+  width: 32px;
+  height: 35px;
+  background-image: url(../img/value2.png);
+}
+
+input[type="button"] {
+  padding: 20px;
+}
+
+#statistics {
+  display: none;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background: rgba(29, 167, 192, 0.5);
+}
+
+#statistics h1 {
+  text-align: center;
+  margin-top: 20%;
+  font-family: "Open-Sans-Bold";
+  font-size: 200px;
+  color: #fff;
+}
+
+#statistics p {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open-Sans-Bold";
+  font-size: 35px;
+  color: #fff;
+}
+#rootA {
+  display: none;
+}
+
+#rootB {
+  display: none;
+}
