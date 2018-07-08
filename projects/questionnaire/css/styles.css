@@ -115,9 +115,11 @@ margin-top: 30%;
 }
  
 
-  .value-text:active{
+  .checked{
     background-color: #1da7c0;
+    color: #fff
       }
+
   .one .value-text:before {
     content: '';
     position: absolute;

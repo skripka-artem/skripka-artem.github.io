@@ -3,7 +3,27 @@ let name = document.getElementById('name')
 let email = document.getElementById('email')
 let pass = document.getElementById('pass')
 let submit = document.getElementById('submit')
+let value1 = document.getElementById('value1')
+let value1Text = document.getElementById('one')
+let value2 = document.getElementById('value2')
+let value2Text = document.getElementById('two')
+console.log(value2)
 
+value1.onclick = function() {
+if(value1.checked === true) {
+console.log('ggg')
+value1Text.classList.add("checked")
+value2Text.classList.remove("checked")
+}
+}
+
+value2.onclick = function() {
+  if(value2.checked === true) {
+  console.log('ggg')
+  value2Text.classList.add("checked")
+  value1Text.classList.remove("checked")
+  }
+  }
 
  function validateEmail(em) {
     let expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
