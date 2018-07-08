@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+display: flex;
+flex-direction: row;
+min-height: 100%;
+}
+
+.resultContainer {
+    position: relative;
+    width: 55%;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-image: url(../img/girl.png)
+}
+
+.like {
+    position: absolute;
+    top: 29%;
+    right: -50px;
+}
+
+.interviewContainer {
+    width: 45%;
+    min-height: 100vh;
+    background-color:#1da7c0;
+}
+
+.moreText {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.moreText ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.moreText ul:last-child {
+   padding-bottom: 15px;
+}
+
+.moreText ul li {
+    padding-top: 15px;
+    font-family: 'Open-Sans-Bold'; 
+    font-size: 12px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.interviewContainer form {
+background-color: #fff;
+margin-left: 2%;
+margin-top: 30%;
+}
+
+.interviewContainer form h2 {
+    width: 500px;
+    padding-top: 95px;
+    margin-left: 10%;
+    font-family: 'Open-Sans-Bold'; 
+    font-size: 31.44px;
+    color: #1da7c0;
+    text-transform: uppercase;
+    
+}
+
+.interviewContainer form p{
+    margin-left: 10%;
+    font-family: 'Open-Sans-Semibold'; 
+    font-size: 18px;
+    color:#3b3b3b;
+}
+
+
+
+.value input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+  }
+  .value-text {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 20px;
+    border-radius: 7px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    font-family: 'Open-Sans-Semibold'; 
+    font-size: 24px;
+    color:#3b3b3b;
+  }
+
+  .value-text.one {
+    margin-left: 10%;
+  }
+  .value-text.two {
+    margin-left: 3%;
+}
+ 
+
+  .value-text:active{
+    background-color: #1da7c0;
+      }
+  .one .value-text:before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 30px;
+    height: 35px;
+    background-image: url(../img/value1.png)
+  }
+
+  .two .value-text:before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 30px;
+    height: 35px;
+    background-image: url(../img/value2.png)
+  }
+
+  input[type="text"] {
+    width: 386px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding: 30px 15px 30px 15px;
+    border-radius: 7px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #d3d3d3;
+    font-family: 'Open-Sans-Semibold'; 
+    font-size: 18px;
+    color:#3b3b3b;
+  }
+
+
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+
+  .compliance {
+    display: block;
+    width: 410px;
+    font-family: 'Open-Sans';
+    font-size: 13px;
+    color: #000;
+    
+  }
+
+  input[type="button"] {
+   padding: 30px;
+   margin-left: 10%;
+   margin-top: 15px;
+   border-radius: 25px;
+   background-color: #fff;
+   border: 1px solid #1da7c0;
+   font-family: 'Open-Sans-Bold'; 
+   font-size: 26.15px;
+   color: #aaa9a9;
+   outline: none;
+  }
+
+
+ 
