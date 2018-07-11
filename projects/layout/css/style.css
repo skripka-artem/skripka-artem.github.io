@@ -60,90 +60,90 @@ button:hover {
   background: linear-gradient(#36c773, #31b367);
 }
 
-
 #slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  #slider ul {
-    position: relative;
-    list-style: none;
-    height: 100%;
-    width: 9999%;
-    padding: 0;
-    margin: 0;
-    transition: all 1.3s ease;
-    left: 0;
-  }
-  #slider li {
-    height: 100%;
-    float: left;
-  }
-  #slider ul li img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #next {
-    width: 50px;
-    position: absolute;
-    top: 50%;
-    right: 13%;
-    transform: translateY(-50%);
-    transition: all 0.4s ease;
-    z-index: 99;
-  }
-  
-  .control-btns {
-    display: flex;
-    margin-top: -40px;
-    margin-right: 10%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .ctr-btn {
-    z-index: 9;
-    margin: 2px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: rgba(124, 136, 126, 0.7);
-  }
-  
-  .titleBlock {
-    margin-left: 45%;
-    margin-top: 95px;
-    position: absolute;
-    z-index: 9;
-    text-align: center;
-  }
-  
-  .titleBlock h1 {
-    font-family: "Roboto-Thim";
-    font-size: 55px;
-    color: #555555;
-  }
-  
-  .titleBlock h1 span {
-    display: block;
-  }
-  
-  .titleBlock button {
-    margin-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-transform: uppercase;
-    line-height: 35px;
-    font-family: "Roboto-Medium";
-    font-size: 15px;
-    color: #fff;
-    background-color: #31b367;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-  }
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 9999%;
+  padding: 0;
+  margin: 0;
+  transition: all 1.3s ease;
+  left: 0;
+}
+#slider li {
+  width: 100vw;
+  height: 100%;
+  float: left;
+}
+#slider ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+#next {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  right: 13%;
+  transform: translateY(-50%);
+  transition: all 0.4s ease;
+  z-index: 99;
+}
+
+.control-btns {
+  display: flex;
+  margin-top: -40px;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctr-btn {
+  z-index: 9;
+  margin: 2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgba(124, 136, 126, 0.7);
+}
+
+.titleBlock {
+  margin-left: 45%;
+  margin-top: 2%;
+  position: absolute;
+  z-index: 9;
+  text-align: center;
+}
+
+.titleBlock h1 {
+  font-family: "Roboto-Thim";
+  font-size: 55px;
+  color: #555555;
+}
+
+.titleBlock h1 span {
+  display: block;
+}
+
+.titleBlock button {
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-family: "Roboto-Medium";
+  font-size: 15px;
+  color: #fff;
+  background-color: #31b367;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
 
 main .information {
   display: flex;
@@ -180,6 +180,10 @@ main .information .containerImg figure figcaption {
   padding-bottom: 10px;
 }
 
+main .information .containerImg figure img {
+  width: 100%;
+}
+
 .formContainer {
   width: 100%;
   height: 500px;
@@ -191,7 +195,7 @@ main .information .containerImg figure figcaption {
 }
 
 form {
-  width: 460px;
+  width: 45%;
   margin: 80px auto;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -208,7 +212,7 @@ form h2 {
 
 form input {
   display: block;
-  width: 300px;
+  width: 65%;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -242,7 +246,7 @@ form button {
 form .select {
   position: relative;
   display: block;
-  width: 300px;
+  width: 65%;
   margin: auto;
   padding: 15px;
   font-family: "Roboto-Light";
@@ -257,6 +261,7 @@ form .select {
 }
 
 .list {
+  width: 100%;
   position: absolute;
   margin-left: -16px;
   margin-top: 10px;
@@ -272,7 +277,7 @@ form .select {
 
 .item {
   display: block;
-  width: 300px;
+
   margin: auto;
   padding: 15px;
   font-family: "Roboto-Light";
@@ -289,10 +294,9 @@ form .select {
   content: "";
   display: block;
   margin-top: -15px;
-  margin-left: 280px;
+  margin-left: 97%;
   border: 10px solid transparent;
   border-top: 10px solid #555555;
-  
 }
 
 footer {
@@ -307,8 +311,6 @@ footer p {
   line-height: 45px;
   text-align: center;
 }
-
-
 
 @media (min-width: 320px) and (max-width: 760px) {
   .sitebar {
@@ -336,5 +338,21 @@ footer p {
 
   main .information .containerImg {
     width: 100%;
+  }
+
+  .titleBlock h1 {
+    font-size: 13px;
+  }
+  .titleBlock button {
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .titleBlock h1 {
+    font-size: 40px;
   }
 }
