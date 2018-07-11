@@ -1,4 +1,4 @@
-main .interviewContainer .homeForm p {
+.home .interviewContainer .homeForm p {
   width: 270px;
   font-size: 24px;
 }
@@ -12,8 +12,9 @@ h3 {
   color: #000;
 }
 
-main .interviewContainer .homeForm #submit {
+.home .interviewContainer .homeForm #submit {
   padding: 20px 50px 20px 50px;
   background: #1da7c0;
   color: #fff;
 }
+
