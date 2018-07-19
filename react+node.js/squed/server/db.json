@@ -62,25 +62,18 @@
       "strength": 5,
       "intelligence": 8,
       "speed": 8
-    },
-    {
-      "id": 9,
-      "name": "Supergirl",
-      "strength": 10,
-      "intelligence": 9,
-      "speed": 7
-    },
-    {
-      "name": "wewew",
-      "strength": "2",
-      "intelligence": "3",
-      "speed": "2",
-      "id": 10
     }
   ],
   "squads": [
     {
-      "heroes": [
+      "squeds": [
+        {
+          "id": 0,
+          "name": "Superman",
+          "strength": 10,
+          "intelligence": 7,
+          "speed": 9
+        },
         {
           "id": 1,
           "name": "Batman",
@@ -89,31 +82,42 @@
           "speed": 6
         }
       ],
-      "stats": {
-        "str": 7,
-        "int": 10,
-        "spd": 6
-      },
       "id": 1
+    },
+    {
+      "squeds": [],
+      "id": 2
     },
     {
       "squeds": [
         {
-          "id": 1,
-          "name": "Batman",
-          "strength": 7,
-          "intelligence": 10,
-          "speed": 6
-        },
-        {
-          "id": 2,
-          "name": "Wonderwoman",
-          "strength": 5,
-          "intelligence": 9,
-          "speed": 7
+          "id": 0,
+          "name": "Superman",
+          "strength": 10,
+          "intelligence": 7,
+          "speed": 9
         }
       ],
-      "id": 2
+      "id": 3
+    },
+    {
+      "squeds": [
+        {
+          "id": 0,
+          "name": "Superman",
+          "strength": 10,
+          "intelligence": 7,
+          "speed": 9
+        },
+        {
+          "id": 0,
+          "name": "Superman",
+          "strength": 10,
+          "intelligence": 7,
+          "speed": 9
+        }
+      ],
+      "id": 4
     }
   ]
 }

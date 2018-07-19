@@ -1,16 +1,18 @@
-
+/* eslint-disable */
 import React  from 'react';
 import PropTypes from 'prop-types'
 import styles from './styles.css';
 
 const SectionSqued = ({squed}) => {
-  
-    console.log(squed)
+    const squedss = squed
+    squedss.map(squeds => console.log(squeds)  )
+
+
     return(
               <div>
                   <p className={styles.text}>SqueD</p>
               <div className={styles.section}>
-            {squed.map(squeds => (
+            {squedss.map(squeds => (
                 <div key={squeds.id} className={styles.block}>
                
                <p>{squeds.id.name}</p>

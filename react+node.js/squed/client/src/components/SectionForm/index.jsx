@@ -5,52 +5,18 @@ import PropTypes from 'prop-types';
 import styles from './styles.css';
 
 export default class SectionSquedEditor extends Component {
-    state = {
-        newHeroName: 0,
-        newHeroStrength: 0,
-        newHeroIntelligence:0 ,
-        newHeroSpeed: 0
-      }
-    onNewHeroName = (e, newHeroName) => {
-        newHeroName = e.target.value;
-        this.setState({newHeroName: newHeroName});
-        
-        }
-        
-        onNewHeroStrength = (e) => {
-          const newHeroStrength = e.target.value;
-          this.setState({newHeroStrength: newHeroStrength});
-          }
-        
-        onNewHeroIntelligence = (e) => {
-            const newHeroIntelligence = e.target.value;
-            this.setState({newHeroIntelligence: newHeroIntelligence});
-            }
-        
-        onNewHeroSpeed = (e) => {
-              const newHeroSpeed = e.target.value;
-              this.setState({newHeroSpeed: newHeroSpeed});
-              }
-        handleSubmit = (e) => {
-       e.preventDefault();
-                  const name = this.state.newHeroName
-                  const strength = this.state.newHeroStrength
-                  const intelligence = this.state.newHeroIntelligence
-                  const speed = this.state.newHeroSpeed
-                axios.post(`/api/heroes/`,  {name, strength, intelligence, speed} )
-              
-                }
+    
       render() {
           return (
             <div>
                 <p className={styles.text}>ADD Hero</p>
               <div className={styles.section}>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.props.handleSubmit}>
                          <p>
                              <label>Name</label><br />
-                             <input type="text"  onChange={this.onNewHeroName}/>
+                             <input type="text"  onChange={this.props.onNewHeroName}/>
                          </p>
-                         <p> Strength <select onChange={this.onNewHeroStrength}>
+                         <p> Strength <select onChange={this.props.onNewHeroStrength}>
                          
            <option>1</option>
            <option>2</option>
@@ -63,7 +29,7 @@ export default class SectionSquedEditor extends Component {
            <option>9</option>
            <option>10</option>
          </select> </p>
-         <p> Intelligence <select onChange={this.onNewHeroIntelligence}>
+         <p> Intelligence <select onChange={this.props.onNewHeroIntelligence}>
            <option>1</option>
            <option>2</option>
            <option>3</option>
@@ -75,7 +41,7 @@ export default class SectionSquedEditor extends Component {
            <option>9</option>
            <option>10</option>
          </select> </p>
-         <p>Speed <select onChange={this.onNewHeroSpeed}>
+         <p>Speed <select onChange={this.props.onNewHeroSpeed}>
            <option>1</option>
            <option>2</option>
            <option>3</option>
