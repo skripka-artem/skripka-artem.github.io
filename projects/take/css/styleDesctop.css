@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-image: url(../img/Rectangle.png);
+    background-size: 100% 100%;
+}
+
+
+section {
+    width: 939px;
+    margin: auto;
+}
+
+
+.logo {
+    padding-top: 40px;
+}
+
+.title h1 {
+    margin-top: 260px;
+    font-family: 'Open Sans Light';
+    font-size: 45.33px;
+    color: #fff;
+}
+
+.title p {
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 335px;
+    font-family: 'OpenSans';
+    font-size: 9.82px;
+    color: #fff;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 48%;
+}
+
+ h2 {
+    padding-top: 85px;
+    font-family: 'Open Sans Light';
+    font-size: 26.44px;
+    color: #222626;
+}
+
+.container p {
+    margin-top: 30px;
+    font-family: 'OpenSans';
+    font-size: 10.58px;
+    color: #959595;
+}
+
+.container img {
+   width: 100%;
+   margin-top: -410px;
+}
+
+
+section:nth-child(2) {
+    margin-top: 60px;
+}
+
+.smallBox {
+width: 24.815%;
+padding: 30px 40px 40px 40px;
+}
+
+.smallBox:nth-child(1) {
+   background-color: #f5989d;
+    }
+
+    .smallBox:nth-child(2) {
+        background-color: #615f7d;
+         }
+
+         .smallBox:nth-child(3) {
+            background-image: url(../img/Layer6.png);
+            background-size: 100% 100%;
+             }
+             .smallBox:nth-child(5) {
+                background-color: #82ca9c;
+                 }
+
+.smallBox-title {
+    font-family: 'Open Sans Light';
+    font-size: 22.67px;
+    color: #fff;
+}
+
+.smallBox-text {
+    margin-top: 25px;
+    font-family: 'OpenSans';
+    font-size: 9.82px;
+    color: #fff;
+}
+
+.smallBox-link {
+    display: block;
+    margin-top: 25px;
+    font-family: 'OpenSans';
+    font-size: 10.58px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.smallBox:nth-child(3) .smallBox-link{
+    margin-top: 38px;
+
+}
+
+.smallBox-arrow {
+    margin-left: 20px;
+}
+
+
+
+
+.bigBox {
+    width: 58.148%;
+    padding: 30px 40px 40px 40px;
+    background-image: url(../img/Layer5.png)
+    }
+    
+
+    .bigBox-title {
+        font-family: 'Open Sans Light';
+        font-size: 22.67px;
+        color: #fff;
+    }
+    
+    .bigBox-text {
+        width: 65%;
+        margin-top: 25px;
+        font-family: 'OpenSans';
+        font-size: 9.82px;
+        color: #fff;
+    }
+    
+    .bigBox-link {
+        display: block;
+        margin-top: 50px;
+        font-family: 'OpenSans';
+        font-size: 10.58px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .bigBox-arrow {
+        margin-left: 20px;
+    }
+
+
+    .datails {
+width: 22%;
+margin-top: 50px;
+    }
+
+    .details-title {
+        font-family: 'Open-Sans-Semibold'; 
+        font-weight: bold;
+        font-size: 9.82px;
+        color: #67676d;
+    }
+
+    .details-text {
+        margin-top: 25px;
+        font-family: 'OpenSans';
+        font-size: 10.58px;
+        color: #67676d;
+    }
+
+    .more {
+        margin-top: 120px;
+        background-image: url(../img/Layer8.png);
+        background-size: 100% 100%;
+    }
+
+
+    .more-title {
+        width: 42%;
+        margin-top: 340px;
+        font-family: 'Open Sans Light';
+        font-size: 45.33px;
+        color: #fff;
+    }
+
+    .more-text {
+        width: 42%;
+        margin-top: 35px;
+        font-family: 'OpenSans';
+        font-size: 9.82px;
+        color: #fff;
+    }
+
+    .more-link {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        font-family: 'OpenSans';
+        font-size: 10.58px;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .more-arrow {
+        margin-left: 20px;
+    }
+
+    .reasons {
+        background-color: #82ca9c;
+    }
+
+    .reasons h2 {
+        color: #fff;
+    }
+
+
+
+    .reasons-datails {
+        width: 30%;
+        margin-bottom: 125px;
+       
+            }
+        
+            .reasons-datails-title {
+                font-family: 'Open-Sans-Semibold'; 
+                font-weight: bold;
+                font-size: 9.82px;
+                color: #fff;
+            }
+        
+            .reasons-datails-text {
+                margin-top: 25px;
+                font-family: 'OpenSans';
+                font-size: 10.58px;
+                color: #fff;
+            }
+            
+
+            .tabs {
+                background-color: #f6f7fa
+            }
+
+            .tab {
+                width: 40%;
+                margin-top: 110px;
+                margin-bottom: 110px;
+                padding: 40px;
+            }
+
+            .tab:nth-child(2) {
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            }
+
+            .tab-link {
+                
+                padding: 5px 15px 5px 15px;
+                background-color: #e1e1e1;
+                border-radius: 7px;
+                font-family: 'OpenSans';
+                font-size: 8.31px;
+                font-weight: bolder;
+                color: #fff;
+                text-decoration: none;
+
+            }
+
+            .tab-link.popular {
+                background-color: #bd8cbf;
+
+            }
+
+            .tab-title {
+                padding-top: 20px;
+            }
+
+            .tab-text {
+                width: 91%;
+                margin-top: 20px;
+                font-family: 'OpenSans';
+                font-size: 10.58px;
+                color: #67676d;
+            }
+
+            .tab-text.popular{
+                width: 95%;
+            
+            }
+
+            .tab-button {
+                margin-top: 25px;
+                margin-left: 5px;
+                padding: 15px 25px 15px 25px;
+                background-color: #82ca9c;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                font-family: 'OpenSans';
+                font-size: 8.31px;
+                font-weight: bolder;
+                color: #fff;
+            }
+
+            .tab-img {
+                margin-top: 10px;
+                margin-bottom: 40px;
+               
+            }
+
+            .tab-img img{
+                width: 15px;
+                float: left;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+
+            .tab-img img:nth-child(2){
+              margin-top: 2px;
+            }
+
+
+            footer {
+                background-color: #192431;
+            }
+
+            .block:nth-child(1) {
+                width: 55%;
+            }
+
+            .block:nth-child(2) {
+                width: 45%;
+            }
+
+            .block-title {
+                padding-top: 95px;
+                font-family: 'Open-Sans-Semibold'; 
+                font-weight: bold;
+                font-size: 9.82px;
+                color: #fff;
+            }
+
+            .block-text {
+                width: 85%;
+                margin-top: 20px;
+                font-family: 'OpenSans';
+                font-size: 9.82px;
+                color: #fff;
+            }
+
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 85px;
+            }
+
+            nav .block-title {
+                padding: 0;
+              margin-top: 55px;
+              margin-bottom: 25px;
+            }
+
+            nav ul {
+                width: 34%;
+            } 
+
+           nav ul li {
+                font-family: 'OpenSans';
+                font-size: 9.82px;
+                color: #fff;
+                list-style: none
+            }
+
+            h6 {
+                width: 60%;
+                margin-top: 15px;
+                font-family: 'OpenSans';
+                font-size: 9.07px;
+                color: #8297a7;
+            }
+
+            .block-seach {
+                position: relative;
+                margin-top: 20px;
+            }
+
+            input[type="text"] {
+                width: 335px;
+                outline: none;
+                border: none;
+                border-radius: 2px;
+                line-height: 30px;
+                padding: 10px;
+                font-family: 'OpenSans';
+            }
+
+            input[type="button"] {
+                position: absolute;
+                outline: none;
+                top: 0px;
+                font-size: 25px;
+                left: 307px;
+                border: none;
+                padding: 8.5px 15px 8.5px 15px;
+                color: #fff;
+                background-color: #82ca9c;
+
+            }

@@ -1,0 +1,163 @@
+@media (min-width: 320px) and (max-width: 1023px) {
+    section {
+        width: 100%;
+    }
+
+    .logo {
+        padding-top: 10px;
+        margin: auto;
+    width: 80px;
+    }
+
+    .title h1 {
+        margin-top: 50px;
+    text-align: center;
+    }
+
+    .title p {
+        width: 89%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 15px;
+       
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .container img {
+        width: 100%;
+         margin-top: 0;
+    }
+
+    .smallBox {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .smallBox-link {
+        padding-bottom: 10px;
+     
+    }
+
+    .bigBox-link {
+        padding-bottom: 10px;
+     
+    }
+    .bigBox {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .datails {
+        width: 95%;
+        margin: auto;
+    }
+
+    .more-title {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px; 
+        font-size: 32px;
+    }
+
+    .more-text {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        margin-top: 35px;
+        font-size: 13px;
+    
+    }
+
+    .more-link {
+        display: block;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+     
+    }
+
+    .reasons h2 {
+        text-align: center;
+    }
+
+    .reasons-datails {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .details-text {
+        margin-bottom: 20px;
+    }
+
+    .tab {
+        padding: 5px;
+    text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .block-title {
+        padding-top: 15px;
+        font-size: 15px;
+        
+    }
+
+    .block-text {
+         width: 100%; 
+       
+    }
+
+    nav {
+        text-align: center;
+       
+    }
+
+    .block:nth-child(1) {
+        width: 95%;
+        margin: auto;
+    }
+
+    .block:nth-child(2) {
+        width: 95%;
+        margin: auto;
+    }
+
+    input[type="text"] {
+        float: left;
+        display: block;
+        width: 70%;
+      
+        
+    }
+
+    input[type="button"] {
+        position: static;
+        margin-left: -5px;
+        padding: 8.5px 15px 8.5px 15px;
+       
+    }
+
+    h6 {
+   width: 95%;
+        margin-bottom: 20px;
+    }
+  }

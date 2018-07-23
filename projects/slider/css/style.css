@@ -1,0 +1,135 @@
+#slideshow{
+	line-height: 1;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.control {
+	width: 100%;
+	height: calc(100% - 36px);
+	position: absolute;
+	top:36px;
+	margin: 0;
+	z-index: 99;
+  display: block;
+}
+.control > button {
+	width: 16.7%;
+	height: calc(100% - 36px);
+	opacity: 1;
+	color:#212121;
+  background-color: transparent;
+	border: 0;
+  cursor: pointer;
+  font-size: 50vh
+}
+#previous{
+  float: left;
+}
+#next{
+  float: right;
+}
+#slides {
+	padding: 0;
+	margin: 0;
+	background: #000;
+	overflow: hidden
+}
+#slides > li {
+	position: absolute;
+	clear:both;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	opacity: 0;
+	overflow: hidden;
+	font-size: 50vh;
+	line-height: 100vh;
+	text-align: center;
+	color:#212121;
+}
+#slides li:first-child {
+	background: #F44336
+}
+#slides li:nth-child(2) {
+	background: #E91E63
+}
+#slides li:nth-child(3) {
+	background: #9C27B0
+}
+#slides li:nth-child(4) {
+	background: #673AB7
+}
+#slides li:nth-child(5) {
+	background: #3F51B5
+}
+#slides li:last-child {
+	background: #2196F3
+}
+#slides li.slideActive {
+	z-index: 2;
+	opacity: 1;
+	transition: 1s;
+}
+#first {
+	background: #F44336
+}
+#second {
+	background: #E91E63
+}
+#third {
+	background: #9C27B0
+}
+#fourth {
+	background: #673AB7
+}
+#fifth {
+	background: #3F51B5
+}
+#sixth {
+	background: #2196F3
+}
+.pager ul {
+	display: table;
+	width: 100%;
+  position: absolute;
+  z-index: 999
+}
+.pager ul li {
+display: table-cell;
+ line-height: 36px;
+ text-align: center;
+ color: #fff;
+ text-decoration: none;
+ cursor:pointer;
+}
+.progressbar{
+	position:absolute;
+	bottom: 0;
+	width:100%;
+	height:36px;
+	background: none;
+	z-index: 3;
+}
+.progress{
+	width:0;
+	height:36px;
+	-webkit-animation: progress 10s infinite;
+	background:#FFEB3B;
+}
+@-webkit-keyframes progress {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+
+img {
+    width: 100%;
+    height: 200px;
+}
