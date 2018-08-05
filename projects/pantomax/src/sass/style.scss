@@ -1,0 +1,565 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+  background-color: #000;
+}
+
+header {
+  background: url(../img/bg1.png);
+  background-size: 100% 100%;
+  padding: 0 20px 0 20px;
+
+  .topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    .logo {
+      margin-top: 10px;
+    }
+
+    .naturally {
+      margin-left: 15%;
+
+      .naturally__text {
+        margin-top: 20px;
+        font-family: "PT-Sans-Regular";
+        font-size: 18px;
+        color: #ededed;
+
+        .naturally__picture {
+          display: block;
+          float: left;
+          margin-top: -8px;
+          margin-right: 10px;
+          width: 29px;
+          height: 36px;
+          background-image: url(../img/naturally.png);
+        }
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .effectively {
+      margin-left: 5%;
+      .effectively__text {
+        margin-top: 20px;
+        font-family: "PT-Sans-Regular";
+        font-size: 18px;
+        color: #ededed;
+
+        .effectively__picture {
+          display: block;
+          margin-top: -8px;
+          margin-right: 10px;
+          float: left;
+          width: 42px;
+          height: 36px;
+          background-image: url(../img/like.png);
+        }
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  h1 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto-Condensed";
+    font-size: 60px;
+    color: #ffd50c;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .advantages {
+      margin-top: 30px;
+      flex-basis: 33.33%;
+
+      .advantages__title {
+        width: 320px;
+        font-family: "Roboto-Medium";
+        font-size: 22px;
+        color: #fff;
+      }
+
+      .advantages__list {
+        margin-top: 20px;
+        list-style-position: inside;
+        .advantages__list-item {
+          font-family: "PT-Sans-Regular";
+          font-size: 16px;
+          color: #fff;
+          list-style: none;
+          list-style-position: inside;
+          background: url("../img/marker.png") no-repeat left center;
+          height: 24px;
+          padding-left: 29px;
+          margin-bottom: 20px;
+        }
+
+        .advantages__list-item:nth-child(4) {
+          width: 185px;
+        }
+
+        .advantages__list-item::after {
+          content: "";
+          display: block;
+          width: 160px;
+          height: 1px;
+          margin-left: -11px;
+          margin-top: 14px;
+          background: radial-gradient(#fff, #000);
+        }
+      }
+      .advantages__product {
+        margin-top: 8px;
+        width: 100%;
+      }
+    }
+
+    .sale {
+      flex-basis: 33.33%;
+      position: relative;
+      top: 370px;
+
+      .sale__text {
+        width: 300px;
+        margin: 10px auto;
+        text-align: center;
+        font-family: "PT-Sans-Narrow";
+        font-size: 19px;
+        color: #fff;
+      }
+    }
+  }
+
+  .order {
+    margin-top: 30px;
+    flex-basis: 33.33%;
+
+    .timer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      .timer__quantity {
+        width: 165px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .timer__quantity__zero,
+        .timer__quantity__one {
+          width: 50px;
+          height: 54px;
+          background-color: #fff;
+          border-radius: 5px;
+          font-family: "PT-Sans-Narrow";
+          font-weight: bold;
+          font-size: 50px;
+          color: #000;
+          text-align: center;
+          line-height: 52px;
+        }
+
+        .timer__quantity__zero_no-active {
+          width: 50px;
+          height: 54px;
+          background-color: rgba(255, 255, 255, 0.5);
+          border-radius: 5px;
+          font-family: "PT-Sans-Narrow";
+          font-weight: bold;
+          font-size: 50px;
+          color: #000;
+          text-align: center;
+          line-height: 52px;
+        }
+
+        .timer__quantity__zero:before,
+        .timer__quantity__one:before {
+          content: "";
+          display: block;
+          width: 96%;
+          height: 1px;
+          position: relative;
+          top: 27px;
+          left: 2%;
+          background-color: gray;
+        }
+
+        .timer__quantity__zero_no-active:before {
+          content: "";
+          display: block;
+          width: 96%;
+          height: 1px;
+          position: relative;
+          top: 27px;
+          left: 2%;
+          background-color: gainsboro;
+        }
+      }
+    }
+    .timer__text p {
+      width: 120px;
+      margin-left: 20px;
+      margin-top: 3px;
+      font-family: "PT-Sans-Narrow";
+      font-size: 19px;
+      color: #fff;
+    }
+
+    form {
+      width: 100%;
+      margin-top: 30px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 24px #fcac3b;
+
+      .price {
+        width: 100%;
+        display: flex;
+        border-radius: 8px;
+        background: url(../img/priceFon.png);
+        background-size: 100% 100%;
+
+        .price__old {
+          width: 50%;
+          padding: 20px 25px 20px 25px;
+          border-radius: 8px;
+
+          .price__old__text {
+            font-family: "PT-Sans-Narrow";
+            font-size: 18px;
+            color: gray;
+
+            .price__old__text__price {
+              display: block;
+              font-size: 48px;
+              &::before {
+                content: "";
+                display: block;
+                position: relative;
+                width: 85px;
+                height: 2px;
+                top: 36px;
+                left: 2px;
+                background-color: gray;
+              }
+            }
+            .price__old__text__rub {
+              font-size: 23px;
+            }
+          }
+        }
+
+        .price__new {
+          width: 50%;
+          padding: 20px 25px 20px 25px;
+
+          .price__new__text {
+            font-family: "PT-Sans-Narrow";
+            font-size: 18px;
+            color: #fff;
+
+            .price__new__text__price {
+              display: block;
+              font-weight: bold;
+              font-size: 48px;
+            }
+
+            .price__new__text__rub {
+              font-size: 23px;
+            }
+          }
+        }
+      }
+      input {
+        width: 85%;
+        margin: 20px auto;
+        display: block;
+        font-family: "OpenSans";
+        font-size: 18px;
+        border-radius: 5px;
+        padding: 20px 10px 20px 10px;
+        outline: none;
+        border: 1px solid gray;
+        background-color: #f6f6f6;
+      }
+
+      button {
+        display: block;
+        width: 91%;
+        margin: 25px auto;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        background: linear-gradient(to top, #d94017, #f94a1b);
+
+        .text {
+          display: block;
+          margin-top: 15px;
+          font-family: "PT-Sans-Narrow";
+          font-size: 22px;
+          font-weight: bold;
+          color: #fff;
+        }
+
+        .right {
+          float: left;
+          padding: 20px 30px;
+          border-bottom-left-radius: 5px;
+          border-top-left-radius: 5px;
+          background-color: #b13412;
+        }
+      }
+
+      .protection {
+        width: 235px;
+        margin: auto;
+        padding-bottom: 20px;
+        .protection_text {
+          font-family: "PT-Sans-Narrow";
+          font-size: 15px;
+          color: #000;
+          .protection_icon {
+            display: block;
+            float: left;
+            margin-right: 10px;
+            width: 13px;
+            height: 17px;
+            background: url(../img/protection.png);
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  padding: 0 20px 0 20px;
+  h2 {
+    margin-top: 50px;
+    font-family: "PT-Sans-Narrow";
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .red {
+      color: #fc481a;
+    }
+  }
+
+  .text-under-h2 {
+    font-family: "PT-Sans-Regular";
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .questions {
+    background: url(../img/bg2.png);
+    background-size: 100% 100%;
+
+    .question {
+      width: 60%;
+      margin: 30px auto;
+      background-color: #fff;
+      border-radius: 5px;
+      .question__title {
+        font-family: "PT-Sans-Regular";
+        font-size: 24px;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 25px;
+
+        span {
+          padding: 1px 10px 1px 10px;
+          background-color: gray;
+          border-radius: 50%;
+          margin-right: 15px;
+        }
+      }
+      .question__answers {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .question__answers__answer {
+          width: 250px;
+          margin: 50px 12px 50px 12px;
+          padding: 25px 0;
+          border-radius: 5px;
+          background: url(../img/buttonFon.png);
+          background-size: 100% 100%;
+          border: none;
+          outline: none;
+          font-family: "PT-Sans-Regular";
+          font-size: 24px;
+          color: #fff;
+          font-weight: bold;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .pantomax-desc {
+    margin-top: 50px;
+    padding: 30px 35px;
+    background: url(../img/pantomanBg.png);
+    background-size: 100% 100%;
+    border-radius: 5px;
+
+    .pantomax-desc__title {
+      width: 60%;
+      font-family: "PT-Sans-Narrow";
+      font-size: 48px;
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      span {
+        color: #fc481a;
+      }
+    }
+
+    .pantomax-desc__text {
+      width: 48%;
+      font-family: "PT-Sans-Narrow";
+      font-size: 17px;
+      color: #000;
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .advantages-preview {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: url(../img/advenBg.png);
+    background-size: 100%;
+
+    .advantages-preview__picture {
+      margin-top: 30px;
+      width: 35%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .advantages {
+      width: 65%;
+      margin-bottom: 60px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .advantage {
+        width: 200px;
+        margin: 0 5px 10px 5px;
+        border-radius: 5px;
+        .advantage__picture {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          width: 100%;
+        }
+
+        .advantage__text {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+          background-color: #fff;
+          margin-top: -5px;
+
+          p {
+            width: 149px;
+            margin: auto;
+            font-family: "PT-Sans-Regular";
+            font-size: 15.9px;
+            color: #000;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px 0 20px 0;
+          }
+        }
+        .three {
+          p {
+            width: 185px;
+          }
+        }
+
+        .four {
+          p {
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+  .doctor {
+    border-radius: 5px;
+    margin-top: -35px;
+    background: url(../img/doctorBg.png);
+    background-size: 100% 100%;
+    padding: 30px;
+    .doctor__title {
+      width: 60%;
+      font-family: "PT-Sans-Narrow";
+      font-size: 48px;
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      span {
+        color: #fc481a;
+      }
+    }
+
+    .doctor__text {
+      width: 50%;
+      margin-top: 15px;
+      font-family: "PT-Sans-Narrow";
+      font-size: 16px;
+      color: #000;
+    }
+
+    .bold {
+      margin-top: -25px;
+      font-weight: bold;
+      font-style: italic;
+
+      i {
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        width: 185px;
+        height: 64px;
+        margin-left: 10px;
+        background: url(../img/podpis.png);
+      }
+    }
+  }
+}

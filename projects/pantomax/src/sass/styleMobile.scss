@@ -1,0 +1,99 @@
+@media (min-width: 320px) and (max-width: 1023px) {
+  header {
+    .topbar {
+      flex-direction: column;
+      align-items: center;
+
+      .naturally {
+        margin-left: 0;
+      }
+
+      .effectively {
+        margin-left: 0;
+      }
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .head {
+      flex-direction: column-reverse;
+      width: 320px;
+      margin: auto;
+
+      .sale {
+        display: none;
+      }
+    }
+
+    .order form {
+      .price {
+        .price__new {
+          padding: 20px 5px;
+        }
+      }
+    }
+  }
+
+  main {
+    .questions {
+      .question {
+        width: 320px;
+
+        .question__answers {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+    .pantomax-desc {
+      padding: 2px 2px;
+      border-radius: 15px;
+
+      .pantomax-desc__title {
+        width: 100%;
+        font-size: 23px;
+      }
+      .pantomax-desc__text {
+        width: 70%;
+      }
+    }
+
+    .advantages-preview {
+      background: none;
+      .advantages {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+      }
+      .advantages-preview__picture {
+        display: none;
+      }
+    }
+
+    .doctor {
+      padding: 10px;
+      background: none;
+      background-color: #fff;
+
+      .doctor__title {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
+      }
+
+      .doctor__text {
+        width: 100%;
+      }
+
+      .bold {
+        margin-top: 0;
+
+        i {
+          top: 10px;
+        }
+      }
+    }
+  }
+}
