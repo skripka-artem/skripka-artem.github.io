@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #F4F4F4;
+}
+
+header {
+  width: 600px;
+  margin: 60px auto;
+  margin-bottom: 0;
+
+  h1 {
+    
+    text-align: center;
+  }
+
+  section {
+    margin-top: 20px;
+    background-color: #fff;
+    background-image: url(../img/07.png);
+    background-size: 100% 100%;
+    padding: 48px; 
+
+    p {
+      font-family: 'Roboto-Regular'; 
+      font-size: 30px;
+      line-height: 44px;
+      color: #000;
+    }
+  }
+}
+
+main {
+width: 600px;
+margin: 10px auto;
+
+.in-nambers {
+  display: flex;
+  justify-content: space-between;
+  
+
+  .namders {
+    flex-basis: 292.74px;
+    background-color: #fff;
+    background-image: url(../img/shipping.png);
+    text-align: center;
+.namders__title {
+  margin-top: 36px;
+  font-family: 'Roboto-Black'; 
+  font-size: 66px;
+  color: #FF790B;
+}
+.namders__text {
+  padding: 0 30px 30px 30px;
+  font-family: 'Roboto-Regular'; 
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
+}
+  }
+}
+
+.how-to-order {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #fff;
+  background-image: url(../img/shipping.png);
+
+  svg {
+    position: absolute;
+    position: absolute;
+    top: 215px;
+    left: 160px;
+  }
+
+  .stage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+    div {
+      flex-basis: 48%;
+    }
+
+
+
+    img {
+      width: 100%;
+    }
+
+    p {
+     
+      font-family: 'Roboto-Light'; 
+  
+      font-size: 16px;
+      line-height: 24px;
+      color: #000;
+
+      span {
+        font-family: 'Roboto-Regular'; 
+      }
+    }
+
+  }
+
+
+  .stage-revarse {
+    display: flex;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+    div {
+      width: 48%;
+    }
+
+    img {
+     width: 100%;
+    }
+
+    p {
+     text-align: right;
+  
+      font-family: 'Roboto-Regular'; 
+      font-size: 16px;
+      line-height: 24px;
+      color: #000;
+
+      span {
+        font-family: 'Roboto-Light'; 
+      }
+    }
+
+  }
+
+}
+
+.order {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  border-top: 1px dashed #FF790B;
+
+  button {
+    width: 240px;
+    background-color: #FF790B;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 0;
+    font-family: 'Roboto-Regular'; 
+      font-size: 18px;
+      color: #fff;
+      border: none;
+      outline: none;
+  }
+}
+
+}
+
+footer {
+width: 600px;
+margin: 50px auto;
+  .networks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+
+    .programs {
+      width: 260px;
+      
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .social {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+ p {
+   text-align: center;
+   font-family: 'Roboto-Regular'; 
+   font-size: 12px;
+   color: gray;
+ }
+
+
+ .contact {
+   width: 500px;
+   margin: 30px auto;
+   display: flex;
+   justify-content: space-between;
+
+   div  {
+     width: 150px;
+   
+
+   p {
+    font-family: 'Roboto-Regular'; 
+    font-size: 15px;
+    color: gray;
+   }
+
+   .tell {
+     display: block;
+     float: left;
+     width: 30px;
+     height: 27px;
+     margin-right: 10px;
+     background: url(../img/phone.png);
+   }
+
+   .email {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 23px;
+    margin-right: 10px;
+    background: url(../img/mail.png);
+  }
+
+  .skype {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 30px;
+    margin-right: 10px;
+    background: url(../img/skype.png);
+  }
+
+}
+
+ }
+
+}
