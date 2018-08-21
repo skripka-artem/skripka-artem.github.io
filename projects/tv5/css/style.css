@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+
+}
+
+header {
+    max-width: 1160px;
+    margin: auto;
+    padding-top: 20px;
+    height: 210px;
+    background: linear-gradient(to left, #57ABDC 0%, #286EA5  100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 88px;
+    margin-left: 3%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+header nav  {
+    margin-top: 15px;
+}
+
+header nav li {
+    float: left;
+    list-style: none;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+header nav li a{
+    position: relative;
+text-decoration: none;
+font-family: 'Open-Sans'; 
+font-size: 14px;
+color: #fff;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+
+
+header nav li a:hover:before {
+    content: '';
+width: 100%;
+display: block;
+height: 3px;
+position: absolute;
+left: 0%;
+top: 20px;
+background: linear-gradient(270deg, rgba(255, 255, 255, 0.0001) 0.93%, #FF6C00 49.41%, rgba(255, 255, 255, 0.0001) 100%);
+}
+
+
+header .seach-leng {
+    margin-right: 3%;
+    margin-top: 15px
+}
+
+header  .seach {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    background: none;
+ background-image: url(../img/seach.svg);
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+header .leng {
+    width: 30px;
+    height: 22px;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: 'Open-Sans'; 
+font-size: 14px;
+color: #fff;
+font-weight: bold;
+}
+
+
+main {
+    max-width: 1160px;
+    margin: auto;
+    background-color: #fff; 
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+
+
+}
+
+.announcement {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.announcement-active {
+    width: 24%;
+    background-color: #3695D8;
+}
+
+.announcement-active p {
+    padding: 4px 0 3px 10px;
+    font-family: 'Open-Sans'; 
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.announcement-last {
+    width: 75.5%;
+    height: 32px;
+    background-color: #F4F4F4;
+}
