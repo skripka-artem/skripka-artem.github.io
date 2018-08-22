@@ -1,0 +1,43 @@
+@media (min-width: 320px) and (max-width: 1023px) {
+  .forma {
+    flex-direction: column;
+  }
+
+  .form .form__name {
+    display: block;
+    width: 90%;
+    margin: auto;
+    float: none;
+  }
+
+  .form .form__email {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .form .form__subject {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .form .form__message {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .forma .forma__text p {
+    padding: 10px 1% 0 0;
+  }
+
+  .questions {
+    flex-direction: column;
+  }
+
+  .open {
+    margin: 20px 0 20px 0;
+    border: none;
+  }
+}
