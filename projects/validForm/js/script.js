@@ -44,7 +44,7 @@ let send = function() {
   }
 };
 
-firstNameBox.addEventListener("blur", firstNameValid);
-lastNameBox.addEventListener("blur", lastNameValid);
+firstNameBox.addEventListener("keypress" , firstNameValid);
+lastNameBox.addEventListener("keypress", lastNameValid);
 emailBox.addEventListener("blur", emailValid);
 submit.addEventListener("click", send);
