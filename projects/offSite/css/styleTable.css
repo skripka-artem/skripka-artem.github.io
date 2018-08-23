@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (max-width: 950px){
+
+    .navigation {
+        justify-content: center;
+    }
+
+    .nav-list .nav-list__item {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .previews {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .preview {
+        flex-basis: 240px;
+        margin-bottom: 10px;
+    }
+}

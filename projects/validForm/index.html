@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OSS Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css"/>
+    <style>
+        label {
+            width: 100px;
+        }
+        label.error {
+            color: red;
+        }
+        input {
+            border : 1px solid #ccc;
+        }
+        input.error {
+            border-color: red;
+        }
+        .content {
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="content">
+                <form onsubmit="myForm()" id="testForm">
+                    <div>
+                        <label for="firstName">First name</label>
+                        <input type="text" id="firstName"/>
+                        <p id="firstNameError"  style="display:none; color: red"> Enter the First name</p>
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName"/>
+                        <p id="lastNameError"  style="display:none; color: red"> Enter theLast name</p>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email"/>
+                        <p id="emailError"  style="display:none; color: red">Email is not correct</p>
+                    </div>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
