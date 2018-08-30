@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "PTSans", Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+.menu-list {
+  display: flex;
+  margin-top: 74px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-list .menu-list__item {
+  list-style: none;
+}
+
+.menu-list .menu-list__item a {
+  font-size: 24px;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu-list .menu-list__item a:hover {
+  border-bottom: 3px solid #00ccff;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 40px;
+}
+
+main {
+  width: 80%;
+  margin: 25px auto;
+}
+
+.title {
+  width: 420px;
+  margin: auto;
+}
+
+.title h1 {
+  font-size: 24px;
+  color: #555555;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00ccff;
+}
+
+.our-company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info {
+  flex-basis: 35%;
+}
+
+.info:nth-child(2) {
+  text-align: center;
+}
+
+.info .info__title {
+  width: 240px;
+  margin-top: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0bceff;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00ccff;
+}
+
+.info .info__text {
+  width: 385px;
+  margin-top: 60px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #555555;
+  line-height: 27px;
+}
+
+.info .info__picture {
+  margin-top: 100px;
+}
+
+.works {
+  margin-top: 117px;
+  margin-bottom: 115px;
+  padding: 80px 185px 80px 185px;
+  background: #fff;
+  text-align: center;
+  background-image: url(../img/bgBlock.svg);
+  background-size: 100%;
+  box-shadow: 0px 12px 20px 10px rgb(232, 230, 230);
+}
+
+.works .works__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #545454;
+}
+
+.works .works__title .works__title_color {
+  background-color: #00ccff;
+  padding-bottom: 2px;
+}
+
+.logo-menu {
+  margin-top: -40px;
+}
+
+.services {
+  margin-top: 25px;
+  background-image: url(../img/bgServic.svg);
+  background-size: 100%;
+  padding: 140px 200px 140px 200px;
+  text-align: center;
+}
+
+.services .services__text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 47px;
+}
+
+.info.infoServices {
+  flex-basis: 50%;
+}
+
+.info .info__text_serv {
+  width: 375px;
+}
+
+.info .info__title_serv {
+  width: 100px;
+}

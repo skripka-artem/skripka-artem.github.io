@@ -1,0 +1,46 @@
+@media (min-width: 320px) and (max-width: 1023px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+  .menu-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    width: 300px;
+  }
+
+  .our-company {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info .info__title {
+    margin: 20px auto;
+  }
+
+  .info .info__text {
+    width: 100%;
+  }
+
+  .info__text {
+    width: 100%;
+  }
+
+  .works {
+    padding: 5px;
+  }
+
+  .logo-menu {
+    margin: auto;
+  }
+
+  .services {
+    padding: 0;
+  }
+}
