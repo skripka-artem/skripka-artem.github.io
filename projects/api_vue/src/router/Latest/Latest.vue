@@ -1,8 +1,9 @@
 
 <template>
   <div>
+  <Sitebar></Sitebar>
     <ul class="blockImg"><li v-for="elem in elems"> <img v-bind:src="elem.largeImageURL" alt="">
-      <a v-bind:href="elem.largeImageURL" target="_blank">Смотреть</a></li>  </ul>
+      <a v-bind:href="elem.largeImageURL" target="_blank">Смотреть во весь екран</a></li>  </ul>
   </div>
 </template>
 <script src="./Latest.js"></script>

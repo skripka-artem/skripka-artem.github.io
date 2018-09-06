@@ -1,7 +1,8 @@
 import Modal from '../../component/Modal/Modal.vue'
+import Sitebar from '../../component/Sitebar/Sitebar.vue'
 import _ from 'lodash';
 export default {
-  props: ['largeImageURL'],
+  
   data()  {
     return {
       elems:[],
@@ -11,7 +12,7 @@ export default {
     }
   },
   components: {
-     Modal
+     Modal, Sitebar
   },
   created() {
     fetch('https://pixabay.com/api/?key=5574618-9f2251e0f5fdbede0f9cb5e69')

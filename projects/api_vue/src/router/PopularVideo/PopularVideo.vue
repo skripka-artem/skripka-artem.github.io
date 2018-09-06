@@ -1,9 +1,10 @@
 <template>
   <div>
-    <ul class="blockImg"><li v-for="elem  in elems"><img  v-bind:src="elem.userImageURL || '/dist/user.png'" alt="">
-      <a v-bind:href="elem.pageURL" target="_blank">Смотреть</a>
-
-
+   <Sitebar></Sitebar>
+   <ul class="blockImg"><li v-for="elem  in elems"><img  v-bind:src="elem.userImageURL || '/dist/user.png'" alt="">
+  
+     
+      <a v-bind:href="elem.pageURL" target="_blank">Смотреть видео автора {{ elem.user }} </a>
     </li>    </ul>
 
   </div>

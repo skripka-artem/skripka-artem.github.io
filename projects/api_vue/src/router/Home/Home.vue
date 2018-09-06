@@ -2,9 +2,8 @@
 
 <template>
   <div>
-    <h1>Добро пожаловать на сайт <span>wolf picture</span></h1>
-    <p>На сайте ты найдешь много интересного</p>
-    <p>Выбирай на какой ты стороне</p>
+    <h1>Добро пожаловать на сайт <span>wolfpictures</span></h1>
+    <p>Кладязь выдео и картинок </p>
     <div class="varCont">
       <div>
         <router-link to="/picture" ><img src="../../assets/picture.jpg" class="" alt=""></router-link>

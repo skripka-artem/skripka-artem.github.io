@@ -1,7 +1,7 @@
 
 <template>
   <header>
-    <img src="../../assets/logo.png" class="logo" alt="">
+  <router-link to="/" > <img src="../../assets/logo.png" class="logo" alt=""></router-link> 
 
     <ul>
       <li><router-link to="/" >Главная</router-link> </li>

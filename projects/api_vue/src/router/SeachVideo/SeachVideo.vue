@@ -5,8 +5,11 @@
     <label >Введите что ищете</label>  <input type="text" v-model="seach.title">
     <button type="submit" @click.prevent="addSeach" >Поиск</button>
     <button type="submit" @click.prevent="deleteSeach" >Очистить</button>
-    <ul class="blockImg"><li v-for="elem in elems"> <img v-bind:src="elem.userImageURL" alt="">
-      <a v-bind:href="elem.pageURL" target="_blank">Смотреть</a></li>  </ul>
+      <ul class="blockImg"><li v-for="elem  in elems"><img  v-bind:src="elem.userImageURL || '/dist/user.png'" alt="">
+  
+     
+      <a v-bind:href="elem.pageURL" target="_blank">Смотреть видео автора {{ elem.user }} </a>
+    </li>    </ul>
   </div>
 </template>
 <script src="./SeachVideo.js"></script>

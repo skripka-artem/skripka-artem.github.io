@@ -6,7 +6,7 @@
       <md-tabs md-dynamic-height>
         <md-tab md-label="General">
           <div >
-          <p>Описание</p>
+          <p>Описание  {{elem}}</p>
           </div>
         </md-tab>
 
