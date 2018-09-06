@@ -384,19 +384,21 @@
       font-weight: bold;
       font-size: 22px;
       color: #333333;
-      &:last-child {
-      }
+    
     }
     #grid {
-      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
 
       .grid-item {
         display: inline-block;
         .divShow {
           position: relative;
-
+ 
           img {
             width: 200px;
+            height: 150px;
 
           }
           .divWrapP{

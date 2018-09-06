@@ -333,13 +333,16 @@
     font-size: 22px;
     color: #333333; }
   .interests #grid {
-    margin: 0 auto; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
     .interests #grid .grid-item {
       display: inline-block; }
       .interests #grid .grid-item .divShow {
         position: relative; }
         .interests #grid .grid-item .divShow img {
-          width: 200px; }
+          width: 200px;
+          height: 150px; }
         .interests #grid .grid-item .divShow .divWrapP {
           position: absolute;
           display: flex;
