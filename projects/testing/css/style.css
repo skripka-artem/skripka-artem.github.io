@@ -1,0 +1,32 @@
+.picture
+{
+  width: 800px;
+  height: 400px;
+ margin: auto;
+  overflow: hidden;
+}
+
+
+ img {
+  width: 800px;
+transition: all 1.5s ease-in-out;
+}
+img:hover {
+    
+    transform: translate(0, -20% );
+}
+
+main  {
+  width: 750px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+  main  {
+ display: none;
+  }
+}
+
