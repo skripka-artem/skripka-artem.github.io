@@ -1,0 +1,28 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    .solutions {
+      height: 500px;
+
+      .wrapper {
+        top: 90px;
+      }
+      img {
+        bottom: 40px;
+      }
+    }
+
+    .customer-services {
+      margin-top: 60px;
+      .services {
+        flex-wrap: wrap;
+        .services__block {
+          width: 45%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .contact-us {
+      margin-top: 20px;
+    }
+  }
+}
