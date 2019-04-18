@@ -85,7 +85,15 @@ let $afishaInfo = $('.afishaInfo');
     arrows: false,
     dots: false,
     speed: 1200,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
   });
 
   $('.afishaPrev').on('click', function() {
@@ -247,6 +255,17 @@ $('.popapClose').on('click', function() {
 
 $('#afisha').on('click', function() {
   $('#popapAfisha__container').css("display","flex");
+
+});
+
+$('.burger').on('click', function() {
+  if ($(".menu").hasClass("active")) {
+    $('.menu').removeClass('active');
+    $('.menu').removeClass('mob');
+  } else {
+    $('.menu').addClass('active');
+    $('.menu').addClass('mob');
+  }
 
 });
 
