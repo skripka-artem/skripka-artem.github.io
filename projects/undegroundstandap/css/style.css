@@ -125,6 +125,11 @@ input, button, textarea {
     background: none;
 }
 
+section {
+    position: relative;
+    padding-top: 70px;
+}
+
 a {
     text-decoration: none;
 }
@@ -138,7 +143,6 @@ a {
 
 .wrapper-inner {
     max-width: 1460px;
-    height: 100%;
     padding: 0 15px;
     margin: auto;
 }
@@ -154,13 +158,15 @@ a {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    background-color: #040707;
+    box-shadow: 20vw 0 #040707, 40vw 0 #040707, -20vw 0 #040707, -40vw 0 #040707;
 }
 
 
 
 .logo {
 width: 340px;
-text-align: center
+text-align: left;
 }
 
 .logo img {
@@ -194,15 +200,12 @@ width: 75%;
     display: none;
 }
 
-.menu ul li {
-    margin: 0 34px;
-    position: relative;
-}
+
 
 .menu ul li a{
     position: relative;
     font-family: 'SFUIDisplay-Regular';
-    font-size: 16px;
+    font-size: 14px;
     color: #fefefe;
     text-transform: uppercase;
 }
@@ -414,7 +417,7 @@ background-image: url(../img/arrow-bottom.png)
 
 .languageAndForma__current-option span{
     font-family: 'SFUIDisplay-Medium';
-    font-size: 16px;
+    font-size: 14px;
     color: #fefefe;
     text-transform: uppercase;
 }
@@ -422,7 +425,7 @@ background-image: url(../img/arrow-bottom.png)
 .languageAndForma__custom-options {
     display: none;
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: -26px;
 background-color: #fecd07;
 padding: 20px 45px 5px 20px;
@@ -454,17 +457,17 @@ position: relative;
 
 
 .slider-header .paginationHome {
-    margin-top: -85px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: relative;
 }
 
 
 .slider-home__elem {
     position: relative;
     width: 100%;
-    height: 525px;
+    height: calc(100vh - 70px);
 }
 
 .slider-home__elem .wrapper-inner{
@@ -511,32 +514,24 @@ position: relative;
 }
 
 .slider-home__links a{
-    font-family: 'SFUIDisplay-Bold';
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin-bottom: 25px;
-}
-
-
-
-
-.slider-home__links a:nth-child(1) {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 125px;
     height: 35px;
     font-family: 'SFUIDisplay-Bold';
-    color: #040707;
+    color: #fff;
     text-transform: uppercase;
-    background-color: #fecd07;
+    border: 1px solid #fff;
     font-size: 12px;
+    margin-bottom: 25px;
 }
 
+
+
 .slider-home__links a:hover{
-    color: #fecd07;
-    text-decoration: underline;
+    background-color: #fecd07;
+    border-color: #fecd07;
 }
 
 .slider-home__links a:nth-child(1):hover{
@@ -631,7 +626,9 @@ background-color: #fff;
 
 .slider-header .slider-arrows {
     display: flex;
+    position: absolute;
     z-index: 9;
+    right: 10px;
 }
 
 .main-content {
@@ -810,15 +807,11 @@ width: 100%;
 }
 
 
-.video__iframe {
-    width: 100%;
-    height: 230px;
-    border: 2px solid #fff;
-}
+
 
 .video__iframe iframe{
     width: 100%;
-    height: 100%;
+    border: 2px solid #fff;
 
 }
 .video-variant-container {
@@ -826,7 +819,6 @@ width: 100%;
 }
 
 .video-variant-container h3{
-    margin-top: 30px;
     margin-left: 10%;
 }
 
@@ -1006,27 +998,14 @@ padding: 20px;
 
 
 .comedians {
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    margin-top: 250px;
-}
-
-.comedians__list-container {
-width: 32%;
 }
 
 
-.comedians__list-container h3{
-    margin-top: 45px;
-}
 
-.comedians__list {
-    margin-top: 50px;
-    direction: rtl;
-    padding-left: 40px;
-    height: 550px;
-    overflow-y: scroll;
-}
+
 
 .comedians__list::-webkit-scrollbar-button {
     background-repeat:no-repeat;
@@ -1123,14 +1102,20 @@ position: relative;
     height: 100%;
 }
 
-.comedians-slider__nav img{
+.comedians-slider__nav .slick-slide{
     border: 1px solid #040707;
     width: 190px;
     height: 110px;
    margin-right: 30px;
 }
 
-.comedians-slider__nav img.slick-current{
+.comedians-slider__nav img, .comedians-slider__nav iframe{
+   
+    width: 100%;
+    height: 100%;
+}
+
+.comedians-slider__nav .slick-slide.slick-current{
     border: 1px solid #fecd07;
 }
 
@@ -1147,15 +1132,22 @@ position: relative;
 }
 
 .place {
+    margin-top: 100px;
     margin: auto;
-    margin-top: 230px;
     width: 82%;
 }
 
 .place-slider-container {
     position: relative;
+    height: 60vh;
 }
 
+.place .slick-list {
+height: 100%;
+}
+.place .slick-track {
+    height: 100%;
+}
 .place .place-slider {
 display: flex;
 }
@@ -1171,31 +1163,30 @@ display: flex;
 
 .place-slider .place-slider__info{
     width: 50%;
-    padding: 50px 90px 60px 90px;
+    padding: 30px 40px 30px 40px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 .place-slider .place-slider__info h4{
     font-family: 'SFUIDisplay-Bold';
-    font-size: 30px;
+    font-size: 26px;
+    margin-bottom: 5px;
     color: #fecd07;
     text-transform: uppercase;
 }
 
-.place-slider .place-slider__info .place-slider__more{
-    margin-top: 75px;
-}
+
 
 .place-slider .place-slider__info .place-slider__more p{
-font-size: 16px;
+font-size: 14px;
 color: #fefefe;
-line-height: 40px;
+line-height: 30px;
 margin-bottom: 45px;
 }
 
 .place-slider .place-slider__info .place-slider__more a{
     font-family: 'SFUIDisplay-Bold';
-    font-size: 18px;
+    font-size: 16px;
     color: #fefefe;
     padding-bottom: 5px;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -1218,9 +1209,9 @@ margin-bottom: 45px;
 
 .place-slider-nav-container{
     position: relative;
-margin-top: 80px;
+margin-top: 20px;
 border-top: 2px solid #fecd07;
-padding-top: 30px;
+padding-top: 20px;
 }
 
 .place-slider-nav div.slick-slide{
@@ -1248,7 +1239,7 @@ line-height: 35px;
     z-index: 9;
 position: absolute;
 top: -182px;
-    left: -100px;
+left: -80px;
 }
 
 .placePrev {
@@ -1313,7 +1304,6 @@ text-transform: uppercase;
 
 
 footer {
-        margin-top: 100px;
         position: relative;
     }
 
