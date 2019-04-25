@@ -253,7 +253,7 @@ $('.popapClose').on('click', function() {
 });
 
 
-$('#afisha').on('click', function() {
+$('#afishas').on('click', function() {
   $('#popapAfisha__container').css("display","flex");
 
 });

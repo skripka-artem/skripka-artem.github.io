@@ -471,7 +471,7 @@ position: relative;
 }
 
 .slider-home__elem .wrapper-inner{
-    margin-top: 40px;
+    margin-top: 4%;
     position: relative;
     z-index: 9;
     flex-direction: column;
@@ -488,7 +488,7 @@ position: relative;
 
 .slider-home__elem h2 {
     width: 75%;
-    margin-top: 40px;
+    margin-top: 4%;
     font-family: 'SFUIDisplay-Bold';
     font-size: 26px;
     color: #fff;
@@ -505,11 +505,9 @@ position: relative;
 
 
 .slider-home__links {
-    width: auto;
-    margin-top: 50px;
+    margin-top: 6%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -517,8 +515,8 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 125px;
-    height: 35px;
+    width: 150px;
+    height: 40px;
     font-family: 'SFUIDisplay-Bold';
     color: #fff;
     text-transform: uppercase;
@@ -868,7 +866,6 @@ flex-wrap: wrap;
 
 
 .video-variants__tabContents {
-    margin-top: 25px;
     padding-right: 12px;
     overflow-y: scroll;
     width: 100%;
@@ -877,7 +874,7 @@ flex-wrap: wrap;
 
 .video-variants__tabContent div {
 cursor: pointer;
-padding: 20px;
+padding: 10px;
 }
 
 .video-variants__tabContent div:hover {
@@ -951,7 +948,12 @@ padding: 20px;
 
     
     .about-us {
-        margin-top: 65px;
+        margin-top: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .about-us h3{
         text-align: center;
@@ -998,9 +1000,12 @@ padding: 20px;
 
 
 .comedians {
-    margin-top: 100px;
+    margin-top: 0;
+    padding: 0;
     display: flex;
+    height: 100vh;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -1132,12 +1137,18 @@ position: relative;
 }
 
 .place {
-    margin-top: 100px;
+    margin-top: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
     width: 82%;
 }
 
 .place-slider-container {
+    margin-top: 10px;
     position: relative;
     height: 60vh;
 }
@@ -1257,7 +1268,15 @@ left: -80px;
 
 
 .photos {
-    margin-top: 200px;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos .gallery-photos {
     display: flex;
     height: 460px;
 }
@@ -1307,11 +1326,9 @@ footer {
         position: relative;
     }
 
-    .bottom-phone {
-        height: 250px;
-        background-image: url(../img/bg/svyat_footer-mob.png);
-        background-size: cover;
-    }
+  footer img {
+      width: 100%;
+  }
 
   
 
