@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efd34412-703a-40ca-83c7-8b0607aa69d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resume/images/artem2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/timeline/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FE#9/5/font/._HelveticaNeue.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resume/file/rezume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/resume/file/rezume.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
     </list>
@@ -15,15 +16,11 @@
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="415967" />
@@ -32,17 +29,12 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
-              <folding>
-                <element signature="e#18335#18353#0" expanded="true" />
-                <element signature="e#18905#18923#0" expanded="true" />
-                <element signature="e#19096#19114#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="435" column="69" selection-start-line="435" selection-start-column="69" selection-end-line="435" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -87,9 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/Home.vue" />
-        <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/router/Nature/Nature.vue" />
-        <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/router/Animals/Animals.vue" />
         <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/router/Fashion/Fashion.vue" />
         <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/component/Sitebar.vue" />
         <option value="$PROJECT_DIR$/projects/api_vue/api_vue/src/router/routes.js" />
@@ -137,10 +126,15 @@
         <option value="$PROJECT_DIR$/projects/editTable/css/style.css" />
         <option value="$PROJECT_DIR$/projects/editTable/index.html" />
         <option value="$PROJECT_DIR$/projects/editTable/js/script.js" />
+        <option value="$PROJECT_DIR$/projects/timeline/gulpfile.js" />
+        <option value="$PROJECT_DIR$/projects/timeline/src/index.html" />
+        <option value="$PROJECT_DIR$/projects/timeline/src/js/main.js" />
         <option value="$PROJECT_DIR$/resume/index.html" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -148,10 +142,54 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/projects/tax/node_modules" />
+    <handled-path value="$PROJECT_DIR$/projects/timeline/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react+node.js/node/hw1/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react+node.js/squed/server/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/FE#9/23-24/package.json" />
+      <path value="$PROJECT_DIR$/FE#9/final/package.json" />
+      <path value="$PROJECT_DIR$/FE#9/js19-20/package.json" />
+      <path value="$PROJECT_DIR$/FE#9/js21-22/package.json" />
+      <path value="$PROJECT_DIR$/FE#9/js21-22test/package.json" />
+      <path value="$PROJECT_DIR$/FEadvance1/js12/package.json" />
+      <path value="$PROJECT_DIR$/FEadvance1/js17/package.json" />
+      <path value="$PROJECT_DIR$/mooogle/package.json" />
+      <path value="$PROJECT_DIR$/projects/api_vue/package.json" />
+      <path value="$PROJECT_DIR$/projects/bravo/package.json" />
+      <path value="$PROJECT_DIR$/projects/build/package.json" />
+      <path value="$PROJECT_DIR$/projects/cargo/package.json" />
+      <path value="$PROJECT_DIR$/projects/coderiver/package.json" />
+      <path value="$PROJECT_DIR$/projects/efection/package.json" />
+      <path value="$PROJECT_DIR$/projects/final/package.json" />
+      <path value="$PROJECT_DIR$/projects/hakaton/package.json" />
+      <path value="$PROJECT_DIR$/projects/not/package.json" />
+      <path value="$PROJECT_DIR$/projects/pantomax/package.json" />
+      <path value="$PROJECT_DIR$/projects/sports/package.json" />
+      <path value="$PROJECT_DIR$/projects/tax/package.json" />
+      <path value="$PROJECT_DIR$/projects/timeline/package.json" />
+      <path value="$PROJECT_DIR$/projects/undegroundstandap/slick-1.8.1/package.json" />
+      <path value="$PROJECT_DIR$/projects/webservices/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/node/hw1/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/node/hw2/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/project/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/squed/client/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/squed/server/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/test/client/package.json" />
+      <path value="$PROJECT_DIR$/react+node.js/test/server/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -166,17 +204,6 @@
               <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skripka-artem.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skripka-artem.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -190,25 +217,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resume/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resume/images" />
-      <recent name="$PROJECT_DIR$/resume/file" />
-      <recent name="D:\githab\skripka-artem.github.io\projects\hakaton" />
-      <recent name="D:\githab\skripka-artem.github.io\resume\file" />
-      <recent name="D:\githab\skripka-artem.github.io\projects\api_vue" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\githab\skripka-artem.github.io\projects\api_vue" />
       <recent name="D:\githab\skripka-artem.github.io\projects\api_vue\api_vue\src\component\Sitebar" />
       <recent name="D:\githab\skripka-artem.github.io\projects\api_vue\api_vue\src\component\Header" />
       <recent name="D:\githab\skripka-artem.github.io\projects\api_vue\api_vue\src\component\App" />
       <recent name="D:\githab\skripka-artem.github.io\projects\api_vue\api_vue\src\router\Video" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resume" />
+      <recent name="$PROJECT_DIR$/projects/timeline" />
+      <recent name="$PROJECT_DIR$/resume/images" />
+      <recent name="$PROJECT_DIR$/resume/file" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,14 +275,13 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
-      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -388,12 +420,16 @@
       <workItem from="1525941937885" duration="807000" />
       <workItem from="1525955471592" duration="102000" />
       <workItem from="1526219515223" duration="1152000" />
-      <workItem from="1568222811969" duration="805000" />
+      <workItem from="1568222811969" duration="1009000" />
+      <workItem from="1568443832650" duration="403000" />
+      <workItem from="1569746289092" duration="1959000" />
+      <workItem from="1584041850184" duration="916000" />
+      <workItem from="1584043051677" duration="647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="517191000" />
+    <option name="totallyTimeSpent" value="521320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,46 +441,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32331902" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34120172" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.32913387" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49707174" visible="true" weight="0.32907802" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49707174" visible="true" weight="0.52272725" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29721814" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.32913387" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49707174" visible="true" weight="0.3280757" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49707174" visible="true" weight="0.3280757" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,42 +488,10 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/ProductsList.vue" />
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/ProductItem.vue" />
-    <entry file="file://$PROJECT_DIR$/FEadvance1/js9/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/Link_video.vue" />
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/links.vue" />
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/router/Nature/Nature.vue" />
-    <entry file="file://$PROJECT_DIR$/projects/final/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/final/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../movie_db_vue/src/router/movie/index.js" />
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/api_vue/src/component/Header/Header.js" />
-    <entry file="file://$PROJECT_DIR$/projects/api_vue/src/component/Header/Header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/api_vue/src/component/Header/Header.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -732,21 +735,61 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/hakaton/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react+node.js/project/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react+node.js/project/src/notes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react+node.js/project/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/src/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/api_vue/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
-          <folding>
-            <element signature="e#18335#18353#0" expanded="true" />
-            <element signature="e#18905#18923#0" expanded="true" />
-            <element signature="e#19096#19114#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="435" column="69" selection-start-line="435" selection-start-column="69" selection-end-line="435" selection-end-column="69" />
         </state>
       </provider>
     </entry>
