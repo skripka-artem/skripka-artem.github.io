@@ -6,6 +6,7 @@
 
   &-block {
     max-width: 370px;
+    transition: 1s;
 
     &:hover {
 
@@ -13,27 +14,32 @@
         background-color: $green;
 
         &__img {
-          position: relative;
-          top: -6px;
+          top: -10px;
           left: -10px;
         }
       }
 
       .our-team-hover {
-        display: block;
+        opacity: 1;
+        margin-top: -10px;
+        margin-left: -10px;
       }
     }
   }
 
   &-photo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     width: 100%;
     cursor: pointer;
+    background: $white;
+    transition: background-color 1s;
 
     &__img {
       width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+      transition: 1s;
     }
   }
 
@@ -54,8 +60,19 @@
   }
 
   &-hover {
-    display: none;
+    opacity: 0;
     position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 99.5%;
+    transition: 1s;
+    background: linear-gradient(to bottom, rgba(243,129,129,0.5) 40%, rgba(252,227,138,0.5) 60%) no-repeat;
     .our-team-social {
       display: flex;
       margin-left: -1%;
