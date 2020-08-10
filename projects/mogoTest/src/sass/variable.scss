@@ -1,0 +1,27 @@
+$white: #ffffff;
+$yellow: #fce38a;
+$black: #333333;
+$red: #f38181;
+$gray: #999999;
+$green: #95e1d3;
+
+
+@mixin text-Montserrat($weight, $size, $color) {
+  font-family: "Montserrat";
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin text-Roboto($weight, $size, $color) {
+  font-family: "Roboto";
+  font-weight: $weight;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin text-Kaushan($size, $color) {
+  font-family: 'Kaushan Script';
+  font-size: $size;
+  color: $color;
+}

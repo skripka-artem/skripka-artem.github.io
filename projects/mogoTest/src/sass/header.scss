@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  .logo {
+
+    &__text {
+      @include text-Montserrat(700, 30px, $white);
+    }
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    &__elem {
+      list-style: none;
+      margin: 0 30px;
+    }
+
+    &-elem {
+
+      &__link {
+        position: relative;
+        @include text-Montserrat(400, 14px, $white);
+        text-transform: uppercase;
+
+        &:hover {
+          color: $yellow;
+        }
+
+        &:hover:after {
+          content: "";
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 3px;
+          bottom: -10px;
+          background-color: $yellow;
+        }
+      }
+    }
+
+    &-link {
+
+      &__icon {
+        width: 20px;
+        height: 20px;
+        fill: $white;
+
+        &:hover {
+          fill: $yellow;
+        }
+      }
+    }
+  }
+}
+

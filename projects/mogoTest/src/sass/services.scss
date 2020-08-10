@@ -1,0 +1,73 @@
+.services-inner {
+  margin-top: 50px;
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+    &-block {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 31%;
+      max-width: 370px;
+      margin-bottom: 100px;
+    }
+
+    &-picture {
+
+      &__icon {
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+    &-info {
+      width: 82%;
+
+      &__title {
+        @include text-Montserrat(700, 14px, $black);
+        text-transform: uppercase;
+      }
+
+      &__text {
+        margin-top: 18px;
+        @include text-Roboto(400, 15px, $gray);
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+.text-block {
+  text-align: center;
+
+  &__subtitle {
+    @include text-Kaushan(24px, $black);
+  }
+
+  &__title {
+    margin-top: 20px;
+    @include text-Montserrat(700, 30px, $black);
+    text-transform: uppercase;
+  }
+
+  &__text {
+    width: 85%;
+    margin: 40px auto 0;
+    @include text-Roboto(400, 15px, $gray);
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  &__line {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 40px auto 0;
+    background-color: $red;
+  }
+}

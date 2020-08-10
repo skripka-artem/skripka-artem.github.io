@@ -1,0 +1,103 @@
+.our-team {
+  margin-top: 95px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  &-block {
+    max-width: 370px;
+
+    &:hover {
+
+      .our-team-photo {
+        background-color: $green;
+
+        &__img {
+          position: relative;
+          top: -6px;
+          left: -10px;
+        }
+      }
+
+      .our-team-hover {
+        display: block;
+      }
+    }
+  }
+
+  &-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+
+    &__img {
+      width: 100%;
+    }
+  }
+
+  &-info {
+    margin-top: 30px;
+    text-align: center;
+
+    &__title {
+      @include text-Montserrat(700, 14px, $black);
+      text-transform: uppercase;
+    }
+
+    &__text {
+      margin-top: 15px;
+      @include text-Roboto(300, 15px, $gray);
+      font-style: italic;
+    }
+  }
+
+  &-hover {
+    display: none;
+    position: absolute;
+    .our-team-social {
+      display: flex;
+      margin-left: -1%;
+      padding: 0;
+
+      &__elem {
+        list-style: none;
+        width: 55px;
+        height: 55px;
+        border-right: 1px solid $red;
+
+        &:last-of-type {
+          border-right: none;
+        }
+
+      }
+
+      &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: $yellow;
+
+        &:hover {
+          background-color: $red;
+
+          .our-team-social__icon {
+            fill: $white;
+          }
+        }
+      }
+      &__icon {
+        width: 25px;
+        height: 25px;
+        fill: $red;
+
+        &_facebook {
+          width: 12px;
+        }
+      }
+    }
+  }
+}

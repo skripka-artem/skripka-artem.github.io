@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px auto 0;
+  padding: 10px 0;
+  border-top: 1px solid $gray;
+
+  .copyright {
+
+    &__text {
+      @include text-Montserrat(400, 14px, $black);
+    }
+
+    &__link {
+      @include text-Montserrat(400, 14px, $red);
+    }
+  }
+
+  .footer-form {
+    display: flex;
+    width: 100%;
+    max-width: 380px;
+    height: 40px;
+
+    &__input {
+      width: 62%;
+      height: 100%;
+      border: 1px solid $gray;
+      border-right: none;
+      padding: 0 10px;
+      outline: none;
+      @include text-Roboto(400, 14px, $black);
+
+      &::placeholder {
+        @include text-Roboto(300, 15px, $gray);
+        font-style: italic;
+      }
+    }
+
+    &__submit {
+      width: 38%;
+      height: 100%;
+      background-color: $green;
+      border: none;
+      border-radius: 0;
+      outline: none;
+      @include text-Montserrat(700, 14px, $white);
+    }
+  }
+}

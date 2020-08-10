@@ -1,0 +1,36 @@
+.welcome-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/eagle.png") no-repeat 100%, linear-gradient(to top, #f38181 40%, #fce38a 60%) no-repeat;
+
+  .welcome {
+    width: 100%;
+    max-width: 850px;
+    text-align: center;
+
+    &__subtitle {
+      @include text-Kaushan(72px, $white);
+    }
+
+    &__title {
+      margin-top: 60px;
+      @include text-Montserrat(700, 150px, $white);
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 160px;
+      height: 40px;
+      margin: 120px auto 0;
+      border: 3px solid $white;
+      @include text-Montserrat(700, 14px, $white);
+    }
+  }
+}
