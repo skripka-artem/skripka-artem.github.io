@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tests__title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.tests-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-block {
+    width: 30%;
+    padding: 10px;
+    border: 3px solid #000;
+}
+
+.test-block__title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.test-block p, .test-block li {
+    font-size: 16px;
+}
+
+.test-block__link {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
